@@ -96,6 +96,25 @@ C:\Keil_v5\UV4\UV4_zh-CN.exe
 
 ## 前置准备
 
+### 官方下载安装入口
+
+`UV4.exe` 是 µVision IDE 的主程序，Arm/Keil 没有将它作为独立 EXE 提供下载。
+请根据开发目标安装官方 MDK-Arm 或 C51，安装程序会自动部署 `UV4.exe`。
+
+| 用途 | 官方地址 | 说明 |
+| --- | --- | --- |
+| STM32、Cortex-M 与其他 Arm MCU | [MDK-Arm 官方下载申请](https://www.keil.com/demo/eval/arm.htm) | 本项目完整验证版本来自 MDK-Arm 5.43a；官方页面可能要求填写联系信息 |
+| 查看全部 Keil 产品及当前版本 | [Keil Product Downloads](https://www.keil.com/download/product/) | 可进入 MDK-Arm、C51、C251 和 C166 的官方入口；历史版本通常需要有效 PSN、LIC 或维护权限 |
+| 非商业用途的免费许可说明 | [Arm Keil MDK-Community](https://www.keil.arm.com/mdk-community/) | 包含官方 µVision 下载入口和 Community Edition 激活说明；须遵守对应许可条款 |
+| 8051 / C51 开发 | [C51 官方下载申请](https://www.keil.com/demo/eval/c51.htm) | 安装 C51 工具链及其使用的 µVision IDE，不适用于 STM32 编译工具链 |
+
+截至 2026 年 9 月，Keil 官方产品下载页列出的版本包括 MDK-Arm 5.43a 和 C51 9.61。
+后续版本号可能变化，请始终以官方页面为准。
+
+> [!WARNING]
+> 不要从网盘、论坛附件或“绿色版”网站单独下载 `UV4.exe`。本补丁要求使用者从自己
+> 合法安装的官方软件中取得该文件，也不会帮助绕过许可或激活机制。
+
 ### 1. 合法安装 Keil µVision 5.x
 
 本工具不是安装程序。电脑上必须已经存在官方 `UV4.exe`。常见位置包括：
