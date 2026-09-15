@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.exe
+*.dll
+*.zip
+*.7z
+*.rar
+patch-report.json
+*.building
+.idea/
+.vscode/

@@ -1,0 +1,23 @@
+{
+  "language": 1033,
+  "string_table": {
+    "resources": 137,
+    "texts": 774
+  },
+  "menus": {
+    "resources": 29,
+    "texts": 234,
+    "skipped_structure_mismatch": [129]
+  },
+  "dialogs": {
+    "resources": 0,
+    "texts": 0,
+    "exact_structure": 0,
+    "compatible_partial_structure": 0
+  },
+  "resource_updates": 166,
+  "target_sha256": "428BAF13D15E6760AF1618DEF9C9815C97F0321CC5E459EC7ADC4DDE41C42F89",
+  "donor_sha256": "AEF83B317826FEA7149946030808A2A9D34038446D621E5C514C31A450B3AB79",
+  "dry_run": false,
+  "output_sha256": "7FDF1F2F48763B003862740F25CB306A20ED9D40772FCB1E8D8F2B1E839114CD"
+}
