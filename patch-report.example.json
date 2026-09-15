@@ -6,18 +6,30 @@
   },
   "menus": {
     "resources": 29,
-    "texts": 234,
-    "skipped_structure_mismatch": [129]
-  },
-  "dialogs": {
-    "resources": 0,
-    "texts": 0,
-    "exact_structure": 0,
-    "compatible_partial_structure": 0
+    "texts": 234
   },
   "resource_updates": 166,
+  "coverage": {
+    "matched": 1008,
+    "total": 1008,
+    "ratio": 1.0,
+    "matched_strings": 774,
+    "total_strings": 774,
+    "matched_menu_items": 234,
+    "total_menu_items": 234,
+    "unmatched_string_ids": [],
+    "unmatched_menu_items": []
+  },
+  "target_version": "5.43.1.0",
   "target_sha256": "428BAF13D15E6760AF1618DEF9C9815C97F0321CC5E459EC7ADC4DDE41C42F89",
-  "donor_sha256": "AEF83B317826FEA7149946030808A2A9D34038446D621E5C514C31A450B3AB79",
+  "catalog_sha256": "6E13D5B086F2A56BB57E2C3DB68DC728502C0941C831EE791715A94107CF953E",
+  "compatibility": {
+    "mode": "exact-tested",
+    "fully_tested": true,
+    "minimum_coverage": 0.7,
+    "exact_only": false,
+    "accepted": true
+  },
   "dry_run": false,
   "output_sha256": "7FDF1F2F48763B003862740F25CB306A20ED9D40772FCB1E8D8F2B1E839114CD"
 }

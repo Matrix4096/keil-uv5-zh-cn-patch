@@ -1,0 +1,4111 @@
+{
+  "format_version": 2,
+  "language": 1033,
+  "target": {
+    "product": "Arm Keil µVision",
+    "version": "5.43.1.0",
+    "sha256": "428BAF13D15E6760AF1618DEF9C9815C97F0321CC5E459EC7ADC4DDE41C42F89"
+  },
+  "translations": {
+    "string_table": {
+      "144": {
+        "source_sha256": "BDD694AD9DC05735DF4CB39BCBE6105B71BB6C6550A233F6073CA743F8D53A79",
+        "translation": "粘贴\tCtrl+V"
+      },
+      "145": {
+        "source_sha256": "7ECD3F450421A0A32B4BEE868EE16C4F82A943D2BEA8AE59C66E60172A9A87BD",
+        "translation": "向后导航"
+      },
+      "146": {
+        "source_sha256": "583EA18187D5B7364A4CE1528D56DB7E42B537E1347E315BC5D34AE8AB7D54D3",
+        "translation": "向前导航"
+      },
+      "147": {
+        "source_sha256": "F75387191929C5CD48E2E734002BB086FB103CCA181FA16D8CA4D1BE7DEEA6D3",
+        "translation": "&插入/删除书签\tCtrl+F2"
+      },
+      "148": {
+        "source_sha256": "80156F25ADCA37E3D513CFAF093C7C62ED08F990CAA0867C9B335F97F3A6389F",
+        "translation": "转到下一个书签\tF2"
+      },
+      "149": {
+        "source_sha256": "3DE1F04DF15DFDCFAADD88E11AF42C464D8810803AB23E3CE798E9DFD974F69A",
+        "translation": "转到上一个书签\tShift+F2"
+      },
+      "151": {
+        "source_sha256": "CF18705595A8CA6EB5128D66DD8C10452C55DD0435094B2837A0719F9D291D60",
+        "translation": "清除 &所有标签"
+      },
+      "152": {
+        "source_sha256": "BC6997B72769FAD0086979B233433801B5EFAD5C6757860E285C2512043F273C",
+        "translation": "&构建目标文件\tF7"
+      },
+      "153": {
+        "source_sha256": "AD14655597A569CA508F796E5BE6CD26ADBC468A7ECE10982DB59AAB8D625A08",
+        "translation": "&构建 '%s (%s)'\tF7"
+      },
+      "154": {
+        "source_sha256": "7980DF5726A5A895DC2A4BD851ED2116494F9DEC36607DE8C7672940D51FFB0A",
+        "translation": "&重新构建所有目标文件"
+      },
+      "155": {
+        "source_sha256": "A520869A350E3A1B3DECB56B6894454DBE7ABA5635CDDE5D7348B5A1AFA0DC43",
+        "translation": "文件浏览"
+      },
+      "156": {
+        "source_sha256": "EB97A5707949CE973730AD90FA48E68C638F061923C41328D8716AF4DEB0A618",
+        "translation": "类视图"
+      },
+      "157": {
+        "source_sha256": "E9AA834715AF20C57AC142E5CC70FC32077C613BAE1A0715927229907B80D225",
+        "translation": "输出"
+      },
+      "158": {
+        "source_sha256": "89D8B1CE9E12D2EC0DDFF6DA4365DD675B70F684CF807988BA4CB3C1163D1C5C",
+        "translation": "属性"
+      },
+      "159": {
+        "source_sha256": "CACF263E88EA4EE2FD9CA3AC874F530B1D5B1FF6B29092ADEED73561274854EF",
+        "translation": "新µ&Vision项目…"
+      },
+      "160": {
+        "source_sha256": "83852889E6A5258175CA52F2EFBE967EE8758B16EA2FE4281FFE9DCC04A771C1",
+        "translation": "&重新构建 '%s (%s)'"
+      },
+      "161": {
+        "source_sha256": "B7A98FDAEDE1A815B8B9450074074FB9A5C0734C3C795DA31101249B4A1AA399",
+        "translation": "批量设置..."
+      },
+      "162": {
+        "source_sha256": "598B416B15954FBA5D81B43BE4BA40F90CB1E6B71B400FBBD6567EB8674ED4FB",
+        "translation": "编译...\tCtrl+F7"
+      },
+      "163": {
+        "source_sha256": "6DCE28DC6F12FB3164C3AD7BF9A12A51C1F41E3B693C9AB159E54F7F9AE564AA",
+        "translation": "编译 %s\tCtrl+F7"
+      },
+      "164": {
+        "source_sha256": "DF0911BDE25B78D5B47BA07DBFB2C4AFDC4AD1A8436EC2AF1F6313D77B95DB18",
+        "translation": "停止构建"
+      },
+      "165": {
+        "source_sha256": "2481ECD8CCA93E6DAEC79ECE5DCCDD210E8283183F65496792A25634704BA393",
+        "translation": "闪存"
+      },
+      "166": {
+        "source_sha256": "6DA475B6A11950DDA6BAEC891461C805C21B874443770E6B562C6AA51EFCB6AA",
+        "translation": "下载"
+      },
+      "167": {
+        "source_sha256": "3619D4F8D9C5D626ADB2112E526712DE12B6D5DE73F96EC591917A87304B0769",
+        "translation": "擦除"
+      },
+      "168": {
+        "source_sha256": "339142E5DFB5B31F2747095FAF9CC80D5E51988EC45A635381AAF1FF6D7A375B",
+        "translation": "单个文件"
+      },
+      "172": {
+        "source_sha256": "2A7807E933CE9BE8FDFA4712ECECFC90253B95464293F0B53A1CF1231D8DAEDE",
+        "translation": "系统分析器"
+      },
+      "175": {
+        "source_sha256": "B9F46EED9290040673092F05D795314AEC8D89576A5CD5697B830ECF8C5F8751",
+        "translation": "能量测量和无需调试"
+      },
+      "1862": {
+        "source_sha256": "06245AA3389AE11CE6755EC47C8A129095E4504991E699B523610B60573B4214",
+        "translation": "重新构建选定的项目目标"
+      },
+      "1863": {
+        "source_sha256": "253DEE2527BBCA3F6E7108627A133C602BB516A21A6C6C3970DC4A736970B8C9",
+        "translation": "清除选中的目标项目"
+      },
+      "186": {
+        "source_sha256": "070ADFD7A1F586BB4A433BB3BC4B01F8D4F8E361D11EAB78C890F761A013C049",
+        "translation": "选择要使用的目标\r\n选择目标"
+      },
+      "1939": {
+        "source_sha256": "314556E4528305EDB93C4FAE87ECC2B44FEC625C7FA0C6475F5B7595780573B2",
+        "translation": "显示或隐藏序列1\r\n系列1"
+      },
+      "1940": {
+        "source_sha256": "E378245B32569B91DA6BDE825E9C060271C8BCF08F1341E2124F0F1137B41463",
+        "translation": "显示或隐藏Serial 2\r\n系列2"
+      },
+      "1941": {
+        "source_sha256": "0C4EB41D966654FCBEA193897F6B47EDA9A9286F826032518028172266D3BCD4",
+        "translation": "显示或隐藏序列3\r\n系列3"
+      },
+      "1942": {
+        "source_sha256": "F1923B750F9BE77DA9C1A10659A80F704377B2134FDA9238193D73F336A7CBBD",
+        "translation": "显示或隐藏Serial 4\r\n系列4"
+      },
+      "20526": {
+        "source_sha256": "15BA805845CF5ECC89D7577AF24A081A798E32E44295F5A0F57EBF64406A8C83",
+        "translation": "单击 删除 之前必须选择快捷方式。"
+      },
+      "20527": {
+        "source_sha256": "6EE03AA551114A04D836CE8348BE01C814082861DFE75A9B54967E2B27A81377",
+        "translation": "您必须在单击 创建 之前选择一个宏。"
+      },
+      "20528": {
+        "source_sha256": "157DF4B29379F0AA052B65CBCFB4353AA1CA045D0357B6E3FB074C95BCAFC144",
+        "translation": "全部重置会将所有快捷方式恢复为默认值。 您创建的任何快捷方式都将被遗忘。 你确定你要这么做吗？"
+      },
+      "20530": {
+        "source_sha256": "7BBCAB26479F52CC29460E415F923C2B7B315A89AE7A6F56B07E412275F209F2",
+        "translation": "该密钥组合是保留的，可能不会重新分配。"
+      },
+      "20531": {
+        "source_sha256": "5D23760153661554F25870157071BC263CA3629AFCA58882BF769954BCE101E9",
+        "translation": "新的 (插入)"
+      },
+      "20532": {
+        "source_sha256": "02693FA0A6B3B55B477F724FB1BC7589E435E55D9A3A5347B7B6E8902F0D8F93",
+        "translation": "删除(删除)"
+      },
+      "20533": {
+        "source_sha256": "2F7AC4771A01C0CF73264955FD5E376EB51D7F58770E8FB6806A77F1626F2113",
+        "translation": "上移 (Alt+Up Arrow)"
+      },
+      "20534": {
+        "source_sha256": "DCC2A2D07526518076E37D422FEA764A8C64A862B3421731905A0601B6DFDE67",
+        "translation": "下移 (Alt+Down Arrow)"
+      },
+      "20535": {
+        "source_sha256": "0507F714AC8C61B63738F86997F958FEB123C0260C611C91E059FAF61822BA61",
+        "translation": "按Ctrl键以防止停靠。"
+      },
+      "20536": {
+        "source_sha256": "2784EFE8C0B405F38E304B922D4F109E012696C4E38C57853A563AACCF20368A",
+        "translation": "复位"
+      },
+      "20537": {
+        "source_sha256": "B817AFF1FCD2EEF93E1758241728FBF27DF701B3465BCE205A5B7C55C9667923",
+        "translation": "删除"
+      },
+      "20538": {
+        "source_sha256": "104313154B8BF77ED5EFE919AADB58AB7A1D5F5B0BF14C60231A50859AB3E815",
+        "translation": "定制"
+      },
+      "20617": {
+        "source_sha256": "5F0A7C993AA992E5978BC948E578B60AFFD2DF6ECF977F16216DB74DE754D8C8",
+        "translation": "回车"
+      },
+      "20618": {
+        "source_sha256": "98B00A89DD6C1074F3C405DA507420994A08F5F28F029FC28DAC9384A9406FEC",
+        "translation": "错误"
+      },
+      "20619": {
+        "source_sha256": "1F73E61BA253B7419B3E6D26C9B69C2A61ECE9AFF8A3202DE0F9D07E5649DE6E",
+        "translation": "菜单栏"
+      },
+      "20622": {
+        "source_sha256": "515576B24D7FF8ED37356692E951AC99898BDFE2980874B91488A5DA3CF5C564",
+        "translation": "制表位"
+      },
+      "20623": {
+        "source_sha256": "C2177BA910B620164EA090C43FCF3DA107CC8D67A0E90B7C0FA358A1D65C3414",
+        "translation": "可见的"
+      },
+      "2054": {
+        "source_sha256": "94DDCA0AE7029CE5BB4AA729FD1D50D34A34EF970D9AB0C33B9A2FB799DAADF3",
+        "translation": "输入要搜索的文本，然后按Enter键\r\n快速查找"
+      },
+      "20624": {
+        "source_sha256": "F16127C0A112E4FE1F1B8A63239CE0BEC95F9CF186924454E30818023900362F",
+        "translation": "不关闭"
+      },
+      "20625": {
+        "source_sha256": "8BA6B33DC0EF5304744BC3FEE3DF962E37E12932847E09D84D22B806919B33B3",
+        "translation": "选择目录"
+      },
+      "20626": {
+        "source_sha256": "22CED5BC6F77C69E083CD6EF8DFAB44EBD877533C6BD1508588E0F10C077797A",
+        "translation": "选择文件"
+      },
+      "20628": {
+        "source_sha256": "17684143E0D65AA14B5F920373590A3C3EFBF9CE86E90F193EEBD6B657CC6B81",
+        "translation": "撤销\tCtrl+Z"
+      },
+      "20629": {
+        "source_sha256": "DD89F3381E84A402AE7FA41A5E8C0FE9EAB31775AA074A2C1DD146D18F37C01C",
+        "translation": "剪切\tCtrl+X"
+      },
+      "20630": {
+        "source_sha256": "F42FE4EA72B18FBB86533E88FEFDE878699A3DEC0FF69B7D915C8F81A049F0E4",
+        "translation": "复制\tCtrl+C"
+      },
+      "20631": {
+        "source_sha256": "BDD694AD9DC05735DF4CB39BCBE6105B71BB6C6550A233F6073CA743F8D53A79",
+        "translation": "粘贴\tCtrl+V"
+      },
+      "20632": {
+        "source_sha256": "A8546303B99AD7D8ECFB89A455A60612534E80D5165D37FF5AA63B098DBF2CB0",
+        "translation": "&删除\t删除"
+      },
+      "20633": {
+        "source_sha256": "6C009409F15BE52B1CBBD264DB26A3DA32B97DE091C4D5B7D70424E4E1F5C352",
+        "translation": "选择所有"
+      },
+      "20634": {
+        "source_sha256": "8BA6B33DC0EF5304744BC3FEE3DF962E37E12932847E09D84D22B806919B33B3",
+        "translation": "选择目录"
+      },
+      "20655": {
+        "source_sha256": "CB0DB523DFD90FF5083A4F4A61F9D563AD67EB5780F136EC9F779459775DA93E",
+        "translation": "隐藏停靠的窗口"
+      },
+      "20657": {
+        "source_sha256": "2A63203D82E3AD113265F1E6BE0E0C4FA0DA79C3AEDCDBEB31E7EE471A078236",
+        "translation": "展开停靠窗口"
+      },
+      "20658": {
+        "source_sha256": "BC4A9D208B326E1374D325561925ACE6F125E04692E6807560B5BAFCC0F9F219",
+        "translation": "合并停靠窗口"
+      },
+      "20659": {
+        "source_sha256": "0A9EABD55D4BFF5DD2D86AA5EF28D99CE647DCF9A444C8EBFE4D7204904CC3E7",
+        "translation": "关于"
+      },
+      "20660": {
+        "source_sha256": "6198826BE85237DF1C814A16AEA745575C77C90E1B3CD61C43294E27D3551035",
+        "translation": "窗口..."
+      },
+      "20663": {
+        "source_sha256": "2B7DACE3E1B6D1194F153E15809B20A34542F60D53F8D7F63468DCDA4EB268A2",
+        "translation": "你知道吗..."
+      },
+      "20664": {
+        "source_sha256": "AD67ADBEB5FF6234ADCBDA2676CB697E9BF12B7B5C6C8428DA0F768804DBC29E",
+        "translation": "&工作区..."
+      },
+      "20665": {
+        "source_sha256": "C7E01D8484B78B6DE06E3E4C1F735252A8B4EC4C505940B3CBA5889A13668F9B",
+        "translation": "工作区管理器"
+      },
+      "20666": {
+        "source_sha256": "011A70D0257D2C35350EEB7A5B4EACB72B8ECC2956E46DACB45B73C9E5073B99",
+        "translation": "工作区名称无效。"
+      },
+      "20667": {
+        "source_sha256": "8FAEF7C1878BC133D232DF736EC7DEFF7F552FCB8DDC973A68936DAEE5FB0209",
+        "translation": "工作区 '%s' 已经准备退出. 请输入唯一的工作区名称."
+      },
+      "20668": {
+        "source_sha256": "011A70D0257D2C35350EEB7A5B4EACB72B8ECC2956E46DACB45B73C9E5073B99",
+        "translation": "工作区名称无效。"
+      },
+      "20669": {
+        "source_sha256": "8FAEF7C1878BC133D232DF736EC7DEFF7F552FCB8DDC973A68936DAEE5FB0209",
+        "translation": "工作区 '%s' 已经准备退出. 请输入唯一的工作区名称."
+      },
+      "20670": {
+        "source_sha256": "63417639382F4CCFE735ACB8779957EAF33C3103E6FC442A8DF134EA60A9F812",
+        "translation": "保存新工作区 '%s'?\n"
+      },
+      "20671": {
+        "source_sha256": "63919B473C26320A1814D396972B33789E2F0981920F33D34FAA2C04D8E3C9F7",
+        "translation": "工作区"
+      },
+      "20673": {
+        "source_sha256": "EC646D21FE2597BECEBFDF7AA0C0B3BEC6EA07A4C5B93FF6D3904DE3E18AF861",
+        "translation": "您必须为此操作选择一个项目"
+      },
+      "20674": {
+        "source_sha256": "BFB4DF857FB6C6FBC7E293B9D452572247C7A0C223607BD0ADA1B57B571748DE",
+        "translation": "工具栏r%d"
+      },
+      "20675": {
+        "source_sha256": "A15EEFB12C0B609A85B5CE5F8FBC6067BAF4CD08B71130BC50706BC1767DBB12",
+        "translation": "SECCryptoFile 无法打开在输出反馈（OFB）模式和::modeReadWrite."
+      },
+      "20676": {
+        "source_sha256": "D87C7C66CF2086EDF8A468CA4F0B99DF37B2095BFB253A6CDC38F4C38C89E2A8",
+        "translation": "覆盖窗口"
+      },
+      "20679": {
+        "source_sha256": "CF7CC4CA4E9446B6F6561570DC45869C8421467A4C62A545E406C367C840370E",
+        "translation": "没有预览..."
+      },
+      "20680": {
+        "source_sha256": "D0034447FFD0C848FB135DC20A8730182C81B01D8FE8B21DAC7BFF54395BFB5B",
+        "translation": "选择程序"
+      },
+      "20681": {
+        "source_sha256": "25027DF66C08A504C95FC21D6863B26F45B7B178A2935779D69E0F917E63FB3C",
+        "translation": "程序|*.exe;*.pif;*.com;*.bat|All files (*.*)|*.*||"
+      },
+      "20682": {
+        "source_sha256": "2E80E97D91564B71AE9FE22478B06B65CD7AB36BC943CB797ED74D8EA80D2FF3",
+        "translation": "选择初始目录"
+      },
+      "20684": {
+        "source_sha256": "B486F1CB83331A94AD581F2D24167A5E4DCC4ADFCF07F0AABD2BACF317EC9430",
+        "translation": "菜单文本不能为空"
+      },
+      "20686": {
+        "source_sha256": "02BF24D7B51A12F55B102C503FC9FA6D3E4CE596142270A9B881DD1951A465A0",
+        "translation": "打开工作区"
+      },
+      "20687": {
+        "source_sha256": "63919B473C26320A1814D396972B33789E2F0981920F33D34FAA2C04D8E3C9F7",
+        "translation": "工作区"
+      },
+      "20688": {
+        "source_sha256": "70612455F83CF556C803CAD686712AD7C1361C2355AE24AE44767AEA38E49DE0",
+        "translation": "所有文件"
+      },
+      "20689": {
+        "source_sha256": "9AE7CFF6FA1CA9E655005ED919833D16EB91F778DA7644B141C85436130A167A",
+        "translation": "保存工作区"
+      },
+      "20690": {
+        "source_sha256": "846211847585C87BCE52176938416CF1C61757342E14DD48364CDFDE37BF6B95",
+        "translation": "工作空间无效。 操作已取消。"
+      },
+      "20695": {
+        "source_sha256": "4DDAE8F9F160777F0450E6B5225EDBF6CA7327428118596B7C2F73605FD722FE",
+        "translation": "宋体"
+      },
+      "20698": {
+        "source_sha256": "48C01274D6D67C6C8281DF36F618B5FC0D7D1607103B641D80D163C11A8CFA68",
+        "translation": "选择备用字符文件夹"
+      },
+      "20699": {
+        "source_sha256": "85EFE04815FF6596B5041357FD0A5F9E3D11B28459D941F7BCD10515FB5E4401",
+        "translation": "选择默认字符文件夹"
+      },
+      "20700": {
+        "source_sha256": "143DB43E233F4A09C576FB0140AA9897D22181D8B0948CE8CB9EB168FD0EDA79",
+        "translation": "找不到默认的Agent Characters目录。 手动选择存储* .acs字符文件的目录"
+      },
+      "20701": {
+        "source_sha256": "857A803128E0E9CFD94DAB0F1EDFB0A5ABC169B85F291AA7A80954D50F551BFF",
+        "translation": "名字:"
+      },
+      "20702": {
+        "source_sha256": "EA411AD53C198E1E3798B59978AE82C38A49AFEDB563D190AC17A8C401C1F7FA",
+        "translation": "描述:"
+      },
+      "20703": {
+        "source_sha256": "FF1096766C70A5F1F730149032A9CF6A59C63B404A15312DC25CE66F6778CD8B",
+        "translation": "没有可用的描述"
+      },
+      "20704": {
+        "source_sha256": "C027E5F1952D13A172966673E6BC03104E07ADA353848393DFE33317962F82E5",
+        "translation": "字符目录选择"
+      },
+      "20705": {
+        "source_sha256": "2E37AF0FA0BBB1435CDB4A91DE45AA11135DD76CABA844169592040A5278A24E",
+        "translation": "显示下一个提示"
+      },
+      "20706": {
+        "source_sha256": "7BD72C05BDAACA46966705E2B4F2173CE825286D79DB364B90E241079B670C37",
+        "translation": "下一个提示"
+      },
+      "20707": {
+        "source_sha256": "EF2782FD903658DAA532D757F2BA4551E235B0E9CB72CD6E0DD766417F5AB270",
+        "translation": "更改默认字符"
+      },
+      "20708": {
+        "source_sha256": "EF2782FD903658DAA532D757F2BA4551E235B0E9CB72CD6E0DD766417F5AB270",
+        "translation": "更改默认字符"
+      },
+      "200": {
+        "source_sha256": "31BB4D5D9ECAB99A2B63AC057BA08CC3408DF9A069C5814F0DA32EFFAA78E33C",
+        "translation": "将选择内容复制到剪贴板\r\n复制"
+      },
+      "201": {
+        "source_sha256": "8CC869194C36C51BBA99B8E59F4312A88CBD772518EFC2B2D8AF659DF169F75D",
+        "translation": "搜索文字\r\n找..."
+      },
+      "202": {
+        "source_sha256": "99FC84D108784781BC1F6A30ACC82B137D37CC4B600DA6B9EE40C9D0F398C064",
+        "translation": "选择整个文本\r\n全选"
+      },
+      "203": {
+        "source_sha256": "19AD3AE5D17ADA267D6D0F580846C10B65B2D1F647C5B5C8770ADC79C29DD586",
+        "translation": "将项目保存为CPDSC格式"
+      },
+      "2070": {
+        "source_sha256": "3ADA13B8ADC1A3B0DEA8834F935212D8FCDA491B0E4FB494C39A90205A0C33A3",
+        "translation": "在当前行启用或禁用跟踪点。\r\n启用/禁用跟踪点"
+      },
+      "2071": {
+        "source_sha256": "81B8B483F58E39A1F69C6AFF4E4513FD802FD716E6BBAA3F7F7C1DF58EE61905",
+        "translation": "删除当前行的跟踪点。\r\n删除跟踪点"
+      },
+      "21000": {
+        "source_sha256": "404F924E9773F98DF3D5D44D90F4F6E3BC911D22F8A7BB680B11A73D94862BC2",
+        "translation": "控制项目"
+      },
+      "21001": {
+        "source_sha256": "58A442CF0BA78DDBC061E012601B8F563735E1D41106AD96D891329992CF49F5",
+        "translation": "不能使用ItRealSturn正确地序列化自身。\n整个文件的损坏可能随之而来。"
+      },
+      "21002": {
+        "source_sha256": "3B6FE68AE9B0A4E602BD99AD1A53E85524008E7D47A5BBFA557DEC7AE23E1FDA",
+        "translation": "没有处理。 你想添加一个处理程序吗？"
+      },
+      "21003": {
+        "source_sha256": "9E8203DE5C4B70B454A90CE9DC2F4950FC8F131316486BBB8E0C345837FA75FC",
+        "translation": "ActiveX脚本"
+      },
+      "21006": {
+        "source_sha256": "C7989C96E4E46CA3757895B1BE3920864ED525E488553DA8A2D61E031C2AFD40",
+        "translation": "无法加载图标！"
+      },
+      "21007": {
+        "source_sha256": "38A679E3719BD41BE895A5EA41702F6D0F6C3360BBFECFE52A40AAE92669010B",
+        "translation": "无法加载位图！"
+      },
+      "21009": {
+        "source_sha256": "E46A776551BEFF04A2C88C19D7A6863AE469A4984ADEECDCDA80924C27A3E502",
+        "translation": "停靠"
+      },
+      "21010": {
+        "source_sha256": "76C56F9AFB304ED91D9E538C0F5D8E15F56E49DC492A0A681B6C051F1D93FFD2",
+        "translation": "无法创建一个或多个控件。"
+      },
+      "21011": {
+        "source_sha256": "D61C518783827B7CF756AFA98B2F881EF39C2BA98B8CA3F6C14BDC234B821E09",
+        "translation": "\n\n您可能没有在应用程序的InitInstance中调用AfxEnableControlContainer。"
+      },
+      "21012": {
+        "source_sha256": "F77ADED28B87598E76F1FCA89AC5B4F77BA76C42CE9060C3E9D2DAA524F86966",
+        "translation": "&编辑\tCtrl+E"
+      },
+      "21013": {
+        "source_sha256": "FF70AC04F2DC912400C32500E515B35996A497CA244695ACE3F7EB56079FBFEE",
+        "translation": "&运行\tF5"
+      },
+      "21014": {
+        "source_sha256": "41CBEAB5415A04C196E68FBF2B912D4B42A096B292FE4AAECB74EEAD564AB7E9",
+        "translation": "活动脚本\tCtrl+M"
+      },
+      "21015": {
+        "source_sha256": "05DC16C25459B4B970487C7CDD99D89CBA1121F56AC929EA19E5ED23F2090DF5",
+        "translation": "活动对象\tCtrl+M"
+      },
+      "21016": {
+        "source_sha256": "7BC8DFC2C8C3195694227A2BC3DCC9D12360D029D79EF4B8F2D7E602B8622AB7",
+        "translation": "无法托管此控件，因为无法获取类型信息。"
+      },
+      "21017": {
+        "source_sha256": "B0189125F8EC5D1AAF080955A5D75064BE436D0DE929D4FC2A51FA951FA6B082",
+        "translation": "无法托管此控件，因为它无法正确绘制自身。"
+      },
+      "21018": {
+        "source_sha256": "D83BF768C155AF12B3A033251FAD74317BB2E2EBF548405ED871D4A50B20F999",
+        "translation": "无法创建控件。"
+      },
+      "21019": {
+        "source_sha256": "67942A23DD13611ADE6703EB1ADF55B2374B3DCC2593DCCD8AC1ACEF818ADE3F",
+        "translation": "\r\n\r\n确保您的应用程序已初始化OLE库。"
+      },
+      "21020": {
+        "source_sha256": "55FD8270315CC8FF70D18F32EF4F497E6F5BFDB0AB616C9649C758D86F5CB7A2",
+        "translation": "通过AFxLoIn（）或等效。"
+      },
+      "21021": {
+        "source_sha256": "CB374FA24C70E86ADF436852345EEC7F1CE17E22039FECFB2003253105D355C7",
+        "translation": "属性"
+      },
+      "21027": {
+        "source_sha256": "73737027E878DEEED4D0AC718EB646C751813BA4130FFA782E9DE6CA32A5CFAE",
+        "translation": "颜色"
+      },
+      "21028": {
+        "source_sha256": "808448D2B29836E06DBF1B056E207823FAE34E0C0F7B001B281B72BD08A5C8B7",
+        "translation": "宽度"
+      },
+      "21029": {
+        "source_sha256": "64F3B4EBCB49CDEA05F7060E9D42093B56ACD3B27D706178B5724682FF1A2C9F",
+        "translation": "高度"
+      },
+      "21030": {
+        "source_sha256": "A1A2F562E6B64B60DC3CE729168C386BB49F8F53B8BB59A3210665D98722D82B",
+        "translation": "标题"
+      },
+      "21031": {
+        "source_sha256": "31D3FAE9A462294A838EBEB11ECEBB8526EAF37501C1EC374E4494B45CDB5009",
+        "translation": "边框"
+      },
+      "21032": {
+        "source_sha256": "448DD611C3DAE467DAC5C7DA79C75A9B6093108F2DA7D51BCB1F89D6E5657136",
+        "translation": "是"
+      },
+      "21033": {
+        "source_sha256": "C7E9C786D36729170ADC27BAF199EA1E9B3309599CE40B52235E07A3CA6C9F9C",
+        "translation": "否"
+      },
+      "21034": {
+        "source_sha256": "2F2F7251C5D483490855C9A627E795F795C76AAD96F1144B23451C0204C65434",
+        "translation": "最小化"
+      },
+      "21035": {
+        "source_sha256": "5029353EFB74C7B492F2A31F84699A066AF6041AFFB51B1DCED3E83695F3A918",
+        "translation": "最大化"
+      },
+      "21036": {
+        "source_sha256": "15A0A3E6F711574A7C87DBF83F953B49990670EB597EAD9ACFB2FDE02E29B33D",
+        "translation": "默认位置"
+      },
+      "21037": {
+        "source_sha256": "5DD53967679743799ED189293F2584E9DF79C961600EFB351262037B5476C953",
+        "translation": "窗口放置"
+      },
+      "21039": {
+        "source_sha256": "89B4AF176FF408CA4EF200C76E793819BB477CCA99EB725D98B1BC2B943E3FCC",
+        "translation": "可调整大小"
+      },
+      "21042": {
+        "source_sha256": "D0EAE7C04D23F945F9BCF3E511B55ECDCCB9C7AE3AB0389C6C6FEFB4302A30AA",
+        "translation": "无法加载图片！"
+      },
+      "21043": {
+        "source_sha256": "F73807D399871778651F326526C8CE36051D8ABDD1B73E93B10E319EE4E37ACD",
+        "translation": "无法初始化控件的属性。"
+      },
+      "21044": {
+        "source_sha256": "29E5709DAAFCCB1100AE51460F3B95D5D375C5B8EBF39FE03B22AC542630F32B",
+        "translation": " - 是"
+      },
+      "21045": {
+        "source_sha256": "747C1FA5FD726263E3C8DABA6230737DC6B310C0737B614F3DE44FCB56D5C5A1",
+        "translation": " - 否 "
+      },
+      "21051": {
+        "source_sha256": "D0EA7F69930E834897ABDC70A0AFD77372FE77A1F5E4EA4D0BE68DB1DC36BD81",
+        "translation": "无法设置属性"
+      },
+      "21052": {
+        "source_sha256": "6E5F951508C4B4B790CF92C504DA5EAC1277062A6E6E0B494B0B4ED183482DED",
+        "translation": "工具箱"
+      },
+      "21053": {
+        "source_sha256": "4461492382393F2FA2560540D95535B2D13BBE8589AF1B816A2C164D42E890CF",
+        "translation": "&刷新"
+      },
+      "21054": {
+        "source_sha256": "506642B8AA411090077979C2917DCD5488693C70DB8558063226A6F41D69D2C1",
+        "translation": "&定制"
+      },
+      "21055": {
+        "source_sha256": "C096C0A3A7F6CE027098156038F302707A93EC477114F3DED7DD9F3A3CACA2FC",
+        "translation": "选择工具"
+      },
+      "21056": {
+        "source_sha256": "E957C976F09C95DA4C9F8AFF1F19C136C9D323DA86B90DF1882510550B3DE148",
+        "translation": "没有足够的内存"
+      },
+      "21078": {
+        "source_sha256": "EF933C012973E6BA4297892CC922CD2F2F9316DB7B370B4AC6AB56D5A4D0BAD6",
+        "translation": "&顶部"
+      },
+      "21079": {
+        "source_sha256": "C72FC655C2DD029FCB5E85A72E8FD3067538073F21DF8F7B03F72D1F9F8AC448",
+        "translation": "&左"
+      },
+      "21080": {
+        "source_sha256": "E31B15E74DCF00CE69DACD37D0CAD6453B86E13D40EFDDE57BF87BE9BFF96607",
+        "translation": "&底部"
+      },
+      "21081": {
+        "source_sha256": "2D01CA7C859B826067296C07BF603BD278D75978B9CC164A4ED825819DE98086",
+        "translation": "&右"
+      },
+      "21082": {
+        "source_sha256": "658881645C7F8F15F525E4FA4F6B359F2CA632ADD27C16BE1E0817DDEBFBE6B7",
+        "translation": "停靠"
+      },
+      "21083": {
+        "source_sha256": "623D2E002FA7FA3F8995412F9527CDB07EF389E3DC005C91D5122575C9742F59",
+        "translation": "最小化"
+      },
+      "21084": {
+        "source_sha256": "ECED865B9200AC2D2232A5A3EFDAC51B39374EBD267A01AB6BCD56D43A85B076",
+        "translation": "最大化"
+      },
+      "21085": {
+        "source_sha256": "5035B13243CFF9CBA1D560C26D0897D2A678D9D6CC5D7E4C80E0F7F12F52BFC6",
+        "translation": "&恢复"
+      },
+      "21087": {
+        "source_sha256": "BBD1FA648D7A490685AB582866CBC8320DFD76B246A58A83D7C7826711A78FB1",
+        "translation": "属性"
+      },
+      "21088": {
+        "source_sha256": "86384B7BBF1B61919A1FACA5770EB8B4B67078F392C056560923662BFEBBA017",
+        "translation": "分离"
+      },
+      "21203": {
+        "source_sha256": "21F848FD362BD79493C8D8DCAAF9A613F8403E3AD34182C15DCEE03F852F0649",
+        "translation": "OLE初始化失败。 确保OLE库是正确的版本。"
+      },
+      "21219": {
+        "source_sha256": "7E6525292A0306C3A6DB530256CE79B252AD65FB583ED6FD14F4D490B5FEEC2F",
+        "translation": "表单上已存在使用此名称的控件"
+      },
+      "21221": {
+        "source_sha256": "F2D1A406EE84C666CFA6012225E7F75160780893A8B9B771AD128E6B3277F214",
+        "translation": "属性不适用于此控件"
+      },
+      "221": {
+        "source_sha256": "EAF04B606A7EA94BDAFACE18BD14A8C565D25014A3D624640368DB3A02914D95",
+        "translation": "显示或隐藏标题栏\r\n标题栏"
+      },
+      "22575": {
+        "source_sha256": "07B76F76A239B6B7223E62AC56B60B8CE98B72CDBE77CE5F2300B14B4AD231B0",
+        "translation": "字体更新消息"
+      },
+      "22581": {
+        "source_sha256": "7C7513F25482569FF010D27E1ABF56BF42A8E484AD86D81B9BC21BA598871DF5",
+        "translation": "行数已更改"
+      },
+      "22582": {
+        "source_sha256": "49584E15C5D7B26709AC10D5CEA43C927AA23B486198C1F1380081978468999B",
+        "translation": "初始化控制器"
+      },
+      "22583": {
+        "source_sha256": "C0C7886C426C254650A6C410D85A935055747B8D9F963597DD9DB132F5F407D0",
+        "translation": "使着色缓存无效并刷新"
+      },
+      "22584": {
+        "source_sha256": "B383E0154A2CF4220A589CF588C7A4CC9858067D25B9D590801562A97E7C4A58",
+        "translation": "使装订线区域无效"
+      },
+      "22600": {
+        "source_sha256": "6303C0891A46D09D4426FBA7EA40BC1AF60B11F56E23B98FF8B26D071DDB35DB",
+        "translation": "文件 '%1'存在且是只读的。 请保存为其他文件名。"
+      },
+      "22601": {
+        "source_sha256": "3AA9A07348B55EF964010AD9C569147A4BD2511E4870BBB7624FA23709736DC6",
+        "translation": "找不到字符串 '%1'."
+      },
+      "22602": {
+        "source_sha256": "1B85CC5BDC54D6C690B9FF3102C0A236A989C3EB9F34C39E5705B941745AECFA",
+        "translation": "完成搜索 '%1'."
+      },
+      "22603": {
+        "source_sha256": "344EA23921FABE7D776FF6C11F4D19D9140D41E732FB8DD1B8327B60C3762F11",
+        "translation": "文本是只读的。 无法执行替换。"
+      },
+      "22604": {
+        "source_sha256": "2BA3AD73E2DB986236478A72B6EE16BDADABA8E8826122A7D453D3313117EE5A",
+        "translation": "无法替换文字。 线将超过%d个字符。"
+      },
+      "22605": {
+        "source_sha256": "2685086766CBF788F10B8577FE22B92DEEB8DC29C0764A40511869C381B4EA30",
+        "translation": "已经搜索了选择并且进行了%d替换。"
+      },
+      "22606": {
+        "source_sha256": "0F37108A6B7810D6ECA56B0811092838096965575C54996E9226E76DDD70A0B2",
+        "translation": "已搜索该文件并进行了%d替换。"
+      },
+      "22608": {
+        "source_sha256": "95C5BBB34CA460DADC276379EFCEC3DC80A2497C4993A280D354DB9B041AD008",
+        "translation": "页: %d"
+      },
+      "23075": {
+        "source_sha256": "CFD91275D9ACB8B742D9FA6D42FA0AB17795DBC108AD7D279EDA537B277DC6DB",
+        "translation": "所有文件 (*.*)\n*.*"
+      },
+      "23100": {
+        "source_sha256": "5585AF82A54708B4B8CBDF85342CB2CD6818B4BE518C578E6B23FC2214779877",
+        "translation": "&其它..."
+      },
+      "23101": {
+        "source_sha256": "57A327BDA6F3D9B803791044288ECA3EE2A6B089FECB33ED36709F1E67C51A0B",
+        "translation": "Rotate90：错误，格式不受支持。"
+      },
+      "231": {
+        "source_sha256": "D2BE1D51BAE009CFAFCBCFFDB2334D29188A43F5EE5A1141747B5B3C7F30D154",
+        "translation": "选项..."
+      },
+      "232": {
+        "source_sha256": "B7DC4B1CDA68D46DA3C82E5C57FD871F9EF61784D10250B019BDE629ED94CD50",
+        "translation": "点击这里查看更多选项"
+      },
+      "233": {
+        "source_sha256": "1CEF92828329E7362B90BEE0A701CAFEA7545CB396911C1E6AA0323FC88BD992",
+        "translation": "这是一个标题栏，可以向用户显示消息。"
+      },
+      "234": {
+        "source_sha256": "FE137887BA3CF2A3F9C59F053D3DE6223B81564BA1B11202E6CB981BA78A7B7B",
+        "translation": "重要"
+      },
+      "235": {
+        "source_sha256": "F611128CE9FAABDEBDA0F291F8FE3FB250A5E14BC64B19B737AED410B21194D7",
+        "translation": "这是用户的信息性消息。 "
+      },
+      "2509": {
+        "source_sha256": "9BD30558BC6C57DA8D0A62ECC9E4F4336610791F9BE03C1473DD16E4FDE2087B",
+        "translation": "跟踪导航"
+      },
+      "270": {
+        "source_sha256": "36AFBF9CB15122AFDAAE716917D0B02E8B0091B9F09167615C687986AE3B7409",
+        "translation": "显示或隐藏观测窗口\r\n观测窗口"
+      },
+      "271": {
+        "source_sha256": "070E69DDFA7253B3E6337D1FD18588F639AF8D63D129FA8D3C7C59AC0B6DF0A3",
+        "translation": "显示或隐藏内存窗口\r\n内存窗口"
+      },
+      "272": {
+        "source_sha256": "5BF3E5038A533106050F4DAE626D66776EA3A49E7BDB794D1ABAC9E8357E38B4",
+        "translation": "显示或隐藏串行窗口\r\n串行窗口"
+      },
+      "297": {
+        "source_sha256": "ADCD25CE26AFDBC9F5CA52D7FAC1CE77912180CD0028B4BD848F0B5915A32015",
+        "translation": "显示或隐藏系统查看器窗口\r\n系统查看器窗口"
+      },
+      "315": {
+        "source_sha256": "68DBC8F66734888671D801728FC19F4AAC96ACD059BDF0C1B2EF10C4A6DB6997",
+        "translation": "显示或隐藏“寄存器”窗口\r\n寄存器窗口"
+      },
+      "316": {
+        "source_sha256": "08F19D1968D78FD56CFEE7BF014CDD7A00C2A9A3EB0799B22B114F541AD35147",
+        "translation": "显示或隐藏分析窗口\r\n分析窗口"
+      },
+      "319": {
+        "source_sha256": "E35C1525F36C321E011D825D5D8CE7667FECCBD334878E3115A7F529A581511E",
+        "translation": "选择窗口布局\r\n窗口布局"
+      },
+      "32704": {
+        "source_sha256": "6B6E0DD79F08D9F1BD1A31BA3B665F3670C4719F03D98051B3C632E72D04AD0F",
+        "translation": "管理项目项目\r\n文件扩展名，书籍和环境......"
+      },
+      "32707": {
+        "source_sha256": "101548144C18BADE2ED8AA5D82DFD226098F18FCF9AE6F903A2A78B470F043CB",
+        "translation": "配置目标选项\r\n目标选项......"
+      },
+      "32710": {
+        "source_sha256": "E02A47941E53E802EB56ED060485550B7799914FD1B8E346D9DC7C6F3F22B326",
+        "translation": "显示设备数据库\r\n设备数据库......"
+      },
+      "32712": {
+        "source_sha256": "1E7C6661D00A565965F2310A92606EF9D6DD3FFAF4D2D52FB894BDB30276698D",
+        "translation": "选择要用于此目标的设备\r\n选择目标设备..."
+      },
+      "32717": {
+        "source_sha256": "B3BA4BDB2E47054362C7C4A49B6FA3308D659FB55D48671D46337DE0CC878069",
+        "translation": "保存所有打开的文档和项目设置\r\n保存全部"
+      },
+      "32719": {
+        "source_sha256": "95F95CD1C5C97FB996549365BA77B79AE499ACB3D0E3A9CF47C3D3418A87F1B7",
+        "translation": "编译当前活动的文件\r\n编译"
+      },
+      "32720": {
+        "source_sha256": "3FA84E0DE318CAABDE67165392AD51E302734E91857A1FFEA0A1AA3AE451B140",
+        "translation": "构建目标文件\r\n构建\r\n"
+      },
+      "32721": {
+        "source_sha256": "B1A67C3B8FFE1B8C0BDA0A64769D7B86EF772D0AEA1B39AFCFFB880A7DF99D53",
+        "translation": "取消当前构建\r\n停止构建"
+      },
+      "32732": {
+        "source_sha256": "B1297A53171C2EA8F3E44CDA857374840900AA2E02B1155C724E3C253E511A73",
+        "translation": "显示或隐藏性能分析器窗口\r\n性能分析器窗口"
+      },
+      "32741": {
+        "source_sha256": "CD3953E1A36165B983128E657F631628831FF7C83BA76EA6C44736CD19EDE314",
+        "translation": "跳出当前函数\r\n跳出\r\n"
+      },
+      "32752": {
+        "source_sha256": "C7FDA09211CFEF5CAB2FC7050A43FE00EA1534179AECA6B501A47FD466EFE512",
+        "translation": "显示或隐藏反汇编窗口\n反汇编窗口"
+      },
+      "32763": {
+        "source_sha256": "116AF6AFFF93191B5FF0678B15913D9E6FE38E68ACD651FAADA49E9E76089F69",
+        "translation": "配置 µVision\n配置..."
+      },
+      "32765": {
+        "source_sha256": "8A65E2DC565D9D7FDAF9E2C999FE7F57CCC3EE825E554F1E2A635CFE513059C8",
+        "translation": "在当前行插入或删除断点\n插入/删除断点"
+      },
+      "32791": {
+        "source_sha256": "0CAB921B5996CD421D0D9ECE10DFDDB78E4C1BF1E488CEA8697594DDC8FFBED4",
+        "translation": "开始执行代码\n运行"
+      },
+      "32792": {
+        "source_sha256": "786D075FC2DE0816DC12B4BE302AA7C2A6E1075642F3F9591F3150A5EC32AB18",
+        "translation": "打开一个μVision项目\n打开项目......"
+      },
+      "32793": {
+        "source_sha256": "E65CAF4E4F45F764614204BEB5919EBCA2E104E64D129247B6DE4D4A1E869E61",
+        "translation": "关闭当前项目（提示保存修改后的文档）\n关闭项目"
+      },
+      "32794": {
+        "source_sha256": "481440B71F5F9812A03342308A67B445F0F54E3BB7B57E7EEC285E00C312242C",
+        "translation": "第一步\n步进"
+      },
+      "32795": {
+        "source_sha256": "E4673C7568EE267BD4D772CB2BF6AAEF3FB77F34952BE6AC9281D09D213FED61",
+        "translation": "跳出当前行\n跳出"
+      },
+      "32796": {
+        "source_sha256": "15198671F5EC256EF829D876112EE9C3A46C64FE8779B73ED5060204C0399F9D",
+        "translation": "运行到当前光标线\n运行到光标线"
+      },
+      "32797": {
+        "source_sha256": "27749087070A7C2BBC04CACC054546E83258E93E8B7E948ECF958F8467878719",
+        "translation": "停止代码执行\n停止"
+      },
+      "32802": {
+        "source_sha256": "91D7FC66B64881595E68B921DDAA1EE19D091D329DDE4F28934358F2774CCAA7",
+        "translation": "进入或离开调试会话\r\n启动/停止调试会话"
+      },
+      "32816": {
+        "source_sha256": "3F71E28D78225E14817F73376636BD6C9E88CC1A491F144B81E76A157C283D10",
+        "translation": "重新构建所有目标文件\r\n重新构建"
+      },
+      "32870": {
+        "source_sha256": "93FF4F379657B29DA94578D90DF4E2CFB73567634C3BDA3D2928CB43258B3CA1",
+        "translation": "当前目标\r\n当前目标"
+      },
+      "33010": {
+        "source_sha256": "9CAC0F13C7665A13C45B9EC82B6BB6EF49A3DB51CB80E273634186329084DFE7",
+        "translation": "隐藏当前选定的文本\r\n折叠选择"
+      },
+      "33011": {
+        "source_sha256": "8BC23BB125064D78C598C69448ACD9009B5398FB8A884B49DCF7A490B900933A",
+        "translation": "删除当前位置的概述信息\r\n停止当前概述"
+      },
+      "33012": {
+        "source_sha256": "E1DB3B71E9D6236EF6E4DC5C5CF406F00C88D26E7D1BD50BD2446BB4D02D34FC",
+        "translation": "将所有大纲区域设置为相同的隐藏或扩展状态\r\n切换所有大纲"
+      },
+      "33013": {
+        "source_sha256": "D624F1911A0EA2040FBF19EB91BDDB230CDBA2866532A11A0C95A3F7A2AB3000",
+        "translation": "反转当前位置的隐藏或展开状态\r\n切换当前扩展"
+      },
+      "33014": {
+        "source_sha256": "7BD6001A2B2E368AA57DB41F0434E066B22EDA93F45C185042108A3182EFE1BE",
+        "translation": "删除整个文档的所有大纲信息\r\n停止所有概述"
+      },
+      "33015": {
+        "source_sha256": "721ACDB6290A655746771FDF09D16899ECAC3DBE79384143D8DBB6A96E0039F6",
+        "translation": "隐藏所有程序\r\n折叠所有定义"
+      },
+      "33016": {
+        "source_sha256": "968331D76DC3D2D2865CEB7115303E82555E00406162FCEACB1A7079CDC1A0D3",
+        "translation": "隐藏当前块\r\n折叠当前块"
+      },
+      "33017": {
+        "source_sha256": "9BF1CD0C583199466650331442DF29C0E999F705622A38DF1B712A145239B7AF",
+        "translation": "隐藏当前的程序\r\n折叠当前程序"
+      },
+      "33018": {
+        "source_sha256": "49759BBF354CADE138C5CB28DB5BEC6BE2E3FCB053D7D9B13D6C73FFE8DACB19",
+        "translation": "隐藏所有评论\r\n收起所有评论"
+      },
+      "33019": {
+        "source_sha256": "FA639A0A2EEE0AD68E0C1BBA8EF0DF854C3925648F864E14BF12ECB896A7C61E",
+        "translation": "隐藏当前评论\r\n折叠当前评论"
+      },
+      "33029": {
+        "source_sha256": "173FC6C924A46887F6A40DBD4819C27A96B5622BACEE62B56BBD7C6BD5D808FA",
+        "translation": "用当前选择中的选项卡替换空格\r\n选择标签"
+      },
+      "33030": {
+        "source_sha256": "8D8FEC70C3EBCE0740089E70282F8553457436432C038BC001A58DF22AED047E",
+        "translation": "用当前选择中的空格替换制表符\r\n解开选择"
+      },
+      "33031": {
+        "source_sha256": "EB47CCFDFDBB708F9437CB4904BE62187C2ADD11CAC8DFDB40D9F82B9BCD7ED6",
+        "translation": "将所选文本转换为大写\r\n制作大写字母"
+      },
+      "33032": {
+        "source_sha256": "2FD4BFB0B5B8B6DAEAD78B6920100BFF3ECD355C0446B661DA742D897997AEDB",
+        "translation": "将所选文本转换为小写\r\n制作小写"
+      },
+      "33033": {
+        "source_sha256": "E004EFC96D891DACD6F4FA565E04854287F9F2AABBFB6DD77A67A76FF226CFF9",
+        "translation": "删除所选文本中的每个选项卡或空格\r\n删除水平空格"
+      },
+      "33034": {
+        "source_sha256": "9E34BA692F4ABDFC2442A66837759A75B536E9C2D7086164DB6E4CF44659D116",
+        "translation": "在键入字符时，逐个字母地搜索文本\r\n增量查找"
+      },
+      "33035": {
+        "source_sha256": "C2B856C013F558254424508803F94DE3749E8400C9A35BB3CB58FA14C5157763",
+        "translation": "将每个选定的行转换为注释文本\r\n评论选择"
+      },
+      "33036": {
+        "source_sha256": "C5816A5D61FD4005EBD3A91E8C346D8D5085CE342462E5AF0DAA73F2A109C970",
+        "translation": "将每个选定的注释转换为普通文本\r\n取消注释选择"
+      },
+      "33037": {
+        "source_sha256": "FAF1EBD9398B222C0BB988F9DCE15B99EE0DB6A16B3AC939195940CB54CA25D2",
+        "translation": "使用指定的文本增加每个选定行的行缩进\r\n使用文本缩进选择..."
+      },
+      "33038": {
+        "source_sha256": "DB8B8649DB904E7D23096B0389F2B4DECB39A1EFF8AC0E40DFEA6C555EA7830C",
+        "translation": "使用指定的文本减少每个选定行的行缩进\r\n取消缩进选择使用文本..."
+      },
+      "326": {
+        "source_sha256": "76975D4A764751A6BC9A70115D1CCC8BE0506966B61B7362EF33409842949F82",
+        "translation": "配置调试还原视图\n调试还原视图"
+      },
+      "332": {
+        "source_sha256": "ED99A109ED2C7771B8288BD1A0E03579603E4AC51254A75CB9B950B2114B4F18",
+        "translation": "显示或隐藏项目窗口\n项目窗口"
+      },
+      "333": {
+        "source_sha256": "97AAFF1E6071477B3A8378DFBAE45E170AE3D30F5D8B8B933FA055C0256601BB",
+        "translation": "显示或隐藏编辑工具栏\n编辑工具栏"
+      },
+      "334": {
+        "source_sha256": "6846903AD8D82FDB56D1D764CC354E7FF462AA73FD51762EA911796F2609513A",
+        "translation": "以全屏模式屏显示文档区域"
+      },
+      "335": {
+        "source_sha256": "C6AD816B022C15755C4F8826A511BE10901CBE6B86B4B32983998B7E41EA1C5D",
+        "translation": "将活动项目导出为μVision3格式\n活动项目为μVision3格式"
+      },
+      "35000": {
+        "source_sha256": "BE1BA2A2C188724C9ED64CE9639969096E84C69331561982C3DCB199F4EC140D",
+        "translation": "将现有文件添加到当前项目组\r\n将现有文件添加到组..."
+      },
+      "35011": {
+        "source_sha256": "4FA804CDB76166E3ED8544D1670EF635EF6B542D43FA8C64E53A53E4A97C75A3",
+        "translation": "使用新名称保存活动项目\r\n保存项目为"
+      },
+      "35012": {
+        "source_sha256": "8A65E2DC565D9D7FDAF9E2C999FE7F57CCC3EE825E554F1E2A635CFE513059C8",
+        "translation": "在当前行插入或删除断点\r\n插入/删除断点"
+      },
+      "35015": {
+        "source_sha256": "1E392E6C15F6E19C569863A898039747B10A84542FACA70B1FACC904D2C33AC3",
+        "translation": "禁用所有现有断点\r\n禁用所有断点"
+      },
+      "35016": {
+        "source_sha256": "6FB7131AE1E9CB796EA6858A2D2BBD318B45C2826426E034811A7866F7882024",
+        "translation": "清除所有现有断点\r\n清除所有断点"
+      },
+      "35017": {
+        "source_sha256": "3492B97FCFE0B0FF561592A2C781F4FD0A298CBA696A705474E3AAA2C911EFB3",
+        "translation": "在当前行启用或禁用断点\r\n启用/禁用断点"
+      },
+      "35019": {
+        "source_sha256": "0CF87B2B9C974A244C700ED02F6542E4201EAA53377F1C50EC96FE0BE7F2A9CE",
+        "translation": "启动或停止指令跟踪记录\r\n启用/禁用跟踪记录"
+      },
+      "35020": {
+        "source_sha256": "D6AA5659FC0F2FC2CCFF7F5D581D717B1CD385D097E69D5BFA515BA157A6F91C",
+        "translation": "重置CPU\r\n重启"
+      },
+      "35033": {
+        "source_sha256": "AB74B81D52B8C6D40D0E8BFF4E68CB57F8378BE9AE2B48800F8A38A7D66FBD4E",
+        "translation": "显示或隐藏“构建输出”窗口\r\n构建输出窗口"
+      },
+      "35037": {
+        "source_sha256": "4D8A791A5B5CCFCEC6AFA513AAC1ED88056F0DC203F36F9EEDD4C582F2F4BBE4",
+        "translation": "显示或隐藏项目窗口\r\n项目窗口"
+      },
+      "35038": {
+        "source_sha256": "0FC52B1E7C319A1E2F7B17D05CD5C9B620B5810DC1BDB1FAF94143B428BB9B54",
+        "translation": "显示或隐藏文件工具栏\r\n文件工具栏"
+      },
+      "35039": {
+        "source_sha256": "D59FD4656D8A0CC1004ACCCA82FCD97DE8FDBB7040711DE0FF96018A6A7511C3",
+        "translation": "显示或隐藏构建工具栏\r\n构建工具栏"
+      },
+      "35040": {
+        "source_sha256": "01D6371CA10D2CAA9FD93D5CAA62AD55D35A7D0FA1C15C1E626C39F041AAA196",
+        "translation": "显示或隐藏调试工具栏\r\n调试工具栏"
+      },
+      "35041": {
+        "source_sha256": "692EAFE47C2ED29BD942BDA980FB3FE424FB87DAE9D3A6A8C62526956C38C89F",
+        "translation": "配置断点\r\n断点..."
+      },
+      "35043": {
+        "source_sha256": "0D13D3BCA4AAD3F799052D87D4B995730D70D6F80CA859FE0092E25166A20194",
+        "translation": "查看指令跟踪记录\r\n查看跟踪记录"
+      },
+      "35047": {
+        "source_sha256": "FE3A6102319F7C7A0CAAFA3211BFFCCA96DE9FA83D211D8C3C181C2C8FF4F309",
+        "translation": "显示或隐藏代码覆盖率窗口\r\n代码覆盖窗口"
+      },
+      "35048": {
+        "source_sha256": "6111B3772B167927E76C8614BC65820AD7D7941640E5589C01CF9C42960DB843",
+        "translation": "显示或隐藏符号窗口\r\n符号窗口"
+      },
+      "35051": {
+        "source_sha256": "101548144C18BADE2ED8AA5D82DFD226098F18FCF9AE6F903A2A78B470F043CB",
+        "translation": "配置目标选项\r\n目标选项......"
+      },
+      "35056": {
+        "source_sha256": "59157DE7E6F9EA3AC69CAD809356E5DB82B555A3FD0AC8D062E909F85A81DC6E",
+        "translation": "在多个文件中搜索文本\r\n在文件中查找..."
+      },
+      "35067": {
+        "source_sha256": "1BA13EDD21C9E178B1569376FE8079E262A66CF88E32C5CFB2DA1F9D8F27D4E6",
+        "translation": "显示小数值\r\n显示小数值"
+      },
+      "35069": {
+        "source_sha256": "BA420AFC6D4B443577DFEAFD2E8AAADD1046F0F58F3A0994102006CD900E6B42",
+        "translation": "配置内存映射\r\n内存映射....."
+      },
+      "35070": {
+        "source_sha256": "08F322FE80BFB24F0861808F6FC4C29A6BEE478C0D69647D85E26BE3AB5AEF9B",
+        "translation": "缩进所选文本会留下一个制表位\r\n缩进选择"
+      },
+      "35071": {
+        "source_sha256": "6879AB20553B3ED031E87D91D3CDEA125C153297918637118A650385832F5F7B",
+        "translation": "缩进选定文本右一个选项卡停止\n缩进选择"
+      },
+      "35072": {
+        "source_sha256": "CB27BD1892889E9700E78F64DFCB603BC5F2E96432A69C70B1B88291EA5F7275",
+        "translation": "在当前程序计数器显示语句\r\n显示下一个声明"
+      },
+      "35073": {
+        "source_sha256": "C5DA3545209CD1DC05F6E8EF6A407326B669D17F72C8EE67E4D9744E68FFFC6B",
+        "translation": "显示或隐藏工具箱\r\n工具箱"
+      },
+      "35079": {
+        "source_sha256": "5B92C0702175C637C4733617EE26F1EAC81A3C4B2F7004D540F9E5B305B305EB",
+        "translation": "设置性能分析器\r\n设置PA ..."
+      },
+      "35081": {
+        "source_sha256": "4915222938C1704F99989FD0D6A3E0071BFA2C29611E110D7D332C8CDD8D39D6",
+        "translation": "代码执行时更新调试窗口\r\n定期窗口更新"
+      },
+      "35082": {
+        "source_sha256": "3C76DA4EA5BFF309399CD74D0CD2C0960088B2CD639148608CEB65A92583FECC",
+        "translation": "显示内联汇编窗口\r\n内联汇编......"
+      },
+      "35083": {
+        "source_sha256": "DB368143BE04AFC91A874380862DC840172B2D6476BFE0CEF1F224E284DFBA11",
+        "translation": "在“函数编辑器”中编辑ini文件\r\n函数编辑器（Open Ini文件）......"
+      },
+      "35085": {
+        "source_sha256": "ECAFE29632017A2E3BD4948019FD2800177BC5BD34D2DFB71659FC3FCB1910A1",
+        "translation": "删除选定的组或文件\r\n除去项目"
+      },
+      "35089": {
+        "source_sha256": "DF453BDE2AED7B4D2F1DCEFE0AA45841D63D065809F9064C751AE9D308EF732F",
+        "translation": "转到下一个匹配的括号\r\n去匹配大括号"
+      },
+      "35090": {
+        "source_sha256": "8BB8040831933017121B13BE4631BDE205C56AA6CF6350C7E9D0FCD34BF41E01",
+        "translation": "修改光标位置的内存\r\n修改内存"
+      },
+      "35095": {
+        "source_sha256": "61DA70D4B5248ED303584ECB297DF671D3DC8C53BAB0CF58B2F4FE278F6C9562",
+        "translation": "添加，删除或编辑“工具”菜单项\r\n自定义工具菜单..."
+      },
+      "35096": {
+        "source_sha256": "D296E024DC1868F17DFE0C239C8325D561EB0B31C6D4EA742A6DFA758ED7157A",
+        "translation": "显示或隐藏源浏览器窗口\r\n源浏览器窗口"
+      },
+      "35101": {
+        "source_sha256": "F15ED52774935525C2ABC51BF82C9DEE25C0193E7B4BC78CCF58367845303429",
+        "translation": "设置用户提供的合并工具\r\n自定义合并工具..."
+      },
+      "35113": {
+        "source_sha256": "C5B3E31D21CA7876EB950A362AFFCB09A3913C9F62BC23BD6D1D0A0B02B54CB2",
+        "translation": "配置软件版本控制系统\r\n配置软件版本控制..."
+      },
+      "35129": {
+        "source_sha256": "B6656E98D033689101D3E3FF43C5EA2BAEDB1651942DABC6FE0BF7AB788A70C6",
+        "translation": "关闭所有文件\r\n关闭所有"
+      },
+      "35130": {
+        "source_sha256": "FFB99383A476C73C7B600CE3C4D4E828D7014A985D61782CA316EB54CCF40289",
+        "translation": "转到当前源文件中的特定行号\r\n转行..."
+      },
+      "35134": {
+        "source_sha256": "634642DC30EB79BA00E37A889C9A212CBED702D1F235DE7E616CDE5168F9CD22",
+        "translation": "显示书籍窗口\n"
+      },
+      "35135": {
+        "source_sha256": "C4A5F6C652FE7766F8EB320E76B1C55DD5EC9213B53769D80783A3D4520148D6",
+        "translation": "显示模拟外设有助于当前设备\r\n显示模拟外围设备的帮助"
+      },
+      "35136": {
+        "source_sha256": "2BF72E6B23D9FFDBD5572E2C5AF43DC467393611FA554E92E1EA5EF211139F56",
+        "translation": "转到KEIL Internet支持知识库\r\nInternet支持知识库"
+      },
+      "35137": {
+        "source_sha256": "F4802EC9C07066BA95DF953133E7F95FF842B2160C72BD78E71CE28EFE6D492D",
+        "translation": "提交技术支持请求\r\n联系支持"
+      },
+      "35140": {
+        "source_sha256": "4AE4E8A0E94CBC68FFD1D6E639FB93238DE861A4C9763952652727D6009BC8AF",
+        "translation": "显示或隐藏ULINKplus窗口\r\nULINKplus"
+      },
+      "337": {
+        "source_sha256": "08103E28CBCD799A07EA316A401BDCFEF7851BC5476BD6221F56ABBBB7035809",
+        "translation": "将多项目工作区导出为μVision3格式\n多项目工作区为μVision3格式"
+      },
+      "339": {
+        "source_sha256": "99E8546C7751D445C0811DEC87F76185171125E389CB4E77B2EB32BFDBFC248F",
+        "translation": "显示或隐藏跟踪窗口\n跟踪窗口"
+      },
+      "35190": {
+        "source_sha256": "DA3657D50EACC515798BD0E0D44A2C4E9D8A957B0E142D6CAE24E383794315F4",
+        "translation": "断点"
+      },
+      "35191": {
+        "source_sha256": "AB0DE4754EA5C37327670C94E56EC9923CCD737C5747586449FCE36EF8AAD4E3",
+        "translation": "字节访问\r\n字节"
+      },
+      "35192": {
+        "source_sha256": "39091D454CD1DB8741B516AB4E9E45D8861D726D4C56DD9A935C42A6619E6916",
+        "translation": "半字访问\r\n半字"
+      },
+      "35193": {
+        "source_sha256": "CE7E208E2CEC501904C499BF454CC83D15FB01E6FC710336A10648DCF4BCB228",
+        "translation": "字访问\r\n字"
+      },
+      "35194": {
+        "source_sha256": "6BD52445B1E7D8239D301F5F1CE6F614D19716085EACD2AC81188EAFAF6097D0",
+        "translation": "默认访问大小\r\n默认"
+      },
+      "35400": {
+        "source_sha256": "8B8B05E62936377EE83222E248DE28345462F096B23504CFFDC5EBED5B5016D8",
+        "translation": "检查产品更新\r\n检查更新"
+      },
+      "35404": {
+        "source_sha256": "1F8001171FB126538FAF9C8BF0110A153267BBB7DCBA213AE9252A95A75352F7",
+        "translation": "将代码下载到闪存\r\n下载"
+      },
+      "35405": {
+        "source_sha256": "1C717AF12F217F6AAE3170B76EFC9CA0591C60B825C68D38314848AFDE7E3EBB",
+        "translation": "擦除闪存\r\n抹去"
+      },
+      "35409": {
+        "source_sha256": "59F1B1857289C4B1C0C2D025A970C75580B25117B100889AF7D8C700D9C4EB1E",
+        "translation": "显示或隐藏包含文件依赖项\r\n包括文件依赖项"
+      },
+      "35411": {
+        "source_sha256": "B53C267B1117A050730E8C86D09DFBFAFFBCD8003569FD260EF3757C098EA0CE",
+        "translation": "显示当前游标地址的高级源代码\r\n显示当前地址的源代码"
+      },
+      "35415": {
+        "source_sha256": "FCAE6B6874F1A138D75E086370C88ED402E5D105523D749BC5CEEF887A5D2197",
+        "translation": "配置闪存编程工具\r\n配置Flash工具......"
+      },
+      "35429": {
+        "source_sha256": "53E16273E3C5DF34E3C917667016B612AE32D3FE629EE9199B5C1AFECCE0140F",
+        "translation": "显示或隐藏逻辑分析器窗口\r\n逻辑分析仪窗口"
+      },
+      "35437": {
+        "source_sha256": "4C45D45D1B88F5653D122B3650FECD190E27CBAA7FEE47BF88248472B342E0D7",
+        "translation": "扫描项目文件中的函数名称\r\n扫描项目文件"
+      },
+      "35438": {
+        "source_sha256": "24036D465594543178E8100B00FF9D07E395D20B4FAFB6CFB6A88DAE8C91D748",
+        "translation": "扫描当前编辑器文件中的函数名称\r\n扫描当前编辑器文件"
+      },
+      "35439": {
+        "source_sha256": "ACED033F07F2FB008EAA2A7F745E37DDBC019DEC70DDC959D77F66A2C6A1D932",
+        "translation": "转到所选函数\n转到函数"
+      },
+      "35440": {
+        "source_sha256": "49C4E52A40FADA33C45B43C979AC9D3DFD1A61B41D5AB546A3408F1D2FE62265",
+        "translation": "将所选模板插入当前文件\r\n插入模板"
+      },
+      "35441": {
+        "source_sha256": "16BDE54C3DBCF42F483FECCC20B123FFD2E0CF771A0B90D6A122792D6E92007A",
+        "translation": "打开配置对话框\r\n配置模板..."
+      },
+      "35442": {
+        "source_sha256": "DBA2D90C79C046597FE3E64CBEA79C39B6B13D06EA7C514F55A4C495013E1584",
+        "translation": "管理产品许可证\r\n许可证管理......"
+      },
+      "35443": {
+        "source_sha256": "D857A2D423DDC8335EA76C8B420E584D93B0723B07BBC026C28D07316C464917",
+        "translation": "禁用执行分析\r\n禁用"
+      },
+      "35444": {
+        "source_sha256": "4722EA8DCE2D15FA8E44C941E282426835466F6DA9ACCC2213D20D1AE1214B3F",
+        "translation": "显示基于时间的执行分析\r\n显示时间"
+      },
+      "35445": {
+        "source_sha256": "D95DD9A698309C710FF86F97414DA98BAE27B530E34E2CF5706A5EBCCC430EC5",
+        "translation": "显示基于执行概要分析的调用\r\n显示调用"
+      },
+      "35446": {
+        "source_sha256": "414CDF942AB9369D4F5D2F45A87519837291AB099382EB6E7F5BD38D269A3702",
+        "translation": "设置逻辑分析仪\r\n设置逻辑分析仪......"
+      },
+      "35448": {
+        "source_sha256": "7D604D51947977A89D20430AC71AC52957163746BB973C655D7757270D97314C",
+        "translation": "转到下一个输出项目\r\n转到下一个输出项目"
+      },
+      "35449": {
+        "source_sha256": "9A2563B43C6BD3A7D41877D219BDA1C062163CD72CBA61B384D537C3F93501FB",
+        "translation": "转到上一个输出项目\r\n转到上一个输出项目"
+      },
+      "35450": {
+        "source_sha256": "64CD06380AA566451B710FC5D8E26F02DC9CA45D45F94DACD951DBC64D90A215",
+        "translation": "回到以前的位置\r\n向后导航"
+      },
+      "35451": {
+        "source_sha256": "A85B693A11D096418943C009F24FABC5096F81D0ABC9F3D1EE3925C1EE5DFFDA",
+        "translation": "转发到下一个位置\r\n向前导航"
+      },
+      "35455": {
+        "source_sha256": "1F24B6EA7C650F51D80E0136FAF4098895507F6042BAC55FE7AAB424DBE80564",
+        "translation": "通过modules / nShow模块排列功能"
+      },
+      "35457": {
+        "source_sha256": "EAEC5E5A1A03D312B6DA47332D5D3D940279A53AB57E9857B7EFCD122F81AD38",
+        "translation": "\n调试设置"
+      },
+      "35458": {
+        "source_sha256": "976C2BBF9CC1FDB66241D6E51A6E8532B6252DC33C1E0FC2DDEB8AB485D1A362",
+        "translation": "关闭当前窗口\r\n关闭"
+      },
+      "35461": {
+        "source_sha256": "85DC6E1FDDDA0F638BB6A4447A6505BAEEF16E2DD948EC213F77F6DD129C364A",
+        "translation": "删除行尾的制表符或空格\r\n删除尾随空格"
+      },
+      "35462": {
+        "source_sha256": "A03367F6BEF46B9F78F50670BD8E19A69FC10A2E0A821FE4E34F68E451B7B394",
+        "translation": "打开这本书\r\n打开"
+      },
+      "35464": {
+        "source_sha256": "44FFD4DFEFC3D03D81408D1B8970902151710E5AC20CA7B900B295CFDB57BA96",
+        "translation": "选择显示类型模拟\r\n模拟"
+      },
+      "35465": {
+        "source_sha256": "5E63249145A45C953C3896A4BD6860730D447C1DB97ADB92C5002BEAFB747D72",
+        "translation": "选择显示类型位\r\n位"
+      },
+      "35466": {
+        "source_sha256": "4F50F70DE809256E34251035B166FB1FAEA0E3A3FA5604B6B13E2797CCDDF741",
+        "translation": "选择显示类型状态\r\n状态"
+      },
+      "35467": {
+        "source_sha256": "9B6169638A9F85F247F094205E73973F6A929F04D3A8C1EC774A35FCAE2F5D1C",
+        "translation": "显示十六进制值\r\n十六进制值"
+      },
+      "35468": {
+        "source_sha256": "02D25CEAA0D18947E820C576AD0B341DC5CBE5C5A2FE2D28F682700A61A3EB28",
+        "translation": "从先前录制设置先前记录的最小/最大值\r\n设置记录的最小/最大值"
+      },
+      "35469": {
+        "source_sha256": "50C55968FAF536F3ED27F3CAECECEB7E4C51E8F4B02C1E8822A67B16028C0C24",
+        "translation": "恢复之前的最小值/最大值\r\n恢复上一个最小/最大"
+      },
+      "35470": {
+        "source_sha256": "8801E1EBCFAB2A4F66F001B9222EEECC38E5B121AB28095DCB80967E4A271039",
+        "translation": "根据新数据设置最小/最大值"
+      },
+      "35473": {
+        "source_sha256": "9DD1A3D3B79AE63E430F0FBE14FA7ECF7CC583183C4D3E1ED6481DEFAF4248F2",
+        "translation": "显示经过的时间（t0）\r\n显示经过时间（t0）"
+      },
+      "35474": {
+        "source_sha256": "E9A281B28075FAEDFBD2EBC3D026F12851F060D937C4C498A115A2BD50097FD2",
+        "translation": "显示停止时间(t1)\r\n显示停止时间(t1)"
+      },
+      "35476": {
+        "source_sha256": "A51A2634698B90AF4ACE418BA3F35DB371D72B22F91CB77C6295F4930FEC5017",
+        "translation": "显示地址栏\r\n显示地址"
+      },
+      "35477": {
+        "source_sha256": "67C4CFADEA9437DBDBD92005C09A4A37B0D104C99BD1CDCAA3883BCE88DF87A9",
+        "translation": "显示类型列。\r\n显示类型"
+      },
+      "35478": {
+        "source_sha256": "030894BB30E0D892473795E7AEDD0B62C71D4DE28180D9936261973A021B0ED1",
+        "translation": "使掩模区分大小写\r\n区分大小写"
+      },
+      "35479": {
+        "source_sha256": "9A6D144C8B8CD2D4AB94606BE1B4BB97B901DF68ABC16A6BA95499240589DABB",
+        "translation": "折叠所有项目\r\n全部折叠"
+      },
+      "35480": {
+        "source_sha256": "1865CB6866E854CFB5828BC654070B344BC9A45EACDDDA4DB0F2A1BC7F50628F",
+        "translation": "删除所选信号\r\n删除信号"
+      },
+      "35481": {
+        "source_sha256": "E664CE9F4A528FA037B5FB5C7D791A604AF04188F12D6B6CAC5E26783A89A5B4",
+        "translation": "创建一个新的项目组\r\n新项目组"
+      },
+      "35482": {
+        "source_sha256": "F293AF0304B8DD1FED9F3F4119DDBA3CE6566F211621DEFD76FE02471D6D9456",
+        "translation": "从整个文档的默认大纲信息开始\r\n开始全部概述"
+      },
+      "35484": {
+        "source_sha256": "C702911C488DE03FABF0FC4227E042E7E7835A09FCE905BA27D6C8A312A0C530",
+        "translation": "设置所选项目激活\r\n设置为活动项目"
+      },
+      "35486": {
+        "source_sha256": "F3E7381AC124434C4ACC28598B36BA0785D6AC08473B5EA0E625E1C6DEF5121A",
+        "translation": "批量设置\r\n批量设置......"
+      },
+      "35488": {
+        "source_sha256": "AD7F7ADA5A531D2151AEF18A6162C66E7E6EFE430519E7046F208E13B1D2DA98",
+        "translation": "删除项目目标的中间文件\r\n删除目标"
+      },
+      "35490": {
+        "source_sha256": "03BAFB685FEEACA72685374A3A2B396DCE2854B2F4B7A48E2A8047D0BBA80187",
+        "translation": "创建一个新的多项目工作区\r\n新项目工作区......"
+      },
+      "35504": {
+        "source_sha256": "8C69DED8BDE2DC1E2BDD283D19750AB7997DC9D0B57DEDAC10FC66F2570FA1A1",
+        "translation": "管理当前多项目工作区内的项目\r\n管理多项目工作区......"
+      },
+      "35515": {
+        "source_sha256": "DB1BEE0DE766DB058B40E4D01FBE0D6AC6CF5AF1A2D30110001045888F8BE1B5",
+        "translation": "显示或隐藏调用堆栈窗口\r\n调用堆栈窗口"
+      },
+      "35521": {
+        "source_sha256": "C15EF992F4AC9F65D63B07EFBC15687084D5DFA3E303B8024B60298EF38C800B",
+        "translation": "显示或隐藏指令跟踪窗口\r\n指令跟踪"
+      },
+      "35794": {
+        "source_sha256": "F6C456B025BF16DB9F0C5A61413B731AA45F3EBB530803200D0068693F1D1839",
+        "translation": "显示或隐藏内存1窗口\r\n内存1窗口"
+      },
+      "35795": {
+        "source_sha256": "ADA08A47DBC6703DBB48B86DA12161631E87A2F0EB38C75953D52866C44FC7BF",
+        "translation": "显示或隐藏内存2窗口\r\n内存2窗口"
+      },
+      "35796": {
+        "source_sha256": "1768B6E9324733E4FE0B0F5424883B0510EECE308BFCDD73B8A21A7BDBBE26E1",
+        "translation": "显示或隐藏内存3窗口\r\n内存3窗口"
+      },
+      "35797": {
+        "source_sha256": "BFF3D7D2B18A15A53484D7686A0D0D6590B5C4FE1B26EA6CAF2519F85641ACC0",
+        "translation": "显示或隐藏内存4窗口\r\n内存4窗口"
+      },
+      "35800": {
+        "source_sha256": "8393452D469F56E1F7F71C06E1F95CBC70CD10AE85B2E4D929649F2C1902F6C7",
+        "translation": "显示或隐藏Watch 1窗口\r\nwatch1个窗口"
+      },
+      "35801": {
+        "source_sha256": "DD9F600970318CF4C8830AB40C0344C0DF5BE28186C8872B976DE6D201BC9443",
+        "translation": "显示或隐藏Watch 1窗口\r\nwatch 2个窗口"
+      },
+      "35804": {
+        "source_sha256": "C4C2F7F625C6802203877A4D397893CCB567E9FB9CC89375ED4071777C09F0A0",
+        "translation": "显示或隐藏书籍窗口\r\n书籍窗口"
+      },
+      "35809": {
+        "source_sha256": "D7B1205940E395E3486402C8800E66729F4839153F93DDA5A6E57B0EBDB02901",
+        "translation": "显示或隐藏函数窗口\r\n函数窗口"
+      },
+      "35810": {
+        "source_sha256": "F473A2C82A8889F927744A1B278A6952A556C184FFB11CE30364FCB45FAF4189",
+        "translation": "显示或隐藏模板窗口\r\n模板窗口"
+      },
+      "35811": {
+        "source_sha256": "62B2A9CDA637A963CDC6E08EC4DCF0E869CAE7D753B1640BE5FEFAEC8AC792C4",
+        "translation": "显示或隐藏“在文件中查找”窗口\r\n在文件窗口中查找"
+      },
+      "35812": {
+        "source_sha256": "F8036B57DA4B28BEB790A124006123DA635C44664B9C33A71828F74E438D3A1D",
+        "translation": "显示或隐藏命令窗口\r\n命令窗口"
+      },
+      "35822": {
+        "source_sha256": "469B31BC0045E9433A512DE7FF6118DC203BEBB583FEA03454EED3728B58DB35",
+        "translation": "显示或隐藏系统查看器窗口\r\n系统查看器"
+      },
+      "35883": {
+        "source_sha256": "FD823AF7809D0091183A5D6580386171A22E545ED1B16E332DF9AB66BAC6AAD7",
+        "translation": "重置此视图的窗口停靠布局\r\n重置窗口布局"
+      },
+      "35916": {
+        "source_sha256": "8D17B3367C094FAAF699975C126EC5D4CB001531338B96609953A21B9B61C0F9",
+        "translation": "打开文档"
+      },
+      "358": {
+        "source_sha256": "C4352F138BD3AF071958A77D2BB8C750730F20148068BCA7EECDF2CD8DD22763",
+        "translation": "性能分析器\nPawin\nPawin\n\n\nPawin.Document\nPawin Document"
+      },
+      "43004": {
+        "source_sha256": "473DDB97429E36BE9D64DCE510D5F581A1949AF1F5078B593951AF0A9D2C2CC7",
+        "translation": "在对话框中显示所有窗口"
+      },
+      "43005": {
+        "source_sha256": "A3EDFFF0E734E89017886673BA2D3E95EC7434EB547EF7D6D1FE56227D1F2520",
+        "translation": "加载以前保存的工作区"
+      },
+      "43006": {
+        "source_sha256": "CFDFA55350F5AFAE4DE09D2054F2486D7312C94948A9EBCA3073C4E27D108017",
+        "translation": "保存打开的窗口及其在桌面上的位置"
+      },
+      "43007": {
+        "source_sha256": "965B7366CAC4A243E7D057DC46D12403867068933CBBF7B3FA2F9D56B18F46D9",
+        "translation": "创建一个新工作区"
+      },
+      "43008": {
+        "source_sha256": "3E51860EFC8FC76536296D04E48DDEF1AFF0136956C806BEEF5F5C2DC24F534B",
+        "translation": "打开现有工作区"
+      },
+      "43009": {
+        "source_sha256": "9B28485437FA59B498DB8F61D9AE5A7B2F545DEE1446070AA0806C7BAE04C95C",
+        "translation": "保存活动工作区"
+      },
+      "43010": {
+        "source_sha256": "84AFAE7F4BF79B9F3688426F1260413179B7FBC3B8EE6AF30384CB551CDB015B",
+        "translation": "将桌面保存到指定的工作区"
+      },
+      "43011": {
+        "source_sha256": "37C11D8E4ABE55379F3E41DABA9DD830057F32BC28661AD840794B29EDDBACAB",
+        "translation": "关闭活动工作区"
+      },
+      "43012": {
+        "source_sha256": "37C11D8E4ABE55379F3E41DABA9DD830057F32BC28661AD840794B29EDDBACAB",
+        "translation": "关闭活动工作区"
+      },
+      "43013": {
+        "source_sha256": "14EF46343C125C1072CD6FBCE1983B90850F4F4CD92ED35368648A4A1A24B8CA",
+        "translation": "将当前打开的窗口保存到选定的工作区"
+      },
+      "43014": {
+        "source_sha256": "13A4DF919D88AF9EB1E97918F92B065234FA9086C66591B2C6A3B58D90668A61",
+        "translation": "删除所选工作区"
+      },
+      "43015": {
+        "source_sha256": "81E9ABDB7AE3C8C53B9F96DDA745D0232D7BFC40B28EF17BB5FD336E61DF2CFC",
+        "translation": "激活所选窗口"
+      },
+      "43016": {
+        "source_sha256": "81E9ABDB7AE3C8C53B9F96DDA745D0232D7BFC40B28EF17BB5FD336E61DF2CFC",
+        "translation": "激活所选窗口"
+      },
+      "43017": {
+        "source_sha256": "81E9ABDB7AE3C8C53B9F96DDA745D0232D7BFC40B28EF17BB5FD336E61DF2CFC",
+        "translation": "激活所选窗口"
+      },
+      "43018": {
+        "source_sha256": "81E9ABDB7AE3C8C53B9F96DDA745D0232D7BFC40B28EF17BB5FD336E61DF2CFC",
+        "translation": "激活所选窗口"
+      },
+      "43019": {
+        "source_sha256": "81E9ABDB7AE3C8C53B9F96DDA745D0232D7BFC40B28EF17BB5FD336E61DF2CFC",
+        "translation": "激活所选窗口"
+      },
+      "43020": {
+        "source_sha256": "81E9ABDB7AE3C8C53B9F96DDA745D0232D7BFC40B28EF17BB5FD336E61DF2CFC",
+        "translation": "激活所选窗口"
+      },
+      "43021": {
+        "source_sha256": "81E9ABDB7AE3C8C53B9F96DDA745D0232D7BFC40B28EF17BB5FD336E61DF2CFC",
+        "translation": "激活所选窗口"
+      },
+      "43022": {
+        "source_sha256": "81E9ABDB7AE3C8C53B9F96DDA745D0232D7BFC40B28EF17BB5FD336E61DF2CFC",
+        "translation": "激活所选窗口"
+      },
+      "43023": {
+        "source_sha256": "81E9ABDB7AE3C8C53B9F96DDA745D0232D7BFC40B28EF17BB5FD336E61DF2CFC",
+        "translation": "激活所选窗口"
+      },
+      "43024": {
+        "source_sha256": "81E9ABDB7AE3C8C53B9F96DDA745D0232D7BFC40B28EF17BB5FD336E61DF2CFC",
+        "translation": "激活所选窗口"
+      },
+      "43025": {
+        "source_sha256": "81E9ABDB7AE3C8C53B9F96DDA745D0232D7BFC40B28EF17BB5FD336E61DF2CFC",
+        "translation": "激活所选窗口"
+      },
+      "43026": {
+        "source_sha256": "81E9ABDB7AE3C8C53B9F96DDA745D0232D7BFC40B28EF17BB5FD336E61DF2CFC",
+        "translation": "激活所选窗口"
+      },
+      "43027": {
+        "source_sha256": "81E9ABDB7AE3C8C53B9F96DDA745D0232D7BFC40B28EF17BB5FD336E61DF2CFC",
+        "translation": "激活所选窗口"
+      },
+      "43028": {
+        "source_sha256": "81E9ABDB7AE3C8C53B9F96DDA745D0232D7BFC40B28EF17BB5FD336E61DF2CFC",
+        "translation": "激活所选窗口"
+      },
+      "43029": {
+        "source_sha256": "81E9ABDB7AE3C8C53B9F96DDA745D0232D7BFC40B28EF17BB5FD336E61DF2CFC",
+        "translation": "激活所选窗口"
+      },
+      "43030": {
+        "source_sha256": "81E9ABDB7AE3C8C53B9F96DDA745D0232D7BFC40B28EF17BB5FD336E61DF2CFC",
+        "translation": "激活所选窗口"
+      },
+      "43031": {
+        "source_sha256": "43522CDBEFD79F4C521B9DE89CDB28767BDF8C9FE8E5EBE47C2C67AB8543FE20",
+        "translation": "打开所选工作区"
+      },
+      "43032": {
+        "source_sha256": "43522CDBEFD79F4C521B9DE89CDB28767BDF8C9FE8E5EBE47C2C67AB8543FE20",
+        "translation": "打开所选工作区"
+      },
+      "43033": {
+        "source_sha256": "43522CDBEFD79F4C521B9DE89CDB28767BDF8C9FE8E5EBE47C2C67AB8543FE20",
+        "translation": "打开所选工作区"
+      },
+      "43034": {
+        "source_sha256": "43522CDBEFD79F4C521B9DE89CDB28767BDF8C9FE8E5EBE47C2C67AB8543FE20",
+        "translation": "打开所选工作区"
+      },
+      "43035": {
+        "source_sha256": "43522CDBEFD79F4C521B9DE89CDB28767BDF8C9FE8E5EBE47C2C67AB8543FE20",
+        "translation": "打开所选工作区"
+      },
+      "43036": {
+        "source_sha256": "43522CDBEFD79F4C521B9DE89CDB28767BDF8C9FE8E5EBE47C2C67AB8543FE20",
+        "translation": "打开所选工作区"
+      },
+      "43037": {
+        "source_sha256": "43522CDBEFD79F4C521B9DE89CDB28767BDF8C9FE8E5EBE47C2C67AB8543FE20",
+        "translation": "打开所选工作区"
+      },
+      "43038": {
+        "source_sha256": "43522CDBEFD79F4C521B9DE89CDB28767BDF8C9FE8E5EBE47C2C67AB8543FE20",
+        "translation": "打开所选工作区"
+      },
+      "43039": {
+        "source_sha256": "F9567D6D16FB168687230B06A376233E3D274E60717CEA5E1DDF8A43B9672C06",
+        "translation": "打开工作区管理器"
+      },
+      "43044": {
+        "source_sha256": "75E87E6E5C85C91F6A1FA75B2728790D0D1B85E0A516123AC2B3514E0FBD0405",
+        "translation": "激活用户定义的工具1\r\n用户工具1"
+      },
+      "43045": {
+        "source_sha256": "6B2D439C2BB2398D67981BA5F9A43C68421517ADD13DC5C4009CB3391AD801E1",
+        "translation": "激活用户定义的工具2\r\n用户工具2"
+      },
+      "43046": {
+        "source_sha256": "A6813C5B12C5C510662D95094E925D90798E1B12A91A01EC2BF6A140BC43449D",
+        "translation": "激活用户定义的工具3\r\n用户工具3"
+      },
+      "43047": {
+        "source_sha256": "01A72FF5A4A4B48EF6126E734E7487920215093ED281E86D93C233711099CF65",
+        "translation": "激活用户定义的工具4\r\n用户工具4"
+      },
+      "43048": {
+        "source_sha256": "7A84D6804F127B7EC78BDFB6909E7E5379BAF670D7E6A154C5893525391A5899",
+        "translation": "激活用户定义的工具5\r\n用户工具5"
+      },
+      "43049": {
+        "source_sha256": "7DAFD549E447E2FCD986C2C86870A6DF31C7DB701373EE611B08A40A3F412BF9",
+        "translation": "激活用户定义的工具6\r\n用户工具6"
+      },
+      "43050": {
+        "source_sha256": "B6F947C6EE9F653F3211B72887B20675A3636857381A845ED39E760FB198A7D3",
+        "translation": "激活用户定义的工具7\r\n用户工具7"
+      },
+      "43051": {
+        "source_sha256": "294A19AF0048CC6EF50EB54294CFACDA8D483086917074614CC73D960D759C65",
+        "translation": "激活用户定义的工具8\r\n用户工具8"
+      },
+      "43052": {
+        "source_sha256": "54CF6FF9FD515F766F46DAED594A0873339C28EC97C19CF7C8AFFB715683FAA7",
+        "translation": "激活用户定义的工具9\r\n用户工具9"
+      },
+      "424": {
+        "source_sha256": "8CA8C63D927F296BBE543ACA9D1E41EBD80BF34DB912AB0F2C4F1F6AB68055CC",
+        "translation": "选择项目的软件组件\r\n管理运行时环境"
+      },
+      "43708": {
+        "source_sha256": "16858CDBAFC99F4B7F7AADB15D2CD4B344A6338D0A660A5942014EBC732865A7",
+        "translation": "运行脚本\r\n运行脚本（F5）"
+      },
+      "43709": {
+        "source_sha256": "8BD8B4A1483FA17AC6A52923BB2C543E4ECE5B8CF9777050E2270465C91166F6",
+        "translation": "事件栏"
+      },
+      "43711": {
+        "source_sha256": "3655777415CC42AF2B24F362B1FDF7BE0CA7DE182B6A7B54926849A3F42D3996",
+        "translation": "删除项(s)\n删除项(DEL)"
+      },
+      "43712": {
+        "source_sha256": "456D7C5F31F4BEF1A3BD009E86D49D63B0DE859A456084377C88C06850AD45CC",
+        "translation": "布局栏"
+      },
+      "43714": {
+        "source_sha256": "8BA8871D117B1864AA23B624E20037C92D3F8B1C0ADC9996DF3A64A95CDFCC86",
+        "translation": "编辑OLE对象\r\n编辑OLE对象（Ctrl + E）"
+      },
+      "43715": {
+        "source_sha256": "FFF87CC94E87CC21506C4B82701FDBF0800309D5DDB11DDDD87734C07019A5F9",
+        "translation": "左对齐\r\n左对齐"
+      },
+      "43716": {
+        "source_sha256": "77E1FE6A53DFE79467ADD1B675C9F84ACB24B6BCBC02F65B82FEC9901D0AA1C8",
+        "translation": "对齐\r\n对齐"
+      },
+      "43717": {
+        "source_sha256": "883929E01CBCBFB4A7C3C27598EF1501D92635A8759622A7947C7D2FF0E0D440",
+        "translation": "顶部对齐\r\n顶部对齐"
+      },
+      "43718": {
+        "source_sha256": "2D1BD35F1601A1C6FBB20705866BE6A224A26A5563D4336FD6A0EAAF691C4DC3",
+        "translation": "对齐底部\r\n对齐底部"
+      },
+      "43719": {
+        "source_sha256": "B218D13BECDBC0E068DFDD31D3EDDF063181DB2040BD5A9D188E94D228C5647B",
+        "translation": "横向中间\r\n横向中间"
+      },
+      "43720": {
+        "source_sha256": "1D646E7C58174F50813364947862F4D7D4C23200D46B43115B395A2D0ED10FCE",
+        "translation": "底对齐\n底对齐"
+      },
+      "43721": {
+        "source_sha256": "2FF62199FA1BD01CE15828DA4F6E0B87A9F391A9387CA332C2CEED727F164C48",
+        "translation": "水平中心\n水平中心"
+      },
+      "43722": {
+        "source_sha256": "DC1BCD0D12F4603033F41FD3F6F70677414AFC6F756B7F8F8E7184A657CF1F53",
+        "translation": "中心竖向\n\n中心竖向"
+      },
+      "43725": {
+        "source_sha256": "CA0C8851B0D62444F30779117E02D37160E19700A98BCC16458065B15AFD8303",
+        "translation": "设定一样的宽度\r\n设定一样的宽度\r\n"
+      },
+      "43726": {
+        "source_sha256": "C70BA97380887DC2D705B8FA20F4E80B38269DA8058CE13285A4867F226BAC1B",
+        "translation": "设定一样的高度\r\n设定一样的高度"
+      },
+      "43727": {
+        "source_sha256": "D2A874B787323F4642B9113452D423C2E741FCE9672A4C9297111607F2E90B42",
+        "translation": "设定一样的尺寸\r\n设定一样的尺寸\r\n"
+      },
+      "43728": {
+        "source_sha256": "1B9E360110FBEDE12C4F1C73FBF7EB43835E0D148B03A9FB25C73E662A04D06C",
+        "translation": "切换网格[开/关]\n切换网格"
+      },
+      "43739": {
+        "source_sha256": "68C0A8ACE3F45B3D4A980466F91784A41F1E333D96D16FF111EF6FA728D0607E",
+        "translation": "表格中的控件"
+      },
+      "43740": {
+        "source_sha256": "6EB716A889F0524492CE96EC69A5B200B824E3CBCE83FDB1F6D1658F9952A67B",
+        "translation": "事件"
+      },
+      "437": {
+        "source_sha256": "0D13D3BCA4AAD3F799052D87D4B995730D70D6F80CA859FE0092E25166A20194",
+        "translation": "查看指令跟踪记录\r\n查看跟踪记录"
+      },
+      "438": {
+        "source_sha256": "E3BF3D9C777777D48FFD183D2CBB11EBF688ED429E31A528787315D90419BE4A",
+        "translation": "将活动项目导出为CPDSC格式\r\n活动项目到CPDSC格式"
+      },
+      "446": {
+        "source_sha256": "52C392A8811B2A2FB0030227D637A6672D44712B2E1E2EB18EE21DFFE37376E0",
+        "translation": "安装或更新包含软件组件的软件包\r\n包安装程序"
+      },
+      "447": {
+        "source_sha256": "A97E00BE0C905BAA87E81F5E0B268A135873272D4FF4C9A09C26062FE3D765F1",
+        "translation": "重新加载软件包"
+      },
+      "45022": {
+        "source_sha256": "ABC6A7BBD4622BB4225D39E419299DB3E8DFE9659234EBD322B3218524579595",
+        "translation": "调用语言配置对话框\r\n配置语言"
+      },
+      "45039": {
+        "source_sha256": "05FE0CB2D1B10A9EFA2BFC1ECD405A96B5BF3AA0679D799ADB89B36119F0C094",
+        "translation": "显示空白\r\n显示空白"
+      },
+      "45041": {
+        "source_sha256": "2DED954DDD230C6E2EB9DF0C04090B80712C7B63A14E233A24EF53BA469059A9",
+        "translation": "查找当前查找文本的下一个出现\r\n查找当前查找文本的下一个出现"
+      },
+      "45042": {
+        "source_sha256": "607AB6EBC061801F8C8B31B77788F063AC005429C0C003DEB296774FF30DBC2F",
+        "translation": "查找所选文本的下一个出现\r\n查找所选文本的下一个出现"
+      },
+      "45043": {
+        "source_sha256": "051EA174F405B3E253867E7412A87F816EDAD4D093CB695A8BD56837154B4671",
+        "translation": "查找上一次出现的当前查找文本\r\n查找先前发现的当前查找文本"
+      },
+      "45044": {
+        "source_sha256": "8F98E6382B407565BC5AF156A8C64307216B333B344CA051F2D66074890B56FC",
+        "translation": "查找以前出现的所选文本\r\n查找以前出现的所选文本"
+      },
+      "45045": {
+        "source_sha256": "E725988FAA84733541898A94F3AD12982B22D311FADD3ABE5BC034E3A8D57E6E",
+        "translation": "将当前行剪切到剪贴板\r\n将当前插入位置处的线切割到剪贴板"
+      },
+      "45267": {
+        "source_sha256": "0B19C3D7C9F4143E909E415567A615D4298ED178C6D24954EE11795961352DC2",
+        "translation": "切换当前行上的书签\r\n插入/删除书签"
+      },
+      "45300": {
+        "source_sha256": "FDE06905E8826E9EEE6910B365EBFD6233BC5EF26626D37309DBEA3655095AB3",
+        "translation": "将插入符号移动到当前文档中的下一个书签\r\n转到下一个书签"
+      },
+      "45333": {
+        "source_sha256": "50801A621DD8950A03A6AB50E71557A5DD8DEDFAD837994DEB8040AD16BF6F28",
+        "translation": "将插入符号移动到当前文档中的上一个书签\r\n转到上一个书签"
+      },
+      "45366": {
+        "source_sha256": "5AA3546E1D5473794D1859522C4B8DAF7702EC558FDB571E6F2DBB02F8236F90",
+        "translation": "清除当前文档中的所有书签\r\n清除所有书签"
+      },
+      "45660": {
+        "source_sha256": "0FB3146DCA4826354F85C6C4BEF94FC8E72A44A293F12879C4BF1A25FA6C9BE9",
+        "translation": "将窗口排列为重叠"
+      },
+      "45661": {
+        "source_sha256": "E3987FD69D0E276A8A949960C066394031B6408139CAA0871684D6F98B5508AF",
+        "translation": "将窗口排列为垂直，不重叠的图块"
+      },
+      "45662": {
+        "source_sha256": "A041262CFCD99100FC3D824E31604F22219917E469CB873D5B979C81ABFB7C87",
+        "translation": "将窗口排列为水平，不重叠的图块"
+      },
+      "45663": {
+        "source_sha256": "A2015A337DBAC2FD789C16286FFE60CEC084261FAAD26CB7C5C3DAD97E8E1786",
+        "translation": "最小化图标"
+      },
+      "449": {
+        "source_sha256": "A9FE525F14F47452A2F8068F45419120871A1647271395DA29926516817A5D0E",
+        "translation": "这是一个将图标添加到命令的示例。\n实例命令"
+      },
+      "451": {
+        "source_sha256": "83819BFAD895190726D7B42808561D3239044D74605EF3E3CA52174132ACE7CD",
+        "translation": "保存当前 µVision5 项目为 µVision4 格式\n保存项目为 µVision4 格式"
+      },
+      "480": {
+        "source_sha256": "EEDD32E21E9AAB54CC9C7FF728ABE2162C8C594CDD1EF5CB4D5456EB704CCDED",
+        "translation": "能量测量\r\n没有调试的能量测量"
+      },
+      "496": {
+        "source_sha256": "B216B99C3B6ECD670443FA02674A37CF0E183422534098E706358B60A214D20B",
+        "translation": "批量构建"
+      },
+      "497": {
+        "source_sha256": "0EBA68ED2F68A3D8985A18D1D7B8C06A24EAC53B800C987AEE1EC2DD45F319F8",
+        "translation": "批量重新构建"
+      },
+      "503": {
+        "source_sha256": "EA49FC04FC72783118E39F872C5ADEC051E87D04A9A62B1751EC5D9547B37764",
+        "translation": "批量清除"
+      },
+      "57600": {
+        "source_sha256": "9ABD69231FF947F0D94131BFDF7CD3E3F462E3784896933BDB09A650448A81F9",
+        "translation": "创建一个空文档\r\n新"
+      },
+      "57601": {
+        "source_sha256": "56AAD520C79EB6434449C164A11887B874DFEB88CC16C1F1EC3918F0017A2D58",
+        "translation": "打开现有文档\r\n打开..."
+      },
+      "57602": {
+        "source_sha256": "7BB98149788DE96E033C8F849D5121349B3BEC894EF777E7163CA38FD947D7CA",
+        "translation": "关闭活动文档\r\n关闭"
+      },
+      "57603": {
+        "source_sha256": "C90CA86D49CE5374C303F5CB3E65F948F9A64322C68990EB1F80868CF054E218",
+        "translation": "保存活动文档\r\n保存"
+      },
+      "57604": {
+        "source_sha256": "DB8CABD025386DAE5360841BCC7A1CE5B8F4E580449CDC9636F4B564BB5470AA",
+        "translation": "使用新名称保存活动文档\r\n另存为..."
+      },
+      "57605": {
+        "source_sha256": "58401756BCF7DC25F7DAB13C976F86FEC1E221F1217C9A04E07E7139A1578F7E",
+        "translation": "更改打印选项\r\n页面设置..."
+      },
+      "57606": {
+        "source_sha256": "6FFBB0435F3F8EF1230B806812D19A037A7E60C00006C5EA72898E6CBEB5CFFB",
+        "translation": "更改打印机和打印选项\r\n打印设置..."
+      },
+      "57607": {
+        "source_sha256": "753BA6B87222D756CFCF9FD99BC3893B744909BA0AE967380D76D27B7D6B9A63",
+        "translation": "打印活动文档\r\n打印..."
+      },
+      "57609": {
+        "source_sha256": "CBB95CD73B5B41F460F84CB10FEF73230A20FA13AF7A491E7C3CEFD7C1E23C80",
+        "translation": "显示整页打印预览\r\n打印预览"
+      },
+      "57616": {
+        "source_sha256": "F3FCB3EDE289D8244ADD4D5FDEF90AB3131036541940A676B683AE6D616CC2F8",
+        "translation": "打开此文档"
+      },
+      "57617": {
+        "source_sha256": "F3FCB3EDE289D8244ADD4D5FDEF90AB3131036541940A676B683AE6D616CC2F8",
+        "translation": "打开此文档"
+      },
+      "57618": {
+        "source_sha256": "F3FCB3EDE289D8244ADD4D5FDEF90AB3131036541940A676B683AE6D616CC2F8",
+        "translation": "打开此文档"
+      },
+      "57619": {
+        "source_sha256": "F3FCB3EDE289D8244ADD4D5FDEF90AB3131036541940A676B683AE6D616CC2F8",
+        "translation": "打开此文档"
+      },
+      "57620": {
+        "source_sha256": "F3FCB3EDE289D8244ADD4D5FDEF90AB3131036541940A676B683AE6D616CC2F8",
+        "translation": "打开此文档"
+      },
+      "57621": {
+        "source_sha256": "F3FCB3EDE289D8244ADD4D5FDEF90AB3131036541940A676B683AE6D616CC2F8",
+        "translation": "打开此文档"
+      },
+      "57622": {
+        "source_sha256": "F3FCB3EDE289D8244ADD4D5FDEF90AB3131036541940A676B683AE6D616CC2F8",
+        "translation": "打开此文档"
+      },
+      "57623": {
+        "source_sha256": "F3FCB3EDE289D8244ADD4D5FDEF90AB3131036541940A676B683AE6D616CC2F8",
+        "translation": "打开此文档"
+      },
+      "57624": {
+        "source_sha256": "F3FCB3EDE289D8244ADD4D5FDEF90AB3131036541940A676B683AE6D616CC2F8",
+        "translation": "打开此文档"
+      },
+      "57625": {
+        "source_sha256": "F3FCB3EDE289D8244ADD4D5FDEF90AB3131036541940A676B683AE6D616CC2F8",
+        "translation": "打开此文档"
+      },
+      "57626": {
+        "source_sha256": "F3FCB3EDE289D8244ADD4D5FDEF90AB3131036541940A676B683AE6D616CC2F8",
+        "translation": "打开此文档"
+      },
+      "57627": {
+        "source_sha256": "F3FCB3EDE289D8244ADD4D5FDEF90AB3131036541940A676B683AE6D616CC2F8",
+        "translation": "打开此文档"
+      },
+      "57628": {
+        "source_sha256": "F3FCB3EDE289D8244ADD4D5FDEF90AB3131036541940A676B683AE6D616CC2F8",
+        "translation": "打开此文档"
+      },
+      "57629": {
+        "source_sha256": "F3FCB3EDE289D8244ADD4D5FDEF90AB3131036541940A676B683AE6D616CC2F8",
+        "translation": "打开此文档"
+      },
+      "57630": {
+        "source_sha256": "F3FCB3EDE289D8244ADD4D5FDEF90AB3131036541940A676B683AE6D616CC2F8",
+        "translation": "打开此文档"
+      },
+      "57631": {
+        "source_sha256": "F3FCB3EDE289D8244ADD4D5FDEF90AB3131036541940A676B683AE6D616CC2F8",
+        "translation": "打开此文档"
+      },
+      "57632": {
+        "source_sha256": "E537A5E03A93AA03D390A73681951DB1132518268CCACF865351C1D4F7AD84CE",
+        "translation": "删除选择\r\n删除"
+      },
+      "57633": {
+        "source_sha256": "4972E97B219C7BB82A5EA9EE5D4B1C495DE30BF1B007AF680F9F98DAE73D21C4",
+        "translation": "擦除一切\r\n删除所有"
+      },
+      "57634": {
+        "source_sha256": "31BB4D5D9ECAB99A2B63AC057BA08CC3408DF9A069C5814F0DA32EFFAA78E33C",
+        "translation": "将选择内容复制到剪贴板\r\n复制"
+      },
+      "57635": {
+        "source_sha256": "EA399F081EF6B87766FDF9F5047471ABCD59F03AFFB58C114AEF56409ACA56C9",
+        "translation": "剪切选择并将其放在剪贴板上\r\n剪切"
+      },
+      "57636": {
+        "source_sha256": "8CC869194C36C51BBA99B8E59F4312A88CBD772518EFC2B2D8AF659DF169F75D",
+        "translation": "搜索文字\r\n寻找..."
+      },
+      "57637": {
+        "source_sha256": "EA7ED3CCFF2D892F2F48432EFB26F1FE62C7B84C6848E941A5A2CF896E36FD95",
+        "translation": "插入剪贴板内容\r\n插入"
+      },
+      "57640": {
+        "source_sha256": "FA4BED86A178D5D99BD4035AB3F585ACAE698ECE8C5988A6E19FAAD13BCF1AF4",
+        "translation": "重复上一个动作\r\n重复"
+      },
+      "57641": {
+        "source_sha256": "08194037BBA01F03F42A9410F887FBAA903BC6D582046C6AE515F1628C8227FC",
+        "translation": "用不同的文本替换特定文本\r\n替换..."
+      },
+      "57642": {
+        "source_sha256": "99FC84D108784781BC1F6A30ACC82B137D37CC4B600DA6B9EE40C9D0F398C064",
+        "translation": "选择整个文本\r\n全选"
+      },
+      "57643": {
+        "source_sha256": "C288FF41F032F7D87A2A81540E0A5D2E1FBC9294AFDA7110658F3D4311440B00",
+        "translation": "撤消上一个操作\r\n撤销"
+      },
+      "57644": {
+        "source_sha256": "A134D4BCE0A0CE022FCF8CBF275959D56CB8B78C746D3C9D462818B0F59B3710",
+        "translation": "恢复上一个撤消操作\r\n恢复"
+      },
+      "57653": {
+        "source_sha256": "1A77885CC48C7ABC818F13268B2227ED1F92CA2E0E4D2B0167BB699297658976",
+        "translation": "将活动窗口拆分为窗格\r\n拆分"
+      },
+      "57664": {
+        "source_sha256": "430D82677A80B656D1B89AD22C6033529E52A7D85A78BD9B96AD79F8A126D28B",
+        "translation": "显示程序信息，版本号和版权\n关于μVision"
+      },
+      "57665": {
+        "source_sha256": "FE31141C43E9443E30677C38B17BCB69D3B56226B4F33E1AA3899A93B76847D7",
+        "translation": "退出μVision(提示保存修改后的文档)\n退出"
+      },
+      "57667": {
+        "source_sha256": "5EF3B10425176DE8F728464A36459AD3E71E4BA69777CCBE49BDAD8380DF615C",
+        "translation": "列出帮助主题\n帮助主题"
+      },
+      "57669": {
+        "source_sha256": "C775EA1AA413BC1592AB6B403489DC1ECAFE64B330C4B6E48333321309ABFD98",
+        "translation": "显示单击按钮，菜单和窗口的帮助\n帮助"
+      },
+      "57670": {
+        "source_sha256": "A62F7DA6F8C2004D38B0F53DA2597110DB8FE8EB169567EFB40042EC28232C2D",
+        "translation": "显示当前任务或命令的帮助\n帮助"
+      },
+      "57680": {
+        "source_sha256": "7F5B995E572784FA448CF8C6693DD36AF7B274909771321F7BD9DB9FC4912307",
+        "translation": "切换到下一个窗格\r\n下一个窗格"
+      },
+      "57681": {
+        "source_sha256": "AC22574FFFF7A5824ED4C7D704D4C3307E0E56371FDCE71FC956E40D23E96408",
+        "translation": "切换回上一个窗格\r\n以前的窗格"
+      },
+      "59392": {
+        "source_sha256": "6DAB411C2F692B3F3E51DAABD23E06491EB1E60F027560B97C8B690987E0DB77",
+        "translation": "显示或隐藏工具栏\r\n工具栏"
+      },
+      "59393": {
+        "source_sha256": "3F08B4697660B39AD33AA47051966F70CD0FAABB7336BCCCF89922AD0FC9256B",
+        "translation": "显示或隐藏状态栏\r\n状态栏"
+      },
+      "61184": {
+        "source_sha256": "6AEE4357995B102D88DFCC5ABBDB87ECD11B5DAABEBC43A4B715B039005061DE",
+        "translation": "更改窗口大小"
+      },
+      "61185": {
+        "source_sha256": "26B36F288C6EF0E08C6966052FBDB79E2C0C95C0210FDC8C811E0142588F763C",
+        "translation": "改变窗口位置"
+      },
+      "61186": {
+        "source_sha256": "0221F6F0DFB17A3EB12D116560A0DD559F5DB3FEE2E4241782CAE67657678F94",
+        "translation": "将窗口缩小为图标"
+      },
+      "61187": {
+        "source_sha256": "54B666463CDDC40BCE95AA73999A07808B90091F47CDA390187F15DF35C875A6",
+        "translation": "将窗口放大到完整尺寸"
+      },
+      "61188": {
+        "source_sha256": "CEA527FF0417661BE49E0E8A1D39982A37C4FD080B8F30EB8902052508EA9DCB",
+        "translation": "切换到下一个文档窗口"
+      },
+      "61189": {
+        "source_sha256": "99DD3378BD680011BB1987D64458633CAD84667843EBD69113DBE4FBEE14B1D4",
+        "translation": "切换到上一个文档窗口"
+      },
+      "61190": {
+        "source_sha256": "ADF99715C181716528174040EEDFF68FCFDF95B30619B052F97DDDFFFC6821DF",
+        "translation": "关闭活动窗口并提示保存文档"
+      },
+      "61202": {
+        "source_sha256": "484FD83E35A6A2B00C20247F809163FD4AC9650101031BCACA00AF7104322C9F",
+        "translation": "将窗口恢复为正常大小"
+      },
+      "61203": {
+        "source_sha256": "D8E0269E806CE633FCE3BEE91A217A9A8472AA08C9CCDA9F82516A499695CDDF",
+        "translation": "激活任务列表"
+      },
+      "61215": {
+        "source_sha256": "5ACA75E1D50EE2D5221D25D8157E8E383E06E1581A85F9E7A86FE011B1506977",
+        "translation": "激活此窗口"
+      },
+      "61440": {
+        "source_sha256": "547B2C48E96249EEF90CAA6355A3C890EF82127F2348305075ABAECFBFB92DCB",
+        "translation": "打开"
+      },
+      "61441": {
+        "source_sha256": "48014F6E7B3916E033452FA05B5807B9E2F77B97E958E00297D2988A8F7FFC04",
+        "translation": "保存为"
+      },
+      "61442": {
+        "source_sha256": "EBC715A2C144B5126A5AE50F0B5E0D35A8E75507E6636CEFC89FA5FA87FEA794",
+        "translation": "所有文件(*.*)"
+      },
+      "61445": {
+        "source_sha256": "F811511762A05AB020C189196C87E20C9D3CF96382F4C068EB2EE71DF76720FD",
+        "translation": "关闭打印预览模式\n取消预览"
+      },
+      "61446": {
+        "source_sha256": "293E8D53A881F682ECD37E99BBB403583443E76666E54E4CFB6B6465A3A80F2F",
+        "translation": "未命名的文件"
+      },
+      "61448": {
+        "source_sha256": "C640529794B6B69F6BA5D05C9264288528F9C30F96A97C931C5BB0A75569AC69",
+        "translation": "&关于 µVision..."
+      },
+      "61472": {
+        "source_sha256": "5B6903AB47F2EABE6803413E1B40BDB2E06CF4D7C95AEB15B522A49983FAD6B4",
+        "translation": "没有错误消息可用。"
+      },
+      "61473": {
+        "source_sha256": "05380804D63988D5A47136E22C898E20764714DF05F8551C2502A73CE9D613D9",
+        "translation": "尝试了不受支持的操作。"
+      },
+      "61474": {
+        "source_sha256": "26004B6E2233E79592D1FFD79BAA8981E03945FD4805404432FE5BD275249FB5",
+        "translation": "所需资源不可用。"
+      },
+      "61475": {
+        "source_sha256": "AF046768646553A7EC61E8726D8B2D28EFEDDB20D32B67E377B21007B6FA68C6",
+        "translation": "内存不足。"
+      },
+      "61476": {
+        "source_sha256": "A0ACB06F49B313EFDB3E5FB656458A5DBDD3515F5DFCD0DB873A145603E430C9",
+        "translation": "出现未知错误。"
+      },
+      "61477": {
+        "source_sha256": "3DAAD4EAF7F03E894B28FE68C382583EDBBB35D4FDE0E6F984311BAC4A3E99DF",
+        "translation": "遇到了不正当的冲突。"
+      },
+      "61512": {
+        "source_sha256": "2BC778096D19C11F8A228E8A9619AC6030B004D1DEE81546981DF212EBA80E2F",
+        "translation": "打印到文件"
+      },
+      "61696": {
+        "source_sha256": "B98D7C74EE8815B079FF2045F4CB0307098CB98AAC495F8DB1194329CCB3B7DF",
+        "translation": "文件名不正确。"
+      },
+      "61697": {
+        "source_sha256": "0420EDE97ADC84A2F71911224B1F99A88D009EE40EABEB1B158FED33033578A4",
+        "translation": "无法打开文档。"
+      },
+      "61698": {
+        "source_sha256": "306A7D17D99E365CFBA7AFE64818B51BE942AA3978BBD477E75713FD5D8CEB1C",
+        "translation": "无法保存文档。"
+      },
+      "61699": {
+        "source_sha256": "2D3BE329254AED53E66B479C8B3EC011DD3BD60615466B7C2DC8BF331BBF9FDC",
+        "translation": "保存更改 %1?"
+      },
+      "61700": {
+        "source_sha256": "5CF97F365FF598343D82EFC64CB434A00A20D3B8147C0D2F2E58C8D137AD9940",
+        "translation": "无法创建空文档。"
+      },
+      "61701": {
+        "source_sha256": "9D97254AE59D51D79A66DD35671D4AFA5D112E5D323ECE639D0697566BE3C62C",
+        "translation": "该文件太大而无法打开。"
+      },
+      "61702": {
+        "source_sha256": "7D83647FB378463D9AA8620B7D8E0F2F8CEDFC840CEEFDAA94A117925C6D5D9A",
+        "translation": "无法启动打印作业。"
+      },
+      "61703": {
+        "source_sha256": "5AFC3A3077A157A60A2E4000CA62AF30ABF6F4058F7C5078572B40C6044AD98B",
+        "translation": "无法启动帮助。"
+      },
+      "61704": {
+        "source_sha256": "5AEFFB9B272D6199BD1DB7C620F3D270CD20F7FF8582D79EA8A04308ED41B093",
+        "translation": "内部应用错误。"
+      },
+      "61705": {
+        "source_sha256": "71FA3C5DBF1316649640BBB2F9476E367CC10F02A3C523E960B8630A379B6F40",
+        "translation": "命令失败。"
+      },
+      "61706": {
+        "source_sha256": "83D6D2C8A97CCE23C6FFF0D610F412EFFF6640C39402092AB0437A52BA00A4C5",
+        "translation": "内存不足，无法执行操作。"
+      },
+      "61707": {
+        "source_sha256": "E87CD5C5F655988BCE18990EE08FEAADFB972353F4F5E60EC226CCE135131886",
+        "translation": "系统注册表项已被删除，INI文件（如果有）已被删除。"
+      },
+      "61708": {
+        "source_sha256": "DB0403847527003C77C9C407402610FDFABECE60F1F1292B3462E9D306264D6F",
+        "translation": "并非所有系统注册表项（或INI文件）都已删除。"
+      },
+      "61709": {
+        "source_sha256": "AE95585E32F21FEF8D1A6D5AE87704C22D7D783374FE4BE7461ADC11BE8D8D05",
+        "translation": "此程序需要文件%Ts，这是在此系统上找不到的。"
+      },
+      "61710": {
+        "source_sha256": "885368E9775B7E5D6364D5971C109E5372D1D440B84071ADD3556728E7EAF793",
+        "translation": "该程序链接到文件%Ts中缺少的导出%Ts。 本机可能具有％Ts的不兼容版本。"
+      },
+      "61712": {
+        "source_sha256": "2EA06D65D04F5F5C939FB4EC7974C6D9815D2C922F3D06CF7DD8988C4778CAA3",
+        "translation": "输入一个整数。"
+      },
+      "61713": {
+        "source_sha256": "B20E25E45F54636B512B65AA1B6DC0F19546D1F58A450575A73C999EF204D60D",
+        "translation": "输入一个数字。"
+      },
+      "61717": {
+        "source_sha256": "2ADB2B47B177FB866B10F5265CA3B96FC41EE03E488478A7DFF795DCB92B073E",
+        "translation": "选择一个按钮。"
+      },
+      "61718": {
+        "source_sha256": "1067B8A38D1F601AFA408F8D62D058B505512C99753FA0DCFDFD695BEAFB0851",
+        "translation": "输入0到255之间的整数。"
+      },
+      "61719": {
+        "source_sha256": "C0BC4F7028684172255A54CC0E681A5D07985B61A962A745002677F0AE82226A",
+        "translation": "输入正整数。"
+      },
+      "61720": {
+        "source_sha256": "21CF18339E8B2102EFDA1CEB07A00C0854F7B51524924F53002C1C5BB1C01DF7",
+        "translation": "输入日期和/或时间。"
+      },
+      "61721": {
+        "source_sha256": "1E985036CBDA6351E3F8D205157193F05A5C17937866862F0D3C8B67DA8A9EE8",
+        "translation": "输入货币。"
+      },
+      "61722": {
+        "source_sha256": "1CB2B5FF36319AA117F3B13E45D7D0CF7210EAED6D18CA65B7F5CC6604E89709",
+        "translation": "输入GUID。"
+      },
+      "61723": {
+        "source_sha256": "67849DB61297A325C806B07DA1944205DAC5A356CD838346675BAA6472711CD7",
+        "translation": "输入时间。"
+      },
+      "61724": {
+        "source_sha256": "8BF8B7E77ECA8F067922CEB1A300400A2D15AF1FC395335D9B2B00FEF1D694DF",
+        "translation": "输入日期。"
+      },
+      "61728": {
+        "source_sha256": "5DC37A45BC845C6AB4B0E6BADF1F66915D6BF1F3682D8C31B4F0F46E3E26F6E3",
+        "translation": "意外的文件格式。"
+      },
+      "61729": {
+        "source_sha256": "0F87E9872CD1503C0B9176032B722E0B4AE91A86C76A96708D84DE2F93793329",
+        "translation": "%1\n找不到此文件。\r\n验证是否给出了正确的路径和文件名。"
+      },
+      "61730": {
+        "source_sha256": "69AA681B6A425FAAD6922FEE5119BC6E6A4DA11F694A7C0EE34474B74917427F",
+        "translation": "目标磁盘驱动器已满。"
+      },
+      "61731": {
+        "source_sha256": "C5F00E80091249E4F25DB6B2B12B527FF35AF00CCE1450F27AC29EDC15C1D863",
+        "translation": "无法从%1读取，它由其他人打开。"
+      },
+      "61732": {
+        "source_sha256": "471C310751FA0DA737961B107A2B612AEFF07AF751FCCE0BB8F15561B0B1632C",
+        "translation": "无法写入％1，它是只读的或由其他人打开。"
+      },
+      "61733": {
+        "source_sha256": "9B67B7AFE39EEE45E820A69D7288FEE1137D7FB8E1A305E3FE3C5BE127983D13",
+        "translation": "在读取％1时遇到意外错误。"
+      },
+      "61734": {
+        "source_sha256": "26F19ED32CC8F2F7817C51471C728089C6BD18CE511A944820C8C67A6EF44F1C",
+        "translation": "编写％1时遇到意外错误。"
+      },
+      "61744": {
+        "source_sha256": "88D3E27A6A54106CB030ECB7B5F97707931DFBDC33D28D5FE46D259990260249",
+        "translation": "%1: %2\n继续运行脚本？"
+      },
+      "61836": {
+        "source_sha256": "17448165DE87B1A9A69C139552E28E9CD83A917FB28F4F91732AF04322CA9C38",
+        "translation": "无法读取只写属性。"
+      },
+      "61837": {
+        "source_sha256": "2A607F93EEAF15C26FC18190735F6D5323B1D82FE408B84093FEF9EAA1B71AD3",
+        "translation": "无法写入只读属性。"
+      },
+      "61840": {
+        "source_sha256": "F0EDE78DC8A739814D2607B485FB466E1225A307E70F3D0594EF98A0B48BC73C",
+        "translation": "无法加载邮件系统支持。"
+      },
+      "61841": {
+        "source_sha256": "E56AD255BB2BA74290EFFD09FBC2BCEAC87BAB46204529361D6B421748C735B0",
+        "translation": "邮件系统DLL无效。"
+      },
+      "61842": {
+        "source_sha256": "361DD735CB2553DC9DD0D9BABC2BC450604C99C3AB30C31470886BC365FC51B6",
+        "translation": "邮件发送失败"
+      },
+      "61856": {
+        "source_sha256": "75285B94F635B0B5A94B8E197B6B9538D29720F79CE183283332FD08F68F14B7",
+        "translation": "没有发生错误。"
+      },
+      "61857": {
+        "source_sha256": "6F3E9C331EB94123A1699FAE1232A4B2D0B017EAD5915F90037B866AE54305A4",
+        "translation": "访问时发生未知错误 %1."
+      },
+      "61858": {
+        "source_sha256": "520EC0DE990CC7DFC35ACD75EDA46FFD281CC3B7F8B5628ACF67B7CB03551F76",
+        "translation": "%1 未发现"
+      },
+      "61859": {
+        "source_sha256": "B573A4632DB9DB735CACB0D6E235472E051F5F6A485A76BDBBF3AEB06AAE6FFB",
+        "translation": "%1 包含不正确的路径。"
+      },
+      "61860": {
+        "source_sha256": "15A368AC960958EC5C9728C901A0CDCE58A3AC11760B0FEA087183FBCA378D34",
+        "translation": "无法打开%1，因为打开的文件太多。"
+      },
+      "61861": {
+        "source_sha256": "0492233BDC943E85F666B806F9C68A3CB4CDA874963110E2C388F9981B3B4B16",
+        "translation": "访问%1被拒绝。"
+      },
+      "61862": {
+        "source_sha256": "868F2D89AB3189E645A4EB3302D102E410EDE30CF8725BA183DC0A1E5C33D3B1",
+        "translation": "不正确的文件句柄与％1关联。"
+      },
+      "61863": {
+        "source_sha256": "1D116E2185369EBBD700C0697705B2CCC02724CFE9D58668A835345B46638FE2",
+        "translation": "无法删除%1，因为它是当前目录。"
+      },
+      "61864": {
+        "source_sha256": "B956AA0F7236F08CD9FAAE13B3570D2F433788E7D6FE04C632DB9E7F4A12EE39",
+        "translation": "无法创建%1，因为目录已满。"
+      },
+      "61865": {
+        "source_sha256": "253A21EEA22204AFEDBDB09040AC4D33CF76974149D89F2C6D7D707587A5DE63",
+        "translation": "在%1上寻找失败"
+      },
+      "61866": {
+        "source_sha256": "6D2338BF6DCC24CE72F20F2608537952F49F8A9408D851788AAFFEBC523712D9",
+        "translation": "访问%1时遇到硬件I / O错误。"
+      },
+      "61867": {
+        "source_sha256": "F99374E880F058DE441B74A343E3486D1C3BAA9D93CC6CA9CB701DB1F4DDD315",
+        "translation": "访问%1时遇到共享冲突。"
+      },
+      "61868": {
+        "source_sha256": "97E0F692561445402DF3F7883D97092F6C8D3C743723626A3CE9020EAACE15B7",
+        "translation": "访问%1时遇到锁定违规。"
+      },
+      "61869": {
+        "source_sha256": "14873EA9912F887F9BF3560E171BA4ED5BA559EC624C70B5EB9613512CA1FB59",
+        "translation": "访问%1时磁盘已满。"
+      },
+      "61870": {
+        "source_sha256": "CB2309F76F7A20C545D252B3BCBF24AEDBDBE141CF1A2EF7CCEBBFB3E12F2702",
+        "translation": "试图在结束时访问%1。"
+      },
+      "61872": {
+        "source_sha256": "75285B94F635B0B5A94B8E197B6B9538D29720F79CE183283332FD08F68F14B7",
+        "translation": "没有发生错误。"
+      },
+      "61873": {
+        "source_sha256": "6F3E9C331EB94123A1699FAE1232A4B2D0B017EAD5915F90037B866AE54305A4",
+        "translation": "访问%1时发生未知错误。"
+      },
+      "61874": {
+        "source_sha256": "7DEECB331E8DAF4159C4C91C223C392710D462CB0631BAB8FE6A586571AEB4FB",
+        "translation": "试图写入读数%1。"
+      },
+      "61875": {
+        "source_sha256": "CB2309F76F7A20C545D252B3BCBF24AEDBDBE141CF1A2EF7CCEBBFB3E12F2702",
+        "translation": "试图在结束时访问%1。"
+      },
+      "61876": {
+        "source_sha256": "E225E135A503EB7204EDD39C9800B6F922428680921330AAECB6D944FC2E5999",
+        "translation": "试图从写作％1读取。"
+      },
+      "61877": {
+        "source_sha256": "B0EB0759F00833F028CD23D3834675689AB2F2237F5DA6CEDE2366A66F385EFC",
+        "translation": "%1的格式不正确。"
+      },
+      "61878": {
+        "source_sha256": "4E847869B0DFE07B3C244782A95E2B4A2F72C39C4C8A4271C5ED1DF853BE61DC",
+        "translation": "%1包含一个意外的对象。"
+      },
+      "61879": {
+        "source_sha256": "EE6AE2FCA8D395C705EAF69AFD3CE7A835EC89C3E497B7BB6DC33D0B0C715C7C",
+        "translation": "%1包含不正确的架构。"
+      },
+      "62177": {
+        "source_sha256": "D5679D16A62B43B841375BE108317217619DC9FDBF08BC264DA66AC4757DD5D0",
+        "translation": "取消检查"
+      },
+      "62178": {
+        "source_sha256": "4130E838426B8D1C5B659D7016B884E793BD967A3863A35384AB76965818DE03",
+        "translation": "检查"
+      },
+      "62179": {
+        "source_sha256": "5560034CBE9F34704C85CC397ACC59C1BFE6BA4B90F4426B2886594E5327468C",
+        "translation": "混合的"
+      },
+      "62180": {
+        "source_sha256": "26DBEF33BA6FFA4AC27023C0A9EFA75D8E3D06B9AFEA0603BD896DDC8289DDBC",
+        "translation": "找到一个或多个自动保存的文档。"
+      },
+      "62181": {
+        "source_sha256": "01978BECCBB21ED1187576DA9D1F3E319FC52B490653AEE5C042BF662A41B364",
+        "translation": "最近保存的文件比当前打开的文档保存，并且包含在应用程序关闭之前所做的更改。"
+      },
+      "62182": {
+        "source_sha256": "4760EC46B68DA0916B66397130CE759D8395BCF46087107FC521D7C0B326BE5C",
+        "translation": "要恢复这些自动保存的文档吗？"
+      },
+      "62183": {
+        "source_sha256": "2E4EE315A821D26C101E471BE89CC703BF78891D0CA41AE17946AD4CD1781A30",
+        "translation": "请注意，如果选择恢复自动保存的文档，则必须明确保存它们以覆盖原始文档。 如果您选择不恢复自动保存的版本，它们将被删除。"
+      },
+      "62184": {
+        "source_sha256": "DD791649099286A2963091D86167B6B5DC1863CDBC3DE35A2E07DBA3556700BE",
+        "translation": "恢复自动保存的文档\r\n打开自动保存的版本，而不是显式保存的版本"
+      },
+      "62185": {
+        "source_sha256": "7EF813CE4A66F506234DC6122B972D211E1A95FC0718B957EFE981FC2ED396C5",
+        "translation": "请勿恢复自动保存的文档\r\n使用最后明确保存的文档版本"
+      },
+      "626": {
+        "source_sha256": "C388DED67D9AF25326B5C1F62061B8E982766883F9EB4965766ABA86E81B0E3A",
+        "translation": "指定用于目标的软件包\r\n选择软件包..."
+      },
+      "649": {
+        "source_sha256": "08EA9402897893D1C8274AF2029271E0E716C3A0A069BAF4F7317C01BE170261",
+        "translation": "寻找\tCtrl+F"
+      },
+      "650": {
+        "source_sha256": "8E2B62216B72ACA50C8B9138F62DB9806B6951AAB91349AA25CB7C403FF45B67",
+        "translation": "替换...\tCtrl+H"
+      },
+      "651": {
+        "source_sha256": "6094A2A6793F120CF39B961C25BBB78A5609BC7A26942CEEF8F20370F0D3AD24",
+        "translation": "在文件中查找..."
+      },
+      "652": {
+        "source_sha256": "D2AC96E11473190C5C6F162F0CC5A341771C17C5E6BB388A98D3A3DA88E4B70C",
+        "translation": "增量查找\tCtrl+I"
+      },
+      "653": {
+        "source_sha256": "29E1B83592F860A3A4ACDBE52E7C5DFE0AF23687F31AE0567D1B16CFC829AB2C",
+        "translation": "大纲"
+      },
+      "654": {
+        "source_sha256": "276A305595665561358B437CDCDEBE8BFE7B0C996799AFC3463D6A9D0CF8F8EE",
+        "translation": "显示所有大纲"
+      },
+      "655": {
+        "source_sha256": "1A7FE070619EEC68A8681169C66AFF3314154C4DAD0CDE5FA96F1B0F5B142B8A",
+        "translation": "隐藏所有大纲"
+      },
+      "656": {
+        "source_sha256": "11BFB270BC43D783136033F74A00A7AC52646D489DA40FBB7BDCB2ECE1FA8F84",
+        "translation": "展开所有定义"
+      },
+      "657": {
+        "source_sha256": "C050E556065DBD02CCFD503B5359C7C0B68EB04B0A481C429F0C97B6FA1CB46B",
+        "translation": "折叠全部定义"
+      },
+      "658": {
+        "source_sha256": "2F370EA30CDFB652424196F2DAD948F2D95159CBA962CB77F978111E81FC6B2B",
+        "translation": "折叠当前块"
+      },
+      "659": {
+        "source_sha256": "2241BD65D10862B67179C4773DCAE4685E469F00E2C0C7FFC51EB54D359F2E63",
+        "translation": "折叠当前程序"
+      },
+      "660": {
+        "source_sha256": "72045F0328E8154CAD517726F8394B68058C4A6F37547184A6C1925A7A98225D",
+        "translation": "高级"
+      },
+      "661": {
+        "source_sha256": "86844449AAB3A47ECEFB320F2A2D7423735FD424535C39AD145A5005D1552A52",
+        "translation": "转到行...\tCtrl G"
+      },
+      "662": {
+        "source_sha256": "ECCC56F956C9E6FE2E421D65E9FC30B7437517DCDB2D2820CD7B1B407CD640F5",
+        "translation": "选择文字下注和匹配大括号\tCtrl+Shift+E"
+      },
+      "663": {
+        "source_sha256": "367818C55B6268F410C56D4F118D0EF386A72D6250BEC7577DF694A925928A6E",
+        "translation": "去匹配大括号\tCtrl E"
+      },
+      "664": {
+        "source_sha256": "DA22BA564BC53E35C7D533AF88C75EEA96EF9B66D7A38B83D859FDFE524D0E76",
+        "translation": "选择标签"
+      },
+      "665": {
+        "source_sha256": "5C3D0A3C7B0324046BC1AE455EC29FB60B9E7B3A14B13703A0624DDA5F624070",
+        "translation": "取消选择"
+      },
+      "666": {
+        "source_sha256": "EF526F62C2A1E89C0FFD8EEB2B78E387C404A3C0046BF752E0FD924F5D6A480B",
+        "translation": "使大写"
+      },
+      "667": {
+        "source_sha256": "6622C6CBD8157EB42032787A4A21D9C3CC5088FE4CFC83F9E8B13E2601011AE1",
+        "translation": "使小写"
+      },
+      "668": {
+        "source_sha256": "0875E2EBDBAAC8315C0B379730363C1EA9D3F33BDD2AD9E5D522A2C1FA433FF0",
+        "translation": "注释选择"
+      },
+      "669": {
+        "source_sha256": "2DFE8D81CDC642C33104EC2EEB87C99F715C2ED6049CC64E3B020F38204193CF",
+        "translation": "取消注释"
+      },
+      "670": {
+        "source_sha256": "1B62BC38BB6ADD719506D8D10535CED2C1B40BEF440D688C627E4F095D9EED32",
+        "translation": "缩进选择"
+      },
+      "671": {
+        "source_sha256": "470E989992F32D9366E3B0B5FA4A980968E856E2E7B88933AC245417622F94E6",
+        "translation": "取消缩进"
+      },
+      "672": {
+        "source_sha256": "F3428A8E16C1D25C5374A1C558A1DDDCC1792FE206CA4BB48DC898116D0E952A",
+        "translation": "使用文本缩进选择..."
+      },
+      "673": {
+        "source_sha256": "8EC30DBC6C22354B1D55D4CD94C23D2409EB31EAC62425CC71B92BF302F1F99C",
+        "translation": "取消文本缩进选择..."
+      },
+      "674": {
+        "source_sha256": "514CDB8B207E3924CD6CD4F76F43384BBB4D019B88322873183490DEBF891850",
+        "translation": "删除尾随空格"
+      },
+      "675": {
+        "source_sha256": "CBA2479B698C89B3EC3EFE5B998A5233217F4B78C4F63345E88BF630AEF8CEB9",
+        "translation": "删除水平空格"
+      },
+      "676": {
+        "source_sha256": "F6804AFDC218BBE7EA5A80A1ECAFA4E38610B0E333751C8F360685D8FE4C2E5A",
+        "translation": "切割当前线"
+      },
+      "677": {
+        "source_sha256": "B1B5FF9F30FABF9A731E07B9DFCE831D607EECBCC8BC0E7C33B3EABB569972C1",
+        "translation": "转到单词定义"
+      },
+      "678": {
+        "source_sha256": "83D12544B7E3D4818B6CDFAAFEFA807075D522F398C2549A6203B838CA76AE17",
+        "translation": "转到单词引用"
+      },
+      "679": {
+        "source_sha256": "1A568DBC6B35C0385CFA4E5190F9F802A844A33DC76F454C56CA3F6B9881EFB3",
+        "translation": "切换文本编辑器/配置向导"
+      },
+      "680": {
+        "source_sha256": "2078332C4AF39A0F23849732AB9664B19F0BE800104412881C8004BF5F953591",
+        "translation": "配置"
+      },
+      "681": {
+        "source_sha256": "1BA8D9456C740CCC8ABAE7F9F6F23B19500C631DB358B4B0790E8C43BDBADE0F",
+        "translation": "视图"
+      },
+      "682": {
+        "source_sha256": "A424DE8C995E31C1848B06A23A79CEC616C92C7A03F9EBF7072C27AD333035B6",
+        "translation": "状态栏"
+      },
+      "683": {
+        "source_sha256": "3FB7C3B7E88CFC3B7CF7A11F6251CED47D966F2635352B2F0E87D7400DE87F7E",
+        "translation": "工具栏"
+      },
+      "684": {
+        "source_sha256": "28E6A3CD7AD267ADD25169CCF27BC3BA6CF12E19F9DACBF9057F5EC4579300C5",
+        "translation": "文件工具栏"
+      },
+      "685": {
+        "source_sha256": "985C66FFB8C32510D0134B2C3E6263638AF4317EAE1378CA7E3DC898DABF9C2E",
+        "translation": "编辑工具栏"
+      },
+      "686": {
+        "source_sha256": "329C82C514123E89C9BA2502225C625792C66242C7323A0F204006A1687B7405",
+        "translation": "构建工具栏"
+      },
+      "687": {
+        "source_sha256": "8C5345C080D2115A008A96E7D1BC436F8888842B2F417AB4D5EC9F6FEB5FD6A4",
+        "translation": "调试工具栏"
+      },
+      "688": {
+        "source_sha256": "5424B7E5258558D32EE238D3D37FC11448E3D059A8C855D5E47B467562A82D31",
+        "translation": "项目窗口"
+      },
+      "689": {
+        "source_sha256": "9A46A44DF698E50A7925EAE7A26B883D54BC01D6C65DE7A116088574977EE510",
+        "translation": "书籍窗口"
+      },
+      "690": {
+        "source_sha256": "55728D0272C9263361FEFFB6C280486CCE5D5E7CFCC5BD076446EF5A16211EA3",
+        "translation": "功能窗口"
+      },
+      "691": {
+        "source_sha256": "C5534A511D8B0C295B29BFD9E5C188587998484CFF56AD6D9D0192F0F6746204",
+        "translation": "模板窗口"
+      },
+      "692": {
+        "source_sha256": "C83C5A609083D21362B0468D76E60E7CE71C579180C2942509C803084CDC44A1",
+        "translation": "源浏览器窗口"
+      },
+      "693": {
+        "source_sha256": "F71A9F6A2DDC4F9DCBEC277CB3AF65839CF4FB813804307FC59260C653CE3FCC",
+        "translation": "构建输出窗口"
+      },
+      "694": {
+        "source_sha256": "52D34F8133682DD4B32CFEBDEA4724025FAB7BBE83A17DC28B3373C2BBCBAF37",
+        "translation": "错误列表窗口"
+      },
+      "695": {
+        "source_sha256": "6BCA658D60657CE45D29853E5A68DD7706004E8AA8B3E8377269F88CBE649508",
+        "translation": "在文件中查找窗口"
+      },
+      "696": {
+        "source_sha256": "F0F501D71F191C0ECFA3D39A824F9E7015A7E4EF15F50BA7756B39ACDE8E7493",
+        "translation": "命令窗口"
+      },
+      "697": {
+        "source_sha256": "FF0C6ED9ADA4DE80AF737F48D70724F2DD58F0F570A23EC5C4ACB11BC68A47B4",
+        "translation": "反汇编窗口"
+      },
+      "698": {
+        "source_sha256": "2CF9DABE315C0E6ECF4E4517535F029616046224F63AEFE6285CC2FC92EC45FA",
+        "translation": "符号窗口"
+      },
+      "699": {
+        "source_sha256": "B96847E28A1471F30C133CDA95D45C45DB152CDDD4002AB8F1A1AC264AA46B4A",
+        "translation": "寄存器窗口"
+      },
+      "700": {
+        "source_sha256": "82D7810CE26B493E333B9B2C0F64BA7E7C1A94CBD2C5452E683B8C027998D2E7",
+        "translation": "调用堆栈窗口"
+      },
+      "701": {
+        "source_sha256": "EBFB24D4C58DA66C8AC5B80CE0DC49F49A4BAF34336D4729EF083F5D6B7037A9",
+        "translation": "观测窗口"
+      },
+      "702": {
+        "source_sha256": "AC6E35E819E55B8A662D5F2D8735A6BCB08D7DB6529B886E1EB1D378E9AC4A39",
+        "translation": "观测 &1"
+      },
+      "703": {
+        "source_sha256": "D9ABB01ADC092109BC7B8C0150FB71BDD328D07FC8E63EF5E8869E538655A2EC",
+        "translation": "观测 &2"
+      },
+      "704": {
+        "source_sha256": "F0AB8F9E96B5C50EB1E431328A9A32129F65D77C339F8A63540F78C666F805FD",
+        "translation": "内存窗口"
+      },
+      "705": {
+        "source_sha256": "38086287804A6571B73D1F7FB54BD309BC56933E761C3D4260ED6868C827B754",
+        "translation": "内存 &1"
+      },
+      "706": {
+        "source_sha256": "996540B88CDCC29FF1113A1F34704FEE5D08FA42AE641300F0AC9C551B985756",
+        "translation": "内存 &2"
+      },
+      "707": {
+        "source_sha256": "78DA6BE40335B33F1A16E9007BA2510DE41087F0CAF216D7BB87ED37C789070F",
+        "translation": "内存 &3"
+      },
+      "708": {
+        "source_sha256": "9D5F2025501C231910DB4DCD3A8E1EA1D1BD91978CAAB1A72412F690A7E2EBE8",
+        "translation": "内存 &4"
+      },
+      "709": {
+        "source_sha256": "2D6C26BDF93E90C3159353C76E5C6354627825FD5C4EAE376176FD07B0ADE0FF",
+        "translation": "串行窗口"
+      },
+      "710": {
+        "source_sha256": "01E574F4DCB68D8148B70AC63C92D388F29E9ABA23EFEF196939B9F49A56BD73",
+        "translation": "串口 #&1"
+      },
+      "711": {
+        "source_sha256": "9F275A0D1F5292CA49E77DA772D7135C01AE7A91FBC0CDA843271658AE4DAE79",
+        "translation": "串口 #&2"
+      },
+      "712": {
+        "source_sha256": "4A6CB27DE872F669108C13A239330C84FF1EAD64E3DC30707DC5929A3CE8CA96",
+        "translation": "串口 #&3"
+      },
+      "713": {
+        "source_sha256": "30BF89872C1C95F4294F1D1392176D8A8618C4D5E46A7CD1E2888B11BBEFF977",
+        "translation": "调试（printf）查看器"
+      },
+      "714": {
+        "source_sha256": "EFAC681EDA3BB6EEB96BF2C774EF50185803B579DAA8AD91191DA7CBEBFE5A4C",
+        "translation": "分析窗口"
+      },
+      "715": {
+        "source_sha256": "9ADCEAA03DBA5B87307BE50486F4B2CDFB59B3B079D5CD839E0965BF39CB33AA",
+        "translation": "逻辑分析仪"
+      },
+      "716": {
+        "source_sha256": "BBAFF03D204FDE646942E994E9CBF424B6056C1D5AC394DE8549E239FB58D41E",
+        "translation": "性能分析器"
+      },
+      "717": {
+        "source_sha256": "8A01E05C5C48F59E533872D6FBC7169E7635AE8EA8864ABF03EBE9F869663457",
+        "translation": "&代码覆盖率"
+      },
+      "718": {
+        "source_sha256": "7F3BD426957955C116133A012446CAFBA8BDCA1212137119EFB9E3DDD191E6F4",
+        "translation": "跟踪"
+      },
+      "719": {
+        "source_sha256": "774836826E8CEEE6D892A1E53352535A363727772E65398F682BF882AC7B5739",
+        "translation": "跟踪数据"
+      },
+      "720": {
+        "source_sha256": "F0674318E9486DA05D580A42693150FA6D0850BB228526AEA3A2999247DDFCB6",
+        "translation": "跟踪导航\r\n"
+      },
+      "721": {
+        "source_sha256": "8E86B1D24C371C095F32A175BD29B6AE0E2C4DD12ADA94BA96FCAD2444D6DEA5",
+        "translation": "跟踪异常"
+      },
+      "722": {
+        "source_sha256": "14DB202F3410553E71A78FFD44008874424EDE29704E93F5985D2EB2D7D4EB5B",
+        "translation": "事件计数器"
+      },
+      "723": {
+        "source_sha256": "E0EA57A1751E3F9C7BA184FF069EA2FD001E0A41100A88045696027CB23D0EF1",
+        "translation": "指令跟踪"
+      },
+      "724": {
+        "source_sha256": "174184DA6FCBB1902A63AB73E6B5D4F750A53F96E06C389979D422D8A447946F",
+        "translation": "在反汇编中显示记录"
+      },
+      "725": {
+        "source_sha256": "1709ED1E146F2C3855B2E8761481FB34518EB5F57E012D77204A8DF93DD0D01F",
+        "translation": "启用跟踪记录"
+      },
+      "726": {
+        "source_sha256": "80867FB5035EF9AF0B8AB0D19042A3830C2C56B65DF38CF2715E84C879CCB080",
+        "translation": "工具箱窗口"
+      },
+      "727": {
+        "source_sha256": "2899F6B5BCE6C2E196BEEC81771C729F2AE6074CC00243BF8E11450069604BCE",
+        "translation": "系统查看器"
+      },
+      "728": {
+        "source_sha256": "30345ADA9570CC2ADF2F84BA9C16FE9F8E962AB0BF2B4F44F2CF973005F2537D",
+        "translation": "定期窗口更新"
+      },
+      "729": {
+        "source_sha256": "89896ACADBE953E49AA9CFE3E2F038DC274B7C02300254AC72AC7101788FAF82",
+        "translation": "项目"
+      },
+      "730": {
+        "source_sha256": "3FBAC301DC2DF1B565284DC784CFA0D014CD1429A3BF6D826A6339D8E4BC430A",
+        "translation": "新的多项目工作区......"
+      },
+      "731": {
+        "source_sha256": "F2753CCB74CDA5A51EEF8B34A0565BA951D8B8710A76E8F01C3D6E003B7ED536",
+        "translation": "打开项目......"
+      },
+      "732": {
+        "source_sha256": "73A70F3D5634CD13F0B72595C94BEE2340C9B8F25E3C49FD57F349DC57F22C2F",
+        "translation": "关闭项目......"
+      },
+      "733": {
+        "source_sha256": "296590FB72A9F540386BB9DDF43D87498BD3BDA62689ADE5C1350E89324CD84D",
+        "translation": "输出"
+      },
+      "734": {
+        "source_sha256": "F15846F8E28CC6E2A0C0A67E703AEC2B5384D27989778F3E4A8A17C887EAE829",
+        "translation": "管理"
+      },
+      "735": {
+        "source_sha256": "6708CFEB6FE0FA2E591A772550D554976C8F90DE83C4F0DB13FFF756A46F3E16",
+        "translation": "项目列表"
+      },
+      "736": {
+        "source_sha256": "1FC99EF8F9FCA48DD1A864D089491709262E30426404C1BE6B4F882125685A7E",
+        "translation": "项目 '%s' 项目列表"
+      },
+      "737": {
+        "source_sha256": "AE5F30D0A55A230A944E18DA20DCC30C083FBF41C1EACF02785DAD7BC5666809",
+        "translation": "多项目工作区......"
+      },
+      "738": {
+        "source_sha256": "7B6A26F56B474771EDFF504991585151561E78E8BB69ECE751A5E7C2C86EA863",
+        "translation": "运行环境..."
+      },
+      "739": {
+        "source_sha256": "0433593BDEF18DA1627734CE2D6C4E99416780B474E55E3096F1999EF38E66F0",
+        "translation": "选择软件包......"
+      },
+      "740": {
+        "source_sha256": "D3F5C2068E0DF8471C3F7EE2CF101E2F539313D50A128F34AF4B3767D73A410D",
+        "translation": "重新加载软件包"
+      },
+      "741": {
+        "source_sha256": "F6AEAE3D25F82296B4185F5D54CE62A8B96E8DE91FF96D5B973FB85DE7E09E13",
+        "translation": "包安装程序..."
+      },
+      "742": {
+        "source_sha256": "1113C444FE82F270698735A7534843070498155975DCA04E91C4F87867390AA4",
+        "translation": "迁移到第5版格式..."
+      },
+      "743": {
+        "source_sha256": "3F2C90202F8B02C6FDD9842C52EB807FDB94CA127476BDD3E294E58562CE42FF",
+        "translation": "选择目标设备..."
+      },
+      "744": {
+        "source_sha256": "92AC1B03C14CE13678A89506CC2D507036833DE758CD3EE4F7060FCD3B9D79A9",
+        "translation": "除去项目"
+      },
+      "745": {
+        "source_sha256": "4483BA291213C400E4FFFEF078DF3AFC1F28FD74A51814227F7C74D822D1490F",
+        "translation": "移出文件 '%s'"
+      },
+      "746": {
+        "source_sha256": "8F430AA601CAACEA16ADB858FF201D21AAC4E4678F3B06A7533F5022C1C321D2",
+        "translation": "选择目标设备 '%s' …"
+      },
+      "747": {
+        "source_sha256": "7FD5674B93EE1821C8F7A6314F9FF2056A42A2BE8A3BB943E2F3AFE4E073C56B",
+        "translation": "移除组 '%s' 和他的所有文件"
+      },
+      "748": {
+        "source_sha256": "E2A628906F833BAEFF8D72AB2E09F58321281BB8ACBDEEEBF740BD5B7B5C96E9",
+        "translation": "选项...\tAlt+F7"
+      },
+      "749": {
+        "source_sha256": "391B8388A1E4200321D969C4664053BCA97C57A3B02AF650864719F6BF9E41DA",
+        "translation": "%s目标选项 '%s'%s%s"
+      },
+      "750": {
+        "source_sha256": "41E1852979ED4FF7C8C90C74F505DC5610782C95526C741DABB59B7EE8DF9D36",
+        "translation": "%s组的选项 '%s'%s%s"
+      },
+      "751": {
+        "source_sha256": "870C18F15C927F7C4ADC4DDE9BC7CCEFD6039EB3FC8697894BEDCFA19D1EAC8D",
+        "translation": "%s文件选项 '%s'%s%s"
+      },
+      "752": {
+        "source_sha256": "2DB66671DC637CA177E3EEB525A6CF598AB45BB84C86207C0B1B36D25ABEB109",
+        "translation": "%s选项 %s - 目标'%s'%s%s"
+      },
+      "753": {
+        "source_sha256": "8E58E19134DC8FF41EEE1B8FACBA9F011093A53DC6D2C2323930140BEE59E8A9",
+        "translation": "%s选项 %s - 组'%s'%s%s"
+      },
+      "754": {
+        "source_sha256": "78D425AC6B18DA00CB09ED2BEB1B7A131CD8FE4C80051A7D8A461FBF6B2BD358",
+        "translation": "%s选项 %s - 文件'%s'%s%s"
+      },
+      "755": {
+        "source_sha256": "01C8BFA6A79F9DEC44C619FED07B2D10FAB679E788D7C592AD512A1A721D7E78",
+        "translation": "%s选项 Component 类 '%s'"
+      },
+      "756": {
+        "source_sha256": "C82D175B447AE127C83A332965F792461EF899FAD7CA162616F988F0FC5905E8",
+        "translation": "清理目标"
+      },
+      "757": {
+        "source_sha256": "2AF925434D08C7C81521048CEB2EC575457363884655954EDF189DEFAD6498B7",
+        "translation": "清除 '%s (%s)'"
+      },
+      "758": {
+        "source_sha256": "017E53D6816FACC1121470D7088F9F8267FC349C4041778DE5B62DEA947A5195",
+        "translation": "配置闪存工具…"
+      },
+      "759": {
+        "source_sha256": "0B98F7E876D897DA074A7CBAD65D4C551D95519999534E4539503BD93D668DCC",
+        "translation": "调试"
+      },
+      "760": {
+        "source_sha256": "C157C495A06BF462CFB388D487FCACF2134431819C68466C2428F52412B102CE",
+        "translation": "启动/停止调试会话\tCtrl+F5"
+      },
+      "761": {
+        "source_sha256": "5444D204BF79AC155D9A4622B6EA4344443D7FBF4A718A3EBBF89FB76F4CA4AB",
+        "translation": "重置CPU"
+      },
+      "762": {
+        "source_sha256": "FF70AC04F2DC912400C32500E515B35996A497CA244695ACE3F7EB56079FBFEE",
+        "translation": "运行\tF5"
+      },
+      "763": {
+        "source_sha256": "666E504E6A11C2BE90FE41C3A6C1DC015C391C51C2A7828E29FCC5F02AF64951",
+        "translation": "停止\tEsc"
+      },
+      "764": {
+        "source_sha256": "E1339F70214390B76DDBE06BEF0FEE4D48B9D9E0AF535C772C2728B96F8399A8",
+        "translation": "步\tF11"
+      },
+      "765": {
+        "source_sha256": "56BD745F28E5F743BD770D4EE840D4700E8C420191D1727DD706A1919D6F6283",
+        "translation": "跳过\tF10"
+      },
+      "766": {
+        "source_sha256": "52DCD5EA3C5F7CB663CE2847D6D02C4529E3F5DCC65325DFC7356C5527B7CE51",
+        "translation": "跳出\tCtrl+F11"
+      },
+      "767": {
+        "source_sha256": "B2E8EF66E2437A93685622490F450AD0031D112C806502005A94419B71354A03",
+        "translation": "运行到光标线\tCtrl+F10"
+      },
+      "768": {
+        "source_sha256": "06647F3EC4710FFB0BEC449D19C8895594AE1C8447BE413DA129D43BF1D4B6F0",
+        "translation": "显示下一个声明"
+      },
+      "769": {
+        "source_sha256": "6CA300B9D898ABE403573EF6DE7F231F9DBEC8B0535766A1F1ED09A3DA370F76",
+        "translation": "断点"
+      },
+      "770": {
+        "source_sha256": "81F92D43ED83D9BB3E252AA3205F00AA4CFA67EA060FC8F5CE1C2F7415A4109C",
+        "translation": "插入/删除断点"
+      },
+      "771": {
+        "source_sha256": "8765DE7FD551E2F33F5771775CB8682456FC05CB8787A9379B3572E7BB254D8A",
+        "translation": "启用/禁用断点"
+      },
+      "772": {
+        "source_sha256": "A669AD3D029DBFFF4D043F4CB312CB628B975C31BEEF9864508B1C2BA36D2153",
+        "translation": "禁用所有断点"
+      },
+      "773": {
+        "source_sha256": "77823F7430EB4EA2872D8C754E254C7FCA86D73C6F58BDD117CFE10E6B5FA7B5",
+        "translation": "清除所有断点"
+      },
+      "774": {
+        "source_sha256": "81A011B79B6210766E3E8AEED1904D689A1EDE504C0E6E5B538476676CAA22CA",
+        "translation": "OS支持"
+      },
+      "775": {
+        "source_sha256": "B3E7954F0C4D98AD856F5180F5CE4EC2C15CE113D08126B81FB6DB924A9FC940",
+        "translation": "执行分析"
+      },
+      "776": {
+        "source_sha256": "DAED0FCAFD5020136007788FBD0EBD747C6B0A2586E81190D0AB4BE504236975",
+        "translation": "禁止"
+      },
+      "777": {
+        "source_sha256": "D65C83C38E56CDE62B84137C5D8CFB74E42DF08441954E9F300B545E4AAF3534",
+        "translation": "显示时间"
+      },
+      "778": {
+        "source_sha256": "8FF08CA6BCCBD8043A51357DA1B33D62A0DB3AE6903C11A62189A00CB8F09074",
+        "translation": "显示调用"
+      },
+      "779": {
+        "source_sha256": "C36B57B355D44E8C386F2A7B183D711E2CF759B7E710F24749A9BBA0DE9DCB06",
+        "translation": "重置信息"
+      },
+      "780": {
+        "source_sha256": "6C594DC2779F35AAD5E8C3A8B99B74DEC223AD57136A0FD84373B436298CF932",
+        "translation": "内存图"
+      },
+      "781": {
+        "source_sha256": "CB96CC81F63F4917B7F7C8569EC750CCCB8190784FB8ED485321694358CFD9AA",
+        "translation": "内联汇编......"
+      },
+      "782": {
+        "source_sha256": "2FF3FE2E0CAED35E2DB1483723888F63823E36F309CE0AC4107F18B9683247F4",
+        "translation": "函数编辑器（Open Ini文件）......"
+      },
+      "783": {
+        "source_sha256": "8C74199D9964B032761425ACE0A656BE1328586B9A6CED59F616CD44E80592FD",
+        "translation": "调试设置......"
+      },
+      "784": {
+        "source_sha256": "9678406CB094E8275625FB062C230D71E1A8EB63C00C8EC6173DD21783EF40C2",
+        "translation": "外设"
+      },
+      "785": {
+        "source_sha256": "9D46B5A8B39BE1D6CF78ECF22DD9FA1368754CA436BF2B9AE6E2A0CE04184D24",
+        "translation": "不调试......"
+      },
+      "786": {
+        "source_sha256": "668ECC4C2657CC49012D75F66C062F56CBAF3F9197E6A8143C97853059739A35",
+        "translation": "工具"
+      },
+      "787": {
+        "source_sha256": "00BED6D11E56FC30992C4751BF2E8E5BB2EA693370E00B9A1268DF228F46349C",
+        "translation": "设置PC-Lint ......"
+      },
+      "790": {
+        "source_sha256": "6CE56127834AC7BDCC300472A812BC24BB32324E139689AB43649FAE2B0694D8",
+        "translation": "Lint所有C / C ++源文件"
+      },
+      "791": {
+        "source_sha256": "3B3772397EF0722B364B3F8B94A851AFF440F555F08C94E4B3B8B4F3CE760A57",
+        "translation": "配置合并工具..."
+      },
+      "792": {
+        "source_sha256": "242D13006FA1196AF5866CD3D2F0039BA0596D5CD1E0CBF238348A27F046DB17",
+        "translation": "自定义工具菜单..."
+      },
+      "794": {
+        "source_sha256": "FA7BBB08455BA9407CEA086DF3603E440FE040B4C1C50BE510B01C1C8EAA4156",
+        "translation": "配置软件版本控制..."
+      },
+      "795": {
+        "source_sha256": "5173236B4E690B19ED82B795792591786358795913576F184ADF8E34C274FF96",
+        "translation": "窗口"
+      },
+      "796": {
+        "source_sha256": "6EE466E468437D1A306A68ACD3D9C36BC3F5FA98953236DE887B7D9928FFE62E",
+        "translation": "将窗口重置为默认值"
+      },
+      "797": {
+        "source_sha256": "F4526FF11FAEDB7E255DFCC0CB1DBFE73AB014E4614969498409946A91D7CF43",
+        "translation": "展开"
+      },
+      "798": {
+        "source_sha256": "64C235FFE1483A20C19F5400FAEDF9BDC06B76F89A27846AC46FC867E75002D1",
+        "translation": "关闭所有"
+      },
+      "799": {
+        "source_sha256": "8D2A717A81D2428F7873B1B602C8DA8F2F9BFF260DFEAFC7944A06F6EEA37A6B",
+        "translation": "帮助"
+      },
+      "801": {
+        "source_sha256": "9A370847609FA0E11ACD9F35D21A5516CB9A5C92336CCDBE8CE27BBF755C5332",
+        "translation": "打开书籍窗口"
+      },
+      "802": {
+        "source_sha256": "C20AAFEB247917EC6149BF82AA8105199A86FABD1733224BDFC250CF5AB468EF",
+        "translation": "<Device>的模拟外设"
+      },
+      "803": {
+        "source_sha256": "4BDA44AC87B478EBD919179D7A03C22DE58CDA9C688237C790016EC7EDBBE282",
+        "translation": "模拟外围设备 '%s'"
+      },
+      "804": {
+        "source_sha256": "25494343833266A7091B9E6436AD140AA83559F213EFA5B149AB41D117D040B2",
+        "translation": "联系支持"
+      },
+      "805": {
+        "source_sha256": "E078BA9A3A76E6937B568FE0FDE94203A61C06E187C8358D81A68910FC59FC70",
+        "translation": "检查更新"
+      },
+      "806": {
+        "source_sha256": "28495D98D71F3DFBA6D7762AC1D7159866C3AD145BD30F7E86FAA487DA475A3F",
+        "translation": "设置静态代码分析器......"
+      },
+      "809": {
+        "source_sha256": "339142E5DFB5B31F2747095FAF9CC80D5E51988EC45A635381AAF1FF6D7A375B",
+        "translation": "单个文件"
+      },
+      "810": {
+        "source_sha256": "D50D228ED6D1D0C08036945711B3757C298043BD9396E0FF191A0A6612F9B16B",
+        "translation": "多个文件"
+      },
+      "832": {
+        "source_sha256": "7D998F546699EF991BEE1D321708C5DC722ABB161A18483ED615C32C7AFAFE5B",
+        "translation": "分析所有C/C++源文件"
+      },
+      "833": {
+        "source_sha256": "56EB848531198ACC8050B8F041A517F1914047822A12D0124A0EE61F071A6E5E",
+        "translation": "分析"
+      },
+      "9570": {
+        "source_sha256": "2ED43F6391F6295EEED6500505899BED5C094184A65D5B2AB759C8D32B694424",
+        "translation": "将新项添加到组\n将新项添加到组"
+      },
+      "1088": {
+        "source_sha256": "070ADFD7A1F586BB4A433BB3BC4B01F8D4F8E361D11EAB78C890F761A013C049",
+        "translation": "选择要使用的目标\r\n选择目标"
+      },
+      "106": {
+        "source_sha256": "326641D2106D4647A0D8DA3B85DDA20B1EEF6DAEE56F938F886B6E992E1A56E5",
+        "translation": "未知错误 %d (0x%08X)"
+      },
+      "107": {
+        "source_sha256": "4C62BE3382438CA7C8776EE6DB8F08A0125C062EFD0F7378B97AD4AB5EAE6553",
+        "translation": "日志文件 (*.log)|*.log|"
+      },
+      "108": {
+        "source_sha256": "DF82B473FA05262167954F65C30527716FE0F4A4BAE0B864596581AEC6ADAE5E",
+        "translation": "保存跟踪日志"
+      },
+      "109": {
+        "source_sha256": "F70FE3B3805EC929B72147E78C2AA1621598125F3F33700A21712D20AA0BA9C3",
+        "translation": "保存跟踪日志为"
+      },
+      "110": {
+        "source_sha256": "9A09D1E5D7475371D20F699828CE56256465B5EDCDD849125A88BA7DFD8CE6F4",
+        "translation": "日志文件打开失败[%s]，有以下错误："
+      },
+      "111": {
+        "source_sha256": "62D78E088C20B38D52C9D52C9BC73B5A5B0A86791ACAA9BB618922527E937565",
+        "translation": "µVision3 格式的保存和项目"
+      },
+      "1223": {
+        "source_sha256": "D7849D11597550DF2C970B008AE5D3563DB210EE4EA9C807C389001CEC2BFC49",
+        "translation": "构建选定的项目目标\r\n批量构建"
+      },
+      "112": {
+        "source_sha256": "2D8E0DD285B0B2E3EB0EEF73BF7F090021C9EA2DDB17286F184FB921A9E584CA",
+        "translation": "将多项目工作区保存为μVision3格式"
+      },
+      "115": {
+        "source_sha256": "043F2813564438029A447914CBFBA3DA3A03B7554179410593C295159BFE565A",
+        "translation": "显示跟踪数据"
+      },
+      "116": {
+        "source_sha256": "43A310697D8955633CB025F42994057F62E34D2940BB00661C90214E9F6FEFE7",
+        "translation": "以μVision4格式保存项目"
+      },
+      "117": {
+        "source_sha256": "F83A22ABA2D853B7C676142839C009BBCFE24BEC4AA8245BBC380704CF44FF07",
+        "translation": "&文件"
+      },
+      "119": {
+        "source_sha256": "2B3A146DCF1A31E7281461073B00354035E6759470378A39B6BB11F3412C1575",
+        "translation": "这是Progress Bar的空间"
+      },
+      "121": {
+        "source_sha256": "32BEC1D96A54F663DFD38BF2C3816B83D2B992D94E1BD23C7104976E78B381A9",
+        "translation": "&新建...\tCtrl+N"
+      },
+      "124": {
+        "source_sha256": "E0F6D0B5B85499A27F355782827802EC6DAD04374CE9EB0E2729C2FB8B3B39DE",
+        "translation": "打开\tCtrl+O"
+      },
+      "125": {
+        "source_sha256": "4F5C5A3AF6C5F77598632A667BB899970A2ABB6F5C8B166AA2DA7E4EA8E4CC53",
+        "translation": "&关闭"
+      },
+      "128": {
+        "source_sha256": "696B9BF63D94143DD00862F691D366F0C4BF6D8199A47F16AFBEB445D8606D9C",
+        "translation": "保存\tCtrl+S"
+      },
+      "130": {
+        "source_sha256": "75CC213FD23A40AB5E2104FA51E3A3D19AC2A4AD55373202E474C5EB8DBCDA4D",
+        "translation": "另存为..."
+      },
+      "131": {
+        "source_sha256": "44D983C345EB0C5E55B190A24DBAF8D8CA4D38F7795DB38A5EE9D53E18D94322",
+        "translation": "保存所有"
+      },
+      "132": {
+        "source_sha256": "70462ABAA026A197206B748267E7EAB60697DB9CBEB85016B9E24A3A09585B08",
+        "translation": "窗口..."
+      },
+      "133": {
+        "source_sha256": "9EAD573F5906CDB1CA496D3701EF553F97474E68BEC084D668C1A47B10B1441E",
+        "translation": "设备数据库"
+      },
+      "134": {
+        "source_sha256": "A49A7405701D9FB5A617FDD1C59F8FE0B527D1CCD3D74C015CE212DB12EDA9DB",
+        "translation": "许可与管理..."
+      },
+      "135": {
+        "source_sha256": "9F76F5E513DFD6B1B342BD6659F6BBEC099620F5EF64631D13B8F41BAA38CF6B",
+        "translation": "打印设置..."
+      },
+      "136": {
+        "source_sha256": "53AF8B78F960D2830CFE78EE65C19BAF3BD88A0AC6C9BB92F1FA4D6D2D580BBA",
+        "translation": "打印...\tCtrl+P"
+      },
+      "137": {
+        "source_sha256": "E5363FB341701F043EDBFDB1588FF54B2C089242DC4F5F9F2E93B5FF8FCDEA76",
+        "translation": "打印预览"
+      },
+      "138": {
+        "source_sha256": "969CCBE9D2ED1141F4C809F6C52BC3E10B5139FACCC3B87F54F49BEF5CA16F47",
+        "translation": "退出"
+      },
+      "139": {
+        "source_sha256": "8D6DF1BCD3C59CE0E185A1885428688D78458A8E504833274313DAC741C98AAE",
+        "translation": "编辑"
+      },
+      "140": {
+        "source_sha256": "17684143E0D65AA14B5F920373590A3C3EFBF9CE86E90F193EEBD6B657CC6B81",
+        "translation": "撤消\tCtrl+Z"
+      },
+      "141": {
+        "source_sha256": "21FA980240221AAA7261E92AD5651A2D0E91FD4A4A628B2DFDF8708185D7306F",
+        "translation": "恢复\tCtrl+Shift+Z"
+      },
+      "142": {
+        "source_sha256": "DD89F3381E84A402AE7FA41A5E8C0FE9EAB31775AA074A2C1DD146D18F37C01C",
+        "translation": "剪切\tCtrl+X"
+      },
+      "143": {
+        "source_sha256": "F42FE4EA72B18FBB86533E88FEFDE878699A3DEC0FF69B7D915C8F81A049F0E4",
+        "translation": "复制\tCtrl+C"
+      },
+      "1540": {
+        "source_sha256": "1A716008A1860DBAADA83EF597F7D0B2C275EA720A3CEA1129E3415C858656D1",
+        "translation": "清除窗口中的所有文本\n清除窗口"
+      }
+    },
+    "menus": {
+      "1200": {
+        "0/0": {
+          "source_sha256": "1BA06FFA6E27C840E631811CB0243803522A35221490069372A3A0673E7668A7",
+          "translation": "全球概述"
+        },
+        "0/0/0": {
+          "source_sha256": "89E4480845EBAA4B30406A1F67D85B4843EB530F9B8CABCE60AC3CFDA45C8130",
+          "translation": "折叠所有定义"
+        },
+        "0/0/2": {
+          "source_sha256": "22E03CB9C901DE83AAFC0D61B2E2312067D28A8C2F67E3CAA38A20D154EDD682",
+          "translation": "折叠所有注释"
+        },
+        "0/0/4": {
+          "source_sha256": "2E53D32A1F48EA0C88009EFFC936AAAA014D4662D95DCA6454281FADE98BAA5C",
+          "translation": "切换所有大纲"
+        },
+        "0/0/5": {
+          "source_sha256": "0C8340CDE8DB9DFF1542EF743A592039C40E41B0258B9D57FBF9665DC8B925A9",
+          "translation": "停止所有大纲"
+        },
+        "0/1": {
+          "source_sha256": "9C05DADBD63D379389888D8BA525ADF8EA5CE40ED60E953BA496C548D620AAE1",
+          "translation": "选择大纲"
+        },
+        "0/1/0": {
+          "source_sha256": "80F6206FD08E5E006855C3247724A55D214B713E44F5245701A645AEF7D4E083",
+          "translation": "隐藏选择"
+        },
+        "0/1/2": {
+          "source_sha256": "5EBF04DC9D503F0144E7EE43BBE0F3E0723B97171A4003ADA28753BF770FD254",
+          "translation": "折叠选定的定义"
+        },
+        "0/1/3": {
+          "source_sha256": "03CF645C18E7CE3ACC7B9FE49789493BEBA783A4CA2358AC69AD47FA69AE15F8",
+          "translation": "折叠当前块"
+        },
+        "0/1/4": {
+          "source_sha256": "70E60C052573E55020B33B3B08C5F04DE40126307EAFCD7A87E277436D36248B",
+          "translation": "折叠当前程序"
+        },
+        "0/1/6": {
+          "source_sha256": "239407870B044F99D7D6BE27E28702CD14F571E4A8ECC26950CAB39AE982769D",
+          "translation": "折叠选定的注释"
+        },
+        "0/1/7": {
+          "source_sha256": "E7E258FC3B1B503F386DF7799206CF8FFDF1F096B2ACE1FA2C0127FE732A30B7",
+          "translation": "折叠当前注释"
+        },
+        "0/1/9": {
+          "source_sha256": "2EC128306169DC59BD90BA45C136E367E3041F0B77D89EF2B5AC95904533F84D",
+          "translation": "切换当前扩展"
+        },
+        "0/1/10": {
+          "source_sha256": "9FF93DECDD9BBCD901EBEA5DE3CAE501DE165402F4736B6D50CED1190EC62F5D",
+          "translation": "切换选定的大纲"
+        },
+        "0/1/11": {
+          "source_sha256": "F3B1CBC5FB6D380D41756F50FD92394401E63E0FAE7065E415461E939BD2EFCD",
+          "translation": "停止隐藏当前"
+        },
+        "0/1/12": {
+          "source_sha256": "991EFD7CD344156AB985388D8265FD0EA9A578B58A47988B03CFC446A4B3D22B",
+          "translation": "停止选定的大纲"
+        },
+        "0/2": {
+          "source_sha256": "5F99D5338BD906B7AA25234863C38C7E1625E22B2CBDA155BA633E649E117417",
+          "translation": "书签"
+        },
+        "0/2/0": {
+          "source_sha256": "B3A7402307CE8C81642F2012DC97573722A777C4649F312CEB31A9BFC252BED5",
+          "translation": "&插入/删除书签"
+        },
+        "0/2/1": {
+          "source_sha256": "3D46EBB005BB7E7CF8618E639B85F062693EF9BEEF96A3CD4B24C3A37C7A8CB1",
+          "translation": "&下一个书签"
+        },
+        "0/2/2": {
+          "source_sha256": "2BEE98DE76C808F0C20ADEDDBE8811F9A32FBFE98CD2A6981BC69D5F47B25817",
+          "translation": "&上一个书签"
+        },
+        "0/2/3": {
+          "source_sha256": "135100F7F33F20BB161E9D3D2C95B60F8D1F0B4114B64E600B9452FEFDE69A15",
+          "translation": "&清除所有书签"
+        },
+        "0/3": {
+          "source_sha256": "E39FDE2E3D38F504DBD36DA313A093BE5A3C217BB4D15552944B8FD1EF51B670",
+          "translation": "切换断点"
+        }
+      },
+      "1201": {
+        "0/0": {
+          "source_sha256": "FB4BB247E1030C52296A975AB37DC1A6D78B2E68DDAAC2CC4DFA046508B09362",
+          "translation": "转到函数"
+        },
+        "0/2": {
+          "source_sha256": "D65FEB44654D528C69BDF60822C727FC72982006B10CBFE3D6840EF75D434277",
+          "translation": "扫描项目文件"
+        },
+        "0/3": {
+          "source_sha256": "BB881DAA829130AC64FF64F64BED941F0144E86E7BF60C74690C86FD771CA7EE",
+          "translation": "扫描当前编辑器文件"
+        },
+        "0/5": {
+          "source_sha256": "368FEDFDF22464DB051192676B2D25B1A8F06300A093B64AA0201C2306A74C12",
+          "translation": "显示模块"
+        }
+      },
+      "1202": {
+        "0/0": {
+          "source_sha256": "195ED08E1CCFA05635D868CEACE5ABAFB30928F50B7603985BAC2644536E828E",
+          "translation": "&插入模板"
+        },
+        "0/2": {
+          "source_sha256": "94CC38C2B470CC924A9B13A0816F80630D5EF56705A418C27430809860CC2644",
+          "translation": "配置模板…"
+        }
+      },
+      "1204": {
+        "0/0": {
+          "source_sha256": "547B2C48E96249EEF90CAA6355A3C890EF82127F2348305075ABAECFBFB92DCB",
+          "translation": "打开"
+        },
+        "0/1": {
+          "source_sha256": "10D01663D99327107C754A4C4CFD6576CC31E7969B3585B8C67EC5C1FB4238CB",
+          "translation": "管理图书......"
+        }
+      },
+      "1205": {
+        "0": {
+          "source_sha256": "D1449C89A64AD16CB26BFE89D8352177B494ECA5C1572CAF462890A7E520B57D",
+          "translation": "模板视图菜单"
+        },
+        "0/0": {
+          "source_sha256": "4F5C5A3AF6C5F77598632A667BB899970A2ABB6F5C8B166AA2DA7E4EA8E4CC53",
+          "translation": "关闭"
+        },
+        "0/1": {
+          "source_sha256": "4F6A37F35040A4CBC061E08B4A27DCE3153F44F65792DAB69CD11515AF090B15",
+          "translation": "仅保留这个"
+        },
+        "0/2": {
+          "source_sha256": "D9377F1E8FEBE5DEEC1B6EA47E849D01639E104F40FBEF95325FEF99C11B1D46",
+          "translation": "关闭所有"
+        },
+        "0/4": {
+          "source_sha256": "B7F6F105D41D8365533D74D4C835573D9C21ACE28598A2776EC6A56718EEFADB",
+          "translation": "拷贝完整路径"
+        },
+        "0/5": {
+          "source_sha256": "5F25B715A8EEE21D49E8B32A24680B35584F09DA352B78B84D9970DFC99D19DB",
+          "translation": "打开包含文件夹"
+        },
+        "0/7": {
+          "source_sha256": "079C1C19906D0B6D1E4730976AAD9ED3FE0A39BE0A23421D8F9D26134BEE694A",
+          "translation": "新的水平标签组"
+        },
+        "0/8": {
+          "source_sha256": "710FCF08CA7C5D4E68A181BA056858AF33FCCA772E225FC6CCB8BA97C710EE0A",
+          "translation": "新的垂直标签组"
+        },
+        "0/9": {
+          "source_sha256": "C580AC4425E59E33EE4B496FB33F8A5528254ADE32B86C1556887C1DDEF7FF58",
+          "translation": "移至下一个标签组"
+        },
+        "0/10": {
+          "source_sha256": "DFC41B9AE8E658515B1D69314F0DE514BB1C1901AD9FE1F51BD43ACA1F1A7E79",
+          "translation": "移至上一个标签组"
+        },
+        "1": {
+          "source_sha256": "6EEE203495C1FDF11BBD7A1C586A28DF990E36F981DBF4BBED1D87E088DE2F1A",
+          "translation": "选项卡式窗格视图菜单"
+        },
+        "1/0": {
+          "source_sha256": "D2C1469F0B6E052A13674F418C17A2D1F0BDFEAB4582E4BA73E1BFC93F156BE7",
+          "translation": "关闭"
+        },
+        "1/1": {
+          "source_sha256": "4F6A37F35040A4CBC061E08B4A27DCE3153F44F65792DAB69CD11515AF090B15",
+          "translation": "仅保留这个"
+        },
+        "1/2": {
+          "source_sha256": "D9377F1E8FEBE5DEEC1B6EA47E849D01639E104F40FBEF95325FEF99C11B1D46",
+          "translation": "关闭所有"
+        },
+        "1/3": {
+          "source_sha256": "68CD74044B729D25D583A7E61D9AF96208370D094061F47A2282B50F6BBE18CC",
+          "translation": "浮动"
+        },
+        "1/4": {
+          "source_sha256": "D059891C4627BE69E75863E47AB371C7DC48963287C685C724DA226010D101A8",
+          "translation": "停靠"
+        },
+        "1/5": {
+          "source_sha256": "FE93716D2C754F197534CEA25E0505DD9A63C80E91563149177030063053E726",
+          "translation": "选项卡式文档"
+        },
+        "1/6": {
+          "source_sha256": "C92772C2F80E399609F64249E0622F05D27D5A633E5E2803EEE050567887E648",
+          "translation": "自动隐藏"
+        },
+        "1/7": {
+          "source_sha256": "08BEAE4D18C1CB8BD9D008245CFE897EDE94CF9C959B65224DA947658DD14C8F",
+          "translation": "隐藏"
+        },
+        "1/9": {
+          "source_sha256": "079C1C19906D0B6D1E4730976AAD9ED3FE0A39BE0A23421D8F9D26134BEE694A",
+          "translation": "新的水平标签组"
+        },
+        "1/10": {
+          "source_sha256": "710FCF08CA7C5D4E68A181BA056858AF33FCCA772E225FC6CCB8BA97C710EE0A",
+          "translation": "新的垂直标签组"
+        },
+        "1/11": {
+          "source_sha256": "C580AC4425E59E33EE4B496FB33F8A5528254ADE32B86C1556887C1DDEF7FF58",
+          "translation": "移至下一个标签组"
+        },
+        "1/12": {
+          "source_sha256": "DFC41B9AE8E658515B1D69314F0DE514BB1C1901AD9FE1F51BD43ACA1F1A7E79",
+          "translation": "移至上一个标签组"
+        },
+        "2": {
+          "source_sha256": "B02E157EA9FCAEE76355528154B5879D5ED36BAE0ECF70F8E88051DBEFE6228C",
+          "translation": "标签组菜单"
+        },
+        "2/1": {
+          "source_sha256": "079C1C19906D0B6D1E4730976AAD9ED3FE0A39BE0A23421D8F9D26134BEE694A",
+          "translation": "新的水平标签组"
+        },
+        "2/2": {
+          "source_sha256": "710FCF08CA7C5D4E68A181BA056858AF33FCCA772E225FC6CCB8BA97C710EE0A",
+          "translation": "新的垂直标签组"
+        },
+        "2/3": {
+          "source_sha256": "C580AC4425E59E33EE4B496FB33F8A5528254ADE32B86C1556887C1DDEF7FF58",
+          "translation": "移至下一个标签组"
+        },
+        "2/4": {
+          "source_sha256": "DFC41B9AE8E658515B1D69314F0DE514BB1C1901AD9FE1F51BD43ACA1F1A7E79",
+          "translation": "移至上一个标签组"
+        },
+        "2/6": {
+          "source_sha256": "767443DFCD2F384409AC330FDF5F77C102D0401A163B5AD083B7B308350320C6",
+          "translation": "取消"
+        }
+      },
+      "1206": {
+        "0": {
+          "source_sha256": "D1449C89A64AD16CB26BFE89D8352177B494ECA5C1572CAF462890A7E520B57D",
+          "translation": "模板视图菜单"
+        },
+        "0/0": {
+          "source_sha256": "D9196C7EE4664AC83CCEADDD74826B86E2CF2F0AA393C0649B6AAF727E3D96C7",
+          "translation": "重置停止时间 (t1)"
+        },
+        "0/1": {
+          "source_sha256": "53B1BD0C0C13E9E168280BDDC4D642476D96CCB39F25E8744748834F7EA1B943",
+          "translation": "重置停止时间(t2)"
+        },
+        "0/3": {
+          "source_sha256": "534CE6EC8296FAC67A33DD15CCC7A37CE21E5A4A4B4760D2E428EF62B4015476",
+          "translation": "显示经过时间(t0)"
+        },
+        "0/4": {
+          "source_sha256": "A2D720B8AD32092C3ED87855EFC78B4F177C0DC16D0AE64F0B96A2B7D652D7FB",
+          "translation": "显示停止的时间 (t1)"
+        },
+        "0/5": {
+          "source_sha256": "4177E81EAD20561D54B8B949D815E6DF1FCE2E016EF0102C195387D3FA552A66",
+          "translation": "显示停止的时间 (t2)"
+        }
+      },
+      "1207": {
+        "0/0": {
+          "source_sha256": "E69C1C8A855A29777D6321EF7F7127736913AD170FE8FB1D8006A42F440B857F",
+          "translation": "模拟"
+        },
+        "0/1": {
+          "source_sha256": "68F9E59B0BA8B2FF86F9169821E3A9EF07DBF3AB57F58AD080AC1C54161681A2",
+          "translation": "位"
+        },
+        "0/2": {
+          "source_sha256": "65239AADD7196646CE3252E30A2CA1BCD95F388A3E4608A1DD67A0387CC4A00D",
+          "translation": "状态"
+        },
+        "0/4": {
+          "source_sha256": "EB89846F5DE3C4EED8645F6289C93CA04810660AA3A318202645D18CF66D6A12",
+          "translation": "十六进制值"
+        },
+        "0/5": {
+          "source_sha256": "E91815B5B4896F9EAA6270358F3DCCB5B39C6E8AD5E2194ABEF7A43A2F57C873",
+          "translation": "设置记录的最小/最大值"
+        },
+        "0/6": {
+          "source_sha256": "D98319939A0D5D840CDD80D975B5B294B345D704F07271FB2DDC9BFC8B53983F",
+          "translation": "恢复上一个最小/最大值"
+        },
+        "0/7": {
+          "source_sha256": "A5B9F0D3E0480ED05D5DE557FC756D3C708F76BE8B3B8070C8AC038273497CA1",
+          "translation": "自适应最小/最大"
+        },
+        "0/9": {
+          "source_sha256": "329ADCE571FCE8AA2421A9354D9C6C1A89D09F78F2F362E2EBD0A7EACF02F8EC",
+          "translation": "删除信号 '%s'"
+        }
+      },
+      "1208": {
+        "0/0": {
+          "source_sha256": "88206543A1E48BF12021CA7806EAD7D6C70C0DB7803CC914B7985231E65B56C6",
+          "translation": "将注释拷贝到剪贴板"
+        }
+      },
+      "1209": {
+        "0/0": {
+          "source_sha256": "4A709A88A4962AAA09FCAA7AB4C1AEA4574B295EF2D259ECA425AE0EAB7329D3",
+          "translation": "显示地址"
+        },
+        "0/1": {
+          "source_sha256": "B796A9040302E23B48BB4E3B3136D54A6454B59D8F0A0F8C9D747E9A1E975D0E",
+          "translation": "显示类型"
+        },
+        "0/3": {
+          "source_sha256": "83E2D550607CB8D7AA67D47EEF34B23A86860DD8B14CBFE26229E8A87FF1B653",
+          "translation": "区分大小写"
+        },
+        "0/5": {
+          "source_sha256": "8F04B1305FB40BA6D871CFF33A8346BA2619C1940B738B70DEB29EF2349EB025",
+          "translation": "全部收缩"
+        }
+      },
+      "1210": {
+        "0": {
+          "source_sha256": "6A8FE6FD730D4D8C4ADC86DA2BF0BF883022563A2996B045274BF4C03740DAE3",
+          "translation": "功能菜单"
+        },
+        "0/0": {
+          "source_sha256": "D65FEB44654D528C69BDF60822C727FC72982006B10CBFE3D6840EF75D434277",
+          "translation": "扫描项目文件"
+        },
+        "0/1": {
+          "source_sha256": "BB881DAA829130AC64FF64F64BED941F0144E86E7BF60C74690C86FD771CA7EE",
+          "translation": "扫描当前编辑器文件"
+        },
+        "0/3": {
+          "source_sha256": "368FEDFDF22464DB051192676B2D25B1A8F06300A093B64AA0201C2306A74C12",
+          "translation": "显示模块"
+        }
+      },
+      "130": {
+        "0/0": {
+          "source_sha256": "2F5753E0869A5CBF9C8430AB98919D6171BC065D1957308735052C3748F2E94F",
+          "translation": "&Ascii 模式"
+        },
+        "0/1": {
+          "source_sha256": "62CC9CEFC2262ABB1D5C50FF3FEFC96BBAF3656870F393D12B7F2A43DAD3EC99",
+          "translation": "&Hex 模式"
+        },
+        "0/3": {
+          "source_sha256": "4A96502C3AC30CB41CD388D2FF93E34CF1D0DDDE78211A183080EF9B0DBB2CD1",
+          "translation": "清除窗口"
+        }
+      },
+      "143": {
+        "0/0": {
+          "source_sha256": "E2A628906F833BAEFF8D72AB2E09F58321281BB8ACBDEEEBF740BD5B7B5C96E9",
+          "translation": "配置...\tAlt+F7"
+        },
+        "0/2": {
+          "source_sha256": "EB8DF45AF1A09B4EDA5162DBF5AB24C4EF70D81AD44A89C7040BF952B820577C",
+          "translation": "将新项添加到组..."
+        },
+        "0/3": {
+          "source_sha256": "0AE2EE821C387528C21E80BF4E8C66282A8B5E50AF4DA4013AB40DC354ECB6FE",
+          "translation": "将现有和文件添加到组..."
+        },
+        "0/4": {
+          "source_sha256": "A7850CE49A62AE2780FD8BD98200DE87FF97013F377778A5A37B0B8DDFE54AE9",
+          "translation": "添加到组..."
+        },
+        "0/5": {
+          "source_sha256": "C8B9A3C659B2A4953CE0A1B0F3D96505F72A49C65376EDCECEF4291DCA6CE3B4",
+          "translation": "除去项目"
+        },
+        "0/6": {
+          "source_sha256": "42CF2D4860F4084E47457F8A846D2B5F19282D2C84188EE8040ECE8F67AFA24B",
+          "translation": "管理工程项目......"
+        },
+        "0/8": {
+          "source_sha256": "87C48418619C03E1FCEEA503A2F9DC7CC967BC8617587CEECAC532A4DCA46628",
+          "translation": "打开文件"
+        },
+        "0/9": {
+          "source_sha256": "C405969E6CFAB06DF64322C9BE8726655F9F83C8A4536ABC8EEFDCC402F0C67C",
+          "translation": "打开文件列表"
+        },
+        "0/10": {
+          "source_sha256": "DC5723E923AFA22A089AE622CCD605248A72EF1895EE9ED3D9B8E67D5E088426",
+          "translation": "打开map文件"
+        },
+        "0/11": {
+          "source_sha256": "C5F80EECE1BCD5934AE440F5287575D3F6D32092357648B4D5A7E6989395C827",
+          "translation": "打开构建日志"
+        },
+        "0/13": {
+          "source_sha256": "B7D17F3C2B9F7F413824DBA57D408598D4B9BB0E7551063399269CB29BC8E1AC",
+          "translation": "重建目标"
+        },
+        "0/14": {
+          "source_sha256": "EDBA4C2219B38A39A2A03569323AD638CD271649F5A7A77E19DD04CD296CE6B5",
+          "translation": "建立目标\tF7"
+        },
+        "0/15": {
+          "source_sha256": "D9C86381EB8B5D1915F33F24C31BB2FBB6B0228AA1A3A96D91500F951B38FA92",
+          "translation": "编译文件"
+        },
+        "0/16": {
+          "source_sha256": "DF0911BDE25B78D5B47BA07DBFB2C4AFDC4AD1A8436EC2AF1F6313D77B95DB18",
+          "translation": "停止构建"
+        },
+        "0/18": {
+          "source_sha256": "839310D633AE001638C2C50A29E5C801A8DD191284E1F0F2B5842A1B57333D2F",
+          "translation": "显示包含文件依赖项"
+        }
+      },
+      "191": {
+        "0/0": {
+          "source_sha256": "7068D4AC9231EDB9EBC483BEF7F1B087B8A029F05AD6DF98627114593EB7B513",
+          "translation": "混合模式"
+        },
+        "0/1": {
+          "source_sha256": "41A0E15188DE304BC7A61EE8DD9616AC75B8BEC0A0ED8AA9A4AF26A35AB38A24",
+          "translation": "汇编方式"
+        },
+        "0/2": {
+          "source_sha256": "FF34AFF00C717158520C1201EA5BCE6CDD44FFA536B0BB4947CC18B06114659F",
+          "translation": "地址范围"
+        },
+        "0/4": {
+          "source_sha256": "70ADD00DA82A720C02652042672B6097693EC3F4350E234272CFC3BF72D8AC1C",
+          "translation": "显示反汇编在地址..."
+        },
+        "0/5": {
+          "source_sha256": "88290878A63DF08ED1D35CA7877E41A87507012EF3264DB98B0CA7629DD22AA6",
+          "translation": "设置程序计数器"
+        },
+        "0/6": {
+          "source_sha256": "09E1A2BA6841156E6FB497558AACBA85EE0BC73E6F904997A5D84F340EE856EC",
+          "translation": "运行到光标行\tCtrl+F10"
+        },
+        "0/8": {
+          "source_sha256": "19D4E5556480A79ED986CF881897B1CAA24B3603E79F0F891ED16FB0AFD5EA65",
+          "translation": "插入/删除和断点"
+        },
+        "0/9": {
+          "source_sha256": "8765DE7FD551E2F33F5771775CB8682456FC05CB8787A9379B3572E7BB254D8A",
+          "translation": "启用/禁用断点"
+        },
+        "0/11": {
+          "source_sha256": "47FE007173C98ED0B5B2027956EBF8F0FD2D577787860C12AD8997DA7CD81BDE",
+          "translation": "内联汇编......"
+        },
+        "0/12": {
+          "source_sha256": "5CB833AE0C609F60687B93DA488BFD23DB9D890149B3CD1726AC7C16E6BA7F09",
+          "translation": "加载 Hex or Object 文件..."
+        },
+        "0/14": {
+          "source_sha256": "4F32CD6167E3EF44508D6D18BC3948755F46937076F2021866B259C3AC04B81A",
+          "translation": "指令跟踪"
+        },
+        "0/14/0": {
+          "source_sha256": "1709ED1E146F2C3855B2E8761481FB34518EB5F57E012D77204A8DF93DD0D01F",
+          "translation": "启动跟踪记录"
+        },
+        "0/14/1": {
+          "source_sha256": "174184DA6FCBB1902A63AB73E6B5D4F750A53F96E06C389979D422D8A447946F",
+          "translation": "在反汇编中显示记录"
+        },
+        "0/15": {
+          "source_sha256": "B3E7954F0C4D98AD856F5180F5CE4EC2C15CE113D08126B81FB6DB924A9FC940",
+          "translation": "执行分析"
+        },
+        "0/15/0": {
+          "source_sha256": "DAED0FCAFD5020136007788FBD0EBD747C6B0A2586E81190D0AB4BE504236975",
+          "translation": "禁用"
+        },
+        "0/15/1": {
+          "source_sha256": "D65C83C38E56CDE62B84137C5D8CFB74E42DF08441954E9F300B545E4AAF3534",
+          "translation": "显示时间"
+        },
+        "0/15/2": {
+          "source_sha256": "8FF08CA6BCCBD8043A51357DA1B33D62A0DB3AE6903C11A62189A00CB8F09074",
+          "translation": "显示回调"
+        },
+        "0/15/4": {
+          "source_sha256": "C36B57B355D44E8C386F2A7B183D711E2CF759B7E710F24749A9BBA0DE9DCB06",
+          "translation": "重置信息"
+        },
+        "0/17": {
+          "source_sha256": "79EB548FF676A91AD1825C75B2FB7DA3D8A6CE4548D3B56EBEC03BF9BD7E78EB",
+          "translation": "插入/删除书签\tCtrl+F2"
+        },
+        "0/19": {
+          "source_sha256": "D958B9DF0AFEB1561BE38BC474539F4D48B8D427ACF532908975C7E825501A3A",
+          "translation": "拷贝"
+        }
+      },
+      "20620": {
+        "0/0": {
+          "source_sha256": "86E46075B256B648A33B96F3ABF93E4791AA8B060EC3DADBC9DAB59396187F94",
+          "translation": "大图标"
+        },
+        "0/1": {
+          "source_sha256": "70CBF40235EEEF42FDCC25928CCD07A8CE3FC8505F24E2D035D6FBDE625F4030",
+          "translation": "小图标"
+        }
+      },
+      "208": {
+        "0/0": {
+          "source_sha256": "CCFD41A884EC0A22B0A09D5F10494EA90A8B3520884F0E7D40A769DAA89EF1AA",
+          "translation": "Ascii格式"
+        },
+        "0/1": {
+          "source_sha256": "5E09227292ED18857DCC854F4840B3D73B6F8C13E442CF3C7BC0C9638E51A1AD",
+          "translation": "Byte 格式"
+        },
+        "0/2": {
+          "source_sha256": "009167CCD0E3296417B84C4A0B31C6060575A3401BA0842548F165A479B0AA97",
+          "translation": "Word 格式"
+        },
+        "0/4": {
+          "source_sha256": "4B516D9C1546B51EE4BFAB0971573D3F6760136296F7A0388E280D6D431C0853",
+          "translation": "清除窗口"
+        },
+        "0/6": {
+          "source_sha256": "B98CA1FC5F7B0B306629B4CC5B107C5F911713896CDE1B507C5DC184CF873F5B",
+          "translation": "字体和颜色..."
+        }
+      },
+      "21208": {
+        "0/0": {
+          "source_sha256": "D0FCD4FA59BBDE78932FF6223EBEC0031F19D2F4CEA76C390F8B652FA94858E2",
+          "translation": "新的窗口\tCtrl+N"
+        },
+        "0/2": {
+          "source_sha256": "969CCBE9D2ED1141F4C809F6C52BC3E10B5139FACCC3B87F54F49BEF5CA16F47",
+          "translation": "退出"
+        }
+      },
+      "21215": {
+        "0/0": {
+          "source_sha256": "8F33438C0989A4979F410F9EC88A179EF4ED45C3311064C22C3C487F3694F4A8",
+          "translation": "剪切"
+        },
+        "0/1": {
+          "source_sha256": "D958B9DF0AFEB1561BE38BC474539F4D48B8D427ACF532908975C7E825501A3A",
+          "translation": "复制"
+        },
+        "0/2": {
+          "source_sha256": "BC9F80E4133296AE5D7C1618EBBF5AE24F0189C367C8797BC42BCED43C6E42E6",
+          "translation": "粘贴"
+        },
+        "0/3": {
+          "source_sha256": "B817AFF1FCD2EEF93E1758241728FBF27DF701B3465BCE205A5B7C55C9667923",
+          "translation": "删除"
+        },
+        "0/8": {
+          "source_sha256": "185CF6AADF2BDF8000EA7189828739D2958E69777885DFDEC591C4524BFE9F6F",
+          "translation": "活动脚本"
+        }
+      },
+      "21216": {
+        "0/0": {
+          "source_sha256": "CB374FA24C70E86ADF436852345EEC7F1CE17E22039FECFB2003253105D355C7",
+          "translation": "属性"
+        },
+        "0/2": {
+          "source_sha256": "185CF6AADF2BDF8000EA7189828739D2958E69777885DFDEC591C4524BFE9F6F",
+          "translation": "活动脚本"
+        }
+      },
+      "21217": {
+        "0": {
+          "source_sha256": "F83A22ABA2D853B7C676142839C009BBCFE24BEC4AA8245BBC380704CF44FF07",
+          "translation": "文件"
+        },
+        "0/0": {
+          "source_sha256": "D257A3BE287EE568BD6ABC8D7EC1E0DDA7EC8DEE8F3DB95F28B0601C843034F4",
+          "translation": "新建\tCtrl+N"
+        },
+        "0/1": {
+          "source_sha256": "EC051860604A2972E58E8D8C9CF1D33615181156043D836A7F1EB4524DA4D15E",
+          "translation": "打开...\tCtrl+O"
+        },
+        "0/2": {
+          "source_sha256": "696B9BF63D94143DD00862F691D366F0C4BF6D8199A47F16AFBEB445D8606D9C",
+          "translation": "保存\tCtrl+S"
+        },
+        "0/3": {
+          "source_sha256": "75CC213FD23A40AB5E2104FA51E3A3D19AC2A4AD55373202E474C5EB8DBCDA4D",
+          "translation": "另存为..."
+        },
+        "0/5": {
+          "source_sha256": "969CCBE9D2ED1141F4C809F6C52BC3E10B5139FACCC3B87F54F49BEF5CA16F47",
+          "translation": "退出"
+        },
+        "1": {
+          "source_sha256": "8D6DF1BCD3C59CE0E185A1885428688D78458A8E504833274313DAC741C98AAE",
+          "translation": "编辑"
+        },
+        "1/0": {
+          "source_sha256": "20571A4688DAACA941C40D80209680FF804E39A41EAF4279F0608310A5560532",
+          "translation": "删除\tDel"
+        },
+        "1/1": {
+          "source_sha256": "DD89F3381E84A402AE7FA41A5E8C0FE9EAB31775AA074A2C1DD146D18F37C01C",
+          "translation": "剪切\tCtrl+X"
+        },
+        "1/2": {
+          "source_sha256": "F42FE4EA72B18FBB86533E88FEFDE878699A3DEC0FF69B7D915C8F81A049F0E4",
+          "translation": "拷贝\tCtrl+C"
+        },
+        "1/3": {
+          "source_sha256": "BDD694AD9DC05735DF4CB39BCBE6105B71BB6C6550A233F6073CA743F8D53A79",
+          "translation": "粘贴\tCtrl+V"
+        },
+        "1/5": {
+          "source_sha256": "E4BCF26D7764E65B9A3173AB0A9E5072DD8F4E0D080730D1AB50CB2914DDEE40",
+          "translation": "插入控件"
+        },
+        "1/7": {
+          "source_sha256": "FF70AC04F2DC912400C32500E515B35996A497CA244695ACE3F7EB56079FBFEE",
+          "translation": "运行\tF5"
+        },
+        "2": {
+          "source_sha256": "1BA8D9456C740CCC8ABAE7F9F6F23B19500C631DB358B4B0790E8C43BDBADE0F",
+          "translation": "视图"
+        },
+        "2/0": {
+          "source_sha256": "4B721C4716A2AEE2A691F2CE0E99E206C075E539257B1322C91C7B968051BA2D",
+          "translation": "工具栏"
+        },
+        "2/1": {
+          "source_sha256": "0C95706719FE84E0946FC40B1E001E44FFB924A6B0A81DF454B3D1029EF15D81",
+          "translation": "工具箱"
+        },
+        "2/2": {
+          "source_sha256": "03F874A28AC9AD5B224F9E0A363F86A8A3DA694E47C9AE9A87A6EF7602F94E8E",
+          "translation": "状态栏"
+        },
+        "2/3": {
+          "source_sha256": "6BFD863541AED97FB9C26013BDA7F07991CB59F38406AB1F38CA9B0009C78927",
+          "translation": "布局栏"
+        },
+        "2/4": {
+          "source_sha256": "FD17D93181303D067A5D8C9E3886092D246E4DAE955A012F2C378FBD650728C8",
+          "translation": "时间栏"
+        },
+        "2/6": {
+          "source_sha256": "CB374FA24C70E86ADF436852345EEC7F1CE17E22039FECFB2003253105D355C7",
+          "translation": "属性"
+        },
+        "2/8": {
+          "source_sha256": "185CF6AADF2BDF8000EA7189828739D2958E69777885DFDEC591C4524BFE9F6F",
+          "translation": "活动脚本"
+        },
+        "3": {
+          "source_sha256": "AB0962D938CD7197EC2691429A4A6A989F43EB53FD0B4D047DFAB37ED459872D",
+          "translation": "布局"
+        },
+        "3/0": {
+          "source_sha256": "8932C8F64E8AFCAB51D2B16F89853901ECF53997E1AD6D40F77352C8960DF7A9",
+          "translation": "对齐控件"
+        },
+        "3/0/0": {
+          "source_sha256": "C72FC655C2DD029FCB5E85A72E8FD3067538073F21DF8F7B03F72D1F9F8AC448",
+          "translation": "左"
+        },
+        "3/0/1": {
+          "source_sha256": "2D01CA7C859B826067296C07BF603BD278D75978B9CC164A4ED825819DE98086",
+          "translation": "右"
+        },
+        "3/0/2": {
+          "source_sha256": "EF933C012973E6BA4297892CC922CD2F2F9316DB7B370B4AC6AB56D5A4D0BAD6",
+          "translation": "上"
+        },
+        "3/0/3": {
+          "source_sha256": "E31B15E74DCF00CE69DACD37D0CAD6453B86E13D40EFDDE57BF87BE9BFF96607",
+          "translation": "底"
+        },
+        "3/0/5": {
+          "source_sha256": "657588E3404126E6D1AFD423B19E45FF593B37CBD4F78A1F964B71164265FE23",
+          "translation": "水平中间"
+        },
+        "3/0/6": {
+          "source_sha256": "BAF112AEFEC48105DF13E7A3137F281EE88B400255D60EB63FC206C8B94F35E9",
+          "translation": "垂直中间"
+        },
+        "3/1": {
+          "source_sha256": "3937317B5D84D1256C38F57ACD63566E85E82D077D985B90478188DC6E9EF696",
+          "translation": "均匀间距"
+        },
+        "3/1/0": {
+          "source_sha256": "43EF1DB106157088CEFC4A65AE671AF2E7170269E1CD6467F0EE326948EA7B87",
+          "translation": "横向"
+        },
+        "3/1/1": {
+          "source_sha256": "B4CF29E8CA08CA6ACCC86538B083E0FEE804B95B6338C6CF232743805AD2F614",
+          "translation": "下"
+        },
+        "3/2": {
+          "source_sha256": "5AE6626A17FDA7C98AD006413E05D0F79EF9AEF549607D1B4515CF43100A11D7",
+          "translation": "视野中心"
+        },
+        "3/2/0": {
+          "source_sha256": "7A04C1D25415EC8946BA34904C26DCDF0B5D3B19896EE2EC688CDA776B5DC90E",
+          "translation": "垂直"
+        },
+        "3/2/1": {
+          "source_sha256": "D3071B253E223C392A6513CE74BDE6E61E84D88B374BA7A8D1255D7250B9627C",
+          "translation": "水平"
+        },
+        "3/3": {
+          "source_sha256": "6803CD5C0DB4CB810F0FAE39A0E3737ABFAF15DA5FBD22BBE33A5D1BC66A4165",
+          "translation": "统一尺寸"
+        },
+        "3/3/0": {
+          "source_sha256": "9F987043AF78E7E9EE11521300CB2D3BF29717F953F74613D572C9482CE982E5",
+          "translation": "宽"
+        },
+        "3/3/1": {
+          "source_sha256": "B2138B773B78283B6347037D146FB04B6936E44716A4A87D8CE4BCC2384AF9E5",
+          "translation": "高"
+        },
+        "3/3/2": {
+          "source_sha256": "3AA99A6E4A34E8AACA827732011C01934ED9075A4AD9E4C6DF6196D6E57D5050",
+          "translation": "所有"
+        },
+        "3/8": {
+          "source_sha256": "F77ADED28B87598E76F1FCA89AC5B4F77BA76C42CE9060C3E9D2DAA524F86966",
+          "translation": "退出\tCtrl+E"
+        },
+        "4": {
+          "source_sha256": "8D2A717A81D2428F7873B1B602C8DA8F2F9BFF260DFEAFC7944A06F6EEA37A6B",
+          "translation": "帮助"
+        },
+        "4/0": {
+          "source_sha256": "3F059E9A0E3B5CD29BB8E9F8B845269791E92C7E6CC06492A45295B2CD7538CD",
+          "translation": "关于 ActiveHost..."
+        }
+      },
+      "22565": {
+        "0/0": {
+          "source_sha256": "113D92594A2A293902E6D8BD0F289D6BB97CB8F2E5921EA86AEB6E8D36914F91",
+          "translation": "撤销"
+        },
+        "0/1": {
+          "source_sha256": "B52D89309D52FAABD2B08B289766270872DE45F4E5E161CE7FFBB5867BD6FBED",
+          "translation": "恢复"
+        },
+        "0/3": {
+          "source_sha256": "8F33438C0989A4979F410F9EC88A179EF4ED45C3311064C22C3C487F3694F4A8",
+          "translation": "剪切"
+        },
+        "0/4": {
+          "source_sha256": "D958B9DF0AFEB1561BE38BC474539F4D48B8D427ACF532908975C7E825501A3A",
+          "translation": "拷贝"
+        },
+        "0/5": {
+          "source_sha256": "BC9F80E4133296AE5D7C1618EBBF5AE24F0189C367C8797BC42BCED43C6E42E6",
+          "translation": "粘贴"
+        },
+        "0/7": {
+          "source_sha256": "6C009409F15BE52B1CBBD264DB26A3DA32B97DE091C4D5B7D70424E4E1F5C352",
+          "translation": "选择所有"
+        }
+      },
+      "362": {
+        "0/0": {
+          "source_sha256": "A0972028FE897B7055CD5AF452C4FADE1F71316353E14BA3A9A02911678FDD6E",
+          "translation": "启用"
+        },
+        "0/1": {
+          "source_sha256": "BEC8494157A01932A340B777D26EAAD0D2C4BB9F405FEFAC5A3D5155F351E293",
+          "translation": "更新时间"
+        },
+        "0/3": {
+          "source_sha256": "CECE5D4246A4DC31C37F4AAA49E02F5133C5559B53D73EADEA5C8F1B341752C9",
+          "translation": "清除数据"
+        }
+      },
+      "400": {
+        "0/0": {
+          "source_sha256": "3465A30CB94C58247844C8F4DBDD7EE78195CB47063CA9DF858A7AB58C97C2CD",
+          "translation": "选择所有\tCtrl+A"
+        }
+      },
+      "427": {
+        "0/0": {
+          "source_sha256": "6C009409F15BE52B1CBBD264DB26A3DA32B97DE091C4D5B7D70424E4E1F5C352",
+          "translation": "选择所有"
+        },
+        "0/1": {
+          "source_sha256": "D958B9DF0AFEB1561BE38BC474539F4D48B8D427ACF532908975C7E825501A3A",
+          "translation": "拷贝"
+        }
+      },
+      "437": {
+        "0/0": {
+          "source_sha256": "E08EDF26800E7E182570246C236293029502559A72F547AC78B59F9608AA0AAD",
+          "translation": "菜单项1"
+        },
+        "0/1": {
+          "source_sha256": "6C266BBC932F113FF6391C6880D0AD216A68921F0E5271282EAC31C20205CB2D",
+          "translation": "菜单项2"
+        }
+      },
+      "509": {
+        "0/0": {
+          "source_sha256": "CD210E4258E70475CCE616DEC7854A9DB78267F69FAFDCBDC1EDC9C996589ED9",
+          "translation": "设置为活动项目"
+        }
+      },
+      "516": {
+        "0/0": {
+          "source_sha256": "FCF41F47ED4802B56DC61E1ECA7B154B0ABA82E29594CB9023AD55A4947C5039",
+          "translation": "管理多项目工作区..."
+        }
+      },
+      "592": {
+        "0/0": {
+          "source_sha256": "E2A628906F833BAEFF8D72AB2E09F58321281BB8ACBDEEEBF740BD5B7B5C96E9",
+          "translation": "选项...\tAlt+F7"
+        },
+        "0/2": {
+          "source_sha256": "2FABAB67E4EFEBD47A93C7E4BFB37E7629483978F37CD768610C0EF981A93B38",
+          "translation": "打开文档"
+        },
+        "0/4": {
+          "source_sha256": "B7D17F3C2B9F7F413824DBA57D408598D4B9BB0E7551063399269CB29BC8E1AC",
+          "translation": "重建目标"
+        },
+        "0/5": {
+          "source_sha256": "EDBA4C2219B38A39A2A03569323AD638CD271649F5A7A77E19DD04CD296CE6B5",
+          "translation": "构建目标\tF7"
+        },
+        "0/6": {
+          "source_sha256": "D9C86381EB8B5D1915F33F24C31BB2FBB6B0228AA1A3A96D91500F951B38FA92",
+          "translation": "编译文件"
+        },
+        "0/7": {
+          "source_sha256": "DF0911BDE25B78D5B47BA07DBFB2C4AFDC4AD1A8436EC2AF1F6313D77B95DB18",
+          "translation": "停止构建"
+        },
+        "0/9": {
+          "source_sha256": "42CF2D4860F4084E47457F8A846D2B5F19282D2C84188EE8040ECE8F67AFA24B",
+          "translation": "管理工程项目..."
+        },
+        "0/11": {
+          "source_sha256": "839310D633AE001638C2C50A29E5C801A8DD191284E1F0F2B5842A1B57333D2F",
+          "translation": "显示包含文件依赖项"
+        }
+      },
+      "624": {
+        "0/0": {
+          "source_sha256": "E2A628906F833BAEFF8D72AB2E09F58321281BB8ACBDEEEBF740BD5B7B5C96E9",
+          "translation": "选项...\tAlt+F7"
+        },
+        "0/2": {
+          "source_sha256": "2FABAB67E4EFEBD47A93C7E4BFB37E7629483978F37CD768610C0EF981A93B38",
+          "translation": "打开文档"
+        },
+        "0/4": {
+          "source_sha256": "42CF2D4860F4084E47457F8A846D2B5F19282D2C84188EE8040ECE8F67AFA24B",
+          "translation": "管理工程项目..."
+        },
+        "0/6": {
+          "source_sha256": "87C48418619C03E1FCEEA503A2F9DC7CC967BC8617587CEECAC532A4DCA46628",
+          "translation": "打开文件"
+        },
+        "0/7": {
+          "source_sha256": "C405969E6CFAB06DF64322C9BE8726655F9F83C8A4536ABC8EEFDCC402F0C67C",
+          "translation": "打开 &List 文件"
+        },
+        "0/8": {
+          "source_sha256": "DC5723E923AFA22A089AE622CCD605248A72EF1895EE9ED3D9B8E67D5E088426",
+          "translation": "打开&Map 文件"
+        },
+        "0/9": {
+          "source_sha256": "C5F80EECE1BCD5934AE440F5287575D3F6D32092357648B4D5A7E6989395C827",
+          "translation": "打开 Build 日志"
+        },
+        "0/11": {
+          "source_sha256": "B7D17F3C2B9F7F413824DBA57D408598D4B9BB0E7551063399269CB29BC8E1AC",
+          "translation": "重建目标"
+        },
+        "0/12": {
+          "source_sha256": "EDBA4C2219B38A39A2A03569323AD638CD271649F5A7A77E19DD04CD296CE6B5",
+          "translation": "&构建\tF7"
+        },
+        "0/13": {
+          "source_sha256": "D9C86381EB8B5D1915F33F24C31BB2FBB6B0228AA1A3A96D91500F951B38FA92",
+          "translation": "编译文件"
+        },
+        "0/14": {
+          "source_sha256": "DF0911BDE25B78D5B47BA07DBFB2C4AFDC4AD1A8436EC2AF1F6313D77B95DB18",
+          "translation": "停止构建"
+        },
+        "0/16": {
+          "source_sha256": "839310D633AE001638C2C50A29E5C801A8DD191284E1F0F2B5842A1B57333D2F",
+          "translation": "显示包含文件依赖项"
+        }
+      },
+      "800": {
+        "0/0": {
+          "source_sha256": "7068D4AC9231EDB9EBC483BEF7F1B087B8A029F05AD6DF98627114593EB7B513",
+          "translation": "&混合模式"
+        },
+        "0/1": {
+          "source_sha256": "41A0E15188DE304BC7A61EE8DD9616AC75B8BEC0A0ED8AA9A4AF26A35AB38A24",
+          "translation": "汇编模式"
+        },
+        "0/2": {
+          "source_sha256": "FF34AFF00C717158520C1201EA5BCE6CDD44FFA536B0BB4947CC18B06114659F",
+          "translation": "地址范围"
+        },
+        "0/4": {
+          "source_sha256": "70ADD00DA82A720C02652042672B6097693EC3F4350E234272CFC3BF72D8AC1C",
+          "translation": "显示反汇编在地址..."
+        },
+        "0/5": {
+          "source_sha256": "88290878A63DF08ED1D35CA7877E41A87507012EF3264DB98B0CA7629DD22AA6",
+          "translation": "设置程序计数器"
+        },
+        "0/6": {
+          "source_sha256": "09E1A2BA6841156E6FB497558AACBA85EE0BC73E6F904997A5D84F340EE856EC",
+          "translation": "运行到光标位置\tCtrl+F10"
+        },
+        "0/8": {
+          "source_sha256": "19D4E5556480A79ED986CF881897B1CAA24B3603E79F0F891ED16FB0AFD5EA65",
+          "translation": "插入/删除和断点"
+        },
+        "0/9": {
+          "source_sha256": "8765DE7FD551E2F33F5771775CB8682456FC05CB8787A9379B3572E7BB254D8A",
+          "translation": "启用/禁用断点"
+        },
+        "0/11": {
+          "source_sha256": "47FE007173C98ED0B5B2027956EBF8F0FD2D577787860C12AD8997DA7CD81BDE",
+          "translation": "内联汇编..."
+        },
+        "0/12": {
+          "source_sha256": "5CB833AE0C609F60687B93DA488BFD23DB9D890149B3CD1726AC7C16E6BA7F09",
+          "translation": "加载 Hex or Object 文件..."
+        },
+        "0/14": {
+          "source_sha256": "4F32CD6167E3EF44508D6D18BC3948755F46937076F2021866B259C3AC04B81A",
+          "translation": "指令跟踪"
+        },
+        "0/14/0": {
+          "source_sha256": "1709ED1E146F2C3855B2E8761481FB34518EB5F57E012D77204A8DF93DD0D01F",
+          "translation": "启用跟踪记录"
+        },
+        "0/14/1": {
+          "source_sha256": "174184DA6FCBB1902A63AB73E6B5D4F750A53F96E06C389979D422D8A447946F",
+          "translation": "在反汇编中显示记录"
+        },
+        "0/15": {
+          "source_sha256": "B3E7954F0C4D98AD856F5180F5CE4EC2C15CE113D08126B81FB6DB924A9FC940",
+          "translation": "执行分析"
+        },
+        "0/15/0": {
+          "source_sha256": "DAED0FCAFD5020136007788FBD0EBD747C6B0A2586E81190D0AB4BE504236975",
+          "translation": "禁止"
+        },
+        "0/15/1": {
+          "source_sha256": "D65C83C38E56CDE62B84137C5D8CFB74E42DF08441954E9F300B545E4AAF3534",
+          "translation": "显示时间"
+        },
+        "0/15/2": {
+          "source_sha256": "8FF08CA6BCCBD8043A51357DA1B33D62A0DB3AE6903C11A62189A00CB8F09074",
+          "translation": "显示回调"
+        },
+        "0/15/4": {
+          "source_sha256": "C36B57B355D44E8C386F2A7B183D711E2CF759B7E710F24749A9BBA0DE9DCB06",
+          "translation": "重置信息"
+        },
+        "0/17": {
+          "source_sha256": "79EB548FF676A91AD1825C75B2FB7DA3D8A6CE4548D3B56EBEC03BF9BD7E78EB",
+          "translation": "插入/删除书签\tCtrl+F2"
+        },
+        "0/19": {
+          "source_sha256": "D958B9DF0AFEB1561BE38BC474539F4D48B8D427ACF532908975C7E825501A3A",
+          "translation": "复制"
+        }
+      }
+    }
+  },
+  "stats": {
+    "string_resources": 137,
+    "strings": 774,
+    "menu_resources": 29,
+    "menu_items": 234
+  }
+}
